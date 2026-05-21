@@ -56,15 +56,15 @@ Claude Code를 깨워 그 지침을 실행 → JSON 저장 → git 커밋·푸�
 
 ## 배포 (GitHub Pages)
 
-아직 설정 전이다. 필요한 단계:
-
-1. `git init` → GitHub에 레포 생성 → `git push`
-2. 레포 Settings → Pages → 브랜치 `main` / 루트(`/`) 지정
-3. 스케줄러가 푸시할 수 있도록 인증(토큰 등) 설정
+- 저장소: https://github.com/didxodnr0769-bom/tech-news-collection
+- 공개 사이트: **https://didxodnr0769-bom.github.io/tech-news-collection/**
+- `main` 브랜치 루트(`/`)를 GitHub Pages가 서빙한다.
+- `data/`에 새 날짜 JSON을 커밋·푸시하면 사이트가 자동으로 갱신된다.
 
 ## TODO / 확장 아이디어
 
-- [ ] git 저장소 초기화 + GitHub Pages 배포
-- [ ] `/schedule`로 매일 05:00 자동 수집 등록
+- [x] git 저장소 초기화 + GitHub Pages 배포
+- [ ] `/schedule`로 매일 05:00 자동 수집 등록 (푸시 인증 설정 포함)
 - [ ] 전체 기간 검색 (날짜별 파일을 모은 `search-index.json` 생성)
+- [ ] `기타` 서브카테고리 2차 필터 UI (서브카테고리가 늘어나면)
 - [ ] 팀 공유용 알림 (Slack 등으로 수집 완료 시 링크 전송)
