@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>테크 뉴스 콜렉션</title>
+  <meta name="description" content="개발팀이 매일 참고하는 AI · 개발 · 기타 뉴스 모음" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 id="site-title">테크 뉴스 콜렉션</h1>
+      <p id="site-desc" class="site-desc">개발팀이 매일 참고하는 AI · 개발 · 기타 뉴스 모음</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls">
+      <div class="control-row">
+        <label class="field">
+          <span class="field-label">날짜</span>
+          <select id="date-select"></select>
+        </label>
+        <label class="field field-grow">
+          <span class="field-label">검색</span>
+          <input type="search" id="search-input" placeholder="제목 · 요약에서 검색" autocomplete="off" />
+        </label>
+      </div>
+      <div id="category-filter" class="category-filter"></div>
+    </section>
+
+    <p id="result-count" class="result-count"></p>
+    <div id="news-grid" class="news-grid"></div>
+    <p id="empty-state" class="empty-state" hidden>표시할 뉴스가 없습니다.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span id="last-updated"></span>
+      <span class="footer-sep">·</span>
+      <span>Claude Code로 매일 자동 수집</span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
