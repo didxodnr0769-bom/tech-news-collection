@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T05:08:37+09:00",
+  "articles": [
+    {
+      "id": "2026-05-22-ai-01",
+      "category": "AI",
+      "tags": ["gemini", "google"],
+      "title": "구글 I/O 2026, 검색·개발·쇼핑까지 '에이전트 AI'로 재편",
+      "summary": "구글이 연례 개발자 행사 I/O 2026에서 제미나이 3.5, 제미나이 옴니, 안티그래비티 2.0 등을 공개하며 AI를 단순 답변 생성에서 사용자 업무를 직접 수행하는 '에이전트' 중심으로 재편하겠다고 밝혔다. 검색·개발도구·커머스·안드로이드·클라우드 전반에 에이전트 기능을 확대하는 것이 핵심 전략이다.",
+      "url": "https://www.venturesquare.net/1083679",
+      "source": "벤처스퀘어",
+      "thumbnail": "https://www.venturesquare.net/wp-content/uploads/2026/05/google-io-2026-inline-composite.jpg",
+      "published": "2026-05-20"
+    },
+    {
+      "id": "2026-05-22-ai-02",
+      "category": "AI",
+      "tags": ["엔비디아", "실적"],
+      "title": "엔비디아 12분기 연속 실적 신기록...1분기 매출 122조원 돌파, AI 반도체 독주 재확인",
+      "summary": "엔비디아가 2026년 1분기에 816억2000만달러(약 122조원)의 매출을 기록하며 12분기 연속 실적 신기록을 세우고 월가 예상을 넘어섰다. 데이터센터 부문이 752억달러로 전체 매출의 92%를 차지해 사실상 AI 인프라 기업으로 자리 잡았으며, 젠슨 황 CEO는 'AI 팩토리 구축이 놀라운 속도로 진행되고 있다'고 밝혔다.",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=520808",
+      "source": "중앙이코노미뉴스",
+      "thumbnail": "https://cdn.joongangenews.com/news/photo/202605/520808_325106_2441.jpg",
+      "published": "2026-05-21"
+    },
+    {
+      "id": "2026-05-22-ai-03",
+      "category": "AI",
+      "tags": ["ai에이전트", "오픈ai"],
+      "title": "[위클리 AI] 오픈AI 자산관리·MS 보안 에이전트...AI 업계, 이달 둘째 주 신기능 쏟아내",
+      "summary": "5월 둘째 주 글로벌 AI 업계에서 신기능이 쏟아졌다. 오픈AI는 챗GPT 프로 구독자 대상 개인 자산관리 기능을 추가했고, 마이크로소프트는 AI 보안 에이전트 'MDASH'를 공개했다. 이와 함께 xAI의 코딩 에이전트 '그록 빌드' 베타, 앤트로픽의 '오퍼스 4.7 패스트 모드' 등이 잇따라 발표되며 에이전트 경쟁이 가속됐다.",
+      "url": "https://www.tech42.co.kr/%EC%9C%84%ED%81%B4%EB%A6%AC-ai-%EC%98%A4%ED%94%88ai-%EC%9E%90%EC%82%B0%EA%B4%80%EB%A6%AC%C2%B7ms-%EB%B3%B4%EC%95%88-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-ai-%EC%97%85%EA%B3%84-%EC%9D%B4%EB%8B%AC/",
+      "source": "테크42",
+      "thumbnail": "https://tech42.shoplic.cloud/wp-content/uploads/2026/05/117610-1024x576.webp",
+      "published": "2026-05-19"
+    },
+    {
+      "id": "2026-05-22-ai-04",
+      "category": "AI",
+      "tags": ["앤트로픽", "ai비용"],
+      "title": "'무제한 AI' 막 내리나…앤트로픽 요금제 개편, AI 비용 2~3배 뛴다",
+      "summary": "앤트로픽이 클로드 기업용 요금제를 월정액에서 종량제로 전환하면서 사용량이 많은 기업의 비용 부담이 2~3배 늘 수 있다는 분석이 나왔다. 개발자 1인당 월 평균 150~250달러 비용이 발생해 기존 정액제는 수익성이 맞지 않았던 것으로 파악된다. 오픈AI·깃허브 등도 같은 방향으로 움직이며 사실상 'AI 무제한 시대'가 막을 내릴 전망이다.",
+      "url": "https://www.mt.co.kr/tech/2026/05/18/2026051810232766772",
+      "source": "머니투데이",
+      "thumbnail": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/05/2026051810232766772_1.jpg",
+      "published": "2026-05-18"
+    },
+    {
+      "id": "2026-05-22-ai-05",
+      "category": "AI",
+      "tags": ["앤트로픽", "클로드"],
+      "title": "[빅테크칼럼] '클로드의 반란'…기업용 AI 시장서 앤트로픽, 처음으로 오픈AI 추월",
+      "summary": "램프(Ramp) AI 인덱스 기준 4월 앤트로픽의 기업 도입률이 34.4%로 오픈AI의 32.3%를 처음으로 앞질렀다. 지난 12개월간 앤트로픽이 약 4배 성장한 반면 오픈AI는 0.3%포인트 증가에 그쳤으며, 신규 도입 기업 경쟁에서 앤트로픽이 약 70%의 승률을 기록했다.",
+      "url": "https://www.newsspace.kr/news/article.html?no=13930",
+      "source": "뉴스스페이스",
+      "thumbnail": "https://www.newsspace.kr/data/photos/20260520/art_17787365698076_5d925a.png",
+      "published": "2026-05-14"
+    },
+    {
+      "id": "2026-05-22-ai-06",
+      "category": "AI",
+      "tags": ["cursor", "코딩ai"],
+      "title": "Cursor Composer 2.5, Cursor 내 가장 많이 선택받는 모델로 등극 — 10x 사용량 보너스",
+      "summary": "Cursor가 자체 개발한 에이전트형 코딩 모델 Composer 2.5가 출시 후 빠르게 채택돼 Cursor 플랫폼에서 가장 많이 선택받는 모델이 됐다. 문샷AI의 Kimi K2.5를 기반으로 강화학습을 적용했으며, 앤트로픽 Opus 4.7과 비슷한 성능을 약 10분의 1 비용으로 제공하는 점이 강점으로 꼽힌다.",
+      "url": "https://news.hada.io/topic?id=29691",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-20"
+    },
+    {
+      "id": "2026-05-22-dev-01",
+      "category": "개발",
+      "tags": ["npm", "공급망공격"],
+      "title": "개발자 노린 npm 공급망 공격…'노드-아이피시' 악성 버전 유포중",
+      "summary": "자바스크립트 개발자들이 널리 쓰는 npm 패키지 '노드-아이피시(node-ipc)'에서 악성 버전(9.1.6·9.2.3·12.0.1)이 발견됐다. 패키지가 require되는 시점에 악성 코드가 실행돼 AWS·Azure·구글 클라우드 인증정보 등 약 90종의 개발 환경 정보를 탈취하도록 설계됐다. 클라우드 접근·소스코드 도용·추가 공급망 공격으로 번질 수 있는 심각한 위협으로 분석된다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=206754",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202605/206754_207672_2644.jpg",
+      "published": "2026-05-15"
+    },
+    {
+      "id": "2026-05-22-dev-02",
+      "category": "개발",
+      "tags": ["샤이훌루드", "공급망공격"],
+      "title": "유출된 샤이훌루드 악성코드, npm 정보탈취 공격으로 재등장",
+      "summary": "유출된 '샤이훌루드' 악성코드가 npm 패키지 저장소를 통한 새로운 정보탈취 공격에 재활용됐다. 옥스시큐리티가 발견한 악성 패키지 4종은 자격증명·클라우드 키·가상화폐 지갑 정보를 탈취하며 일부는 DDoS 기능까지 포함했다. 기존 공격 그룹이 아닌 모방 공격자들이 공개된 악성코드를 재사용해 개발자 환경을 노리고 있다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=206787",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202605/206787_207706_183.jpeg",
+      "published": "2026-05-19"
+    },
+    {
+      "id": "2026-05-22-dev-03",
+      "category": "개발",
+      "tags": ["젠킨스", "공급망공격"],
+      "title": "[긴급] 체크막스 젠킨스 플러그인 해킹… 공급망 공격 또 터졌다",
+      "summary": "보안기업 체크막스의 젠킨스 AST 플러그인이 해킹돼 악성 코드가 포함된 버전이 공식 마켓플레이스에 등록됐다. 'TeamPCP'로 지목된 공격자들이 개발자 인증정보와 클라우드 접근 권한 탈취를 시도했으며, 최근 트리비(Trivy) 침해 사건과 연계된 것으로 분석된다. 개발자 생태계를 노린 공급망 공격이 장기적·조직적으로 진행되고 있음을 보여주는 사례다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=206692",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202605/206692_207611_347.jpeg",
+      "published": "2026-05-12"
+    },
+    {
+      "id": "2026-05-22-dev-04",
+      "category": "개발",
+      "tags": ["gemini", "cli"],
+      "title": "Gemini CLI는 2026년 6월 18일부터 작동을 중단할 예정",
+      "summary": "구글이 터미널용 도구 Gemini CLI를 Antigravity CLI로 통합하기로 했다. 5월 19일부터 Antigravity CLI가 제공되며, 6월 18일부터는 무료·Pro·Ultra 사용자의 Gemini CLI 요청 처리가 중단된다. 멀티 에이전트 흐름에 맞춘 단일 제품에 집중하기 위한 결정으로, 엔터프라이즈 고객은 기존 접근 권한을 유지한다.",
+      "url": "https://news.hada.io/topic?id=29711",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-21"
+    },
+    {
+      "id": "2026-05-22-dev-05",
+      "category": "개발",
+      "tags": ["python"],
+      "title": "Python 3.15 신규 샘플링 프로파일러 Tachyon 소개",
+      "summary": "Python 3.15 표준 라이브러리에 추가되는 Tachyon은 프리스레딩(GIL-free) 환경을 네이티브로 지원하는 샘플링 기반 프로파일러다. 낮은 오버헤드로 멀티스레드 병목을 시각화할 수 있으며, 실제 사례에서 항목 접근 병목 비중을 75%에서 5.32%로 줄인 결과를 보여줬다.",
+      "url": "https://news.hada.io/topic?id=29673",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-20"
+    },
+    {
+      "id": "2026-05-22-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["msi", "노트북"],
+      "title": "MSI, 2026 게이밍 노트북 라인업 재편.. 신제품 전격 출시",
+      "summary": "MSI가 최신 하드웨어 플랫폼을 적용한 2026 게이밍 노트북 신제품을 정식 출시하며 라인업을 타이탄·레이더·크로스헤어·사이보그로 재편했다. 핵심 모델 '레이더 16 맥스 HX'는 신형 인텔 코어 울트라 200HX PLUS 프로세서와 300W 전력 공급을 적용했고, '크로스헤어 16 맥스 HX'는 16인치 165Hz QHD+ OLED 디스플레이를 탑재했다.",
+      "url": "https://www.inven.co.kr/webzine/news/?news=316521",
+      "source": "인벤",
+      "thumbnail": "https://static.inven.co.kr/column/2026/05/18/news/i1481667574.jpg",
+      "published": "2026-05-18"
+    },
+    {
+      "id": "2026-05-22-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["인텔", "파운드리"],
+      "title": "'수율 돌파' 인텔 뛰는데… '파업 리스크' 삼성, 파운드리 추격전 비상",
+      "summary": "인텔이 18A(1.8나노급) 공정의 수율 안정화에 성공하며 파운드리 시장의 게임 체인저로 부상하고 있다. 립부 탄 CEO는 월 7~8%의 수율 개선을 달성했다며 차세대 14A 공정에서는 TSMC와 동일한 시기에 진입하겠다고 선언했다. 반면 삼성전자는 3나노 GAA 공정 수율 안착이 시급한 가운데 사상 첫 파업 예고 등 내부 갈등으로 추격에 차질을 빚고 있다.",
+      "url": "https://www.ddaily.co.kr/page/view/2026051915215340698",
+      "source": "디지털데일리",
+      "thumbnail": "https://www.ddaily.co.kr/photos/2026/01/06/2026010611384188836_l.JPG",
+      "published": "2026-05-19"
+    },
+    {
+      "id": "2026-05-22-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["google", "데이터센터"],
+      "title": "구글·블랙스톤, AI 클라우드 합작사 설립…엔비디아에 맞불",
+      "summary": "구글과 사모펀드 블랙스톤이 50억 달러(약 7조5000억원)를 투입해 AI 클라우드 합작법인을 설립한다. 새 법인은 구글이 자체 개발한 칩 TPU를 클라우드 서비스로 제공하며, 2027년까지 500메가와트 규모의 데이터센터 용량 확보를 목표로 한다. 엔비디아 칩 기반의 코어위브에 정면 대응하려는 행보로 평가된다.",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03220966645450560",
+      "source": "이데일리",
+      "thumbnail": "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26051900525.jpg",
+      "published": "2026-05-19"
+    },
+    {
+      "id": "2026-05-22-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["오픈ai", "ipo"],
+      "title": "오픈AI, 이르면 22일 IPO 신청...\"9월 상장 목표\"",
+      "summary": "오픈AI가 이르면 5월 22일 미국 증권거래위원회(SEC)에 IPO 신청 서류를 비공개로 제출하고 9월 상장을 목표로 한다. 골드만삭스·모건스탠리가 투자설명서 초안 작성을 지원하고 있으며, 최근 일론 머스크와의 법적 분쟁에서 승소해 IPO의 주요 걸림돌을 제거했다. 스페이스X·앤트로픽 등 경쟁사보다 먼저 상장하려는 의도로 일정을 앞당겼다는 분석이다.",
+      "url": "https://www.sedaily.com/article/20046598",
+      "source": "서울경제",
+      "thumbnail": "https://wimg.sedaily.com/news/cms/2026/05/21/news-p.v1.20260506.ba08c771f0514ad2aa8cbafce001c4ea_P1.jpg",
+      "published": "2026-05-21"
+    }
+  ]
+}
