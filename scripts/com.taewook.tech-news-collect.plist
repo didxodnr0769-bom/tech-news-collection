@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  매일 05:00 뉴스 수집 launchd 설정.
+  실제 사용 위치: ~/Library/LaunchAgents/com.taewook.tech-news-collect.plist
+  이 파일은 저장소 보관용 사본이다.
+
+  등록:   launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.taewook.tech-news-collect.plist
+  해제:   launchctl bootout   gui/$(id -u)/com.taewook.tech-news-collect
+  즉시실행: launchctl start    com.taewook.tech-news-collect
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.taewook.tech-news-collect</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>/Users/yangtaeuk/워크스페이스/01_개인/01_project/01_side/06_tech_news_collection/scripts/run-collect.sh</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>5</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/yangtaeuk/워크스페이스/01_개인/01_project/01_side/06_tech_news_collection/logs/launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/yangtaeuk/워크스페이스/01_개인/01_project/01_side/06_tech_news_collection/logs/launchd.log</string>
+</dict>
+</plist>
