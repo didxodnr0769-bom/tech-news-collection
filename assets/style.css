@@ -12,6 +12,7 @@
   --cat-ai: #7c3aed;
   --cat-dev: #2563eb;
   --cat-etc: #ea580c;
+  --star: #f59e0b;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -54,6 +55,7 @@ body {
 }
 .control-row {
   display: flex;
+  align-items: flex-end;
   gap: 12px;
   flex-wrap: wrap;
 }
@@ -84,6 +86,27 @@ body {
   outline-offset: -1px;
 }
 
+/* 북마크만 보기 토글 — 전체 날짜의 북마크 기사를 모아 본다 */
+.bookmark-toggle {
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 9px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+.bookmark-toggle:hover { border-color: var(--star); color: var(--text); }
+.bookmark-toggle.active {
+  background: var(--star);
+  border-color: var(--star);
+  color: #fff;
+}
+
 /* Category filter */
 .category-filter {
   display: flex;
@@ -110,6 +133,61 @@ body {
   color: #fff;
 }
 
+/* 태그 집계 — 기사 tags를 많은 순으로 칩 표출, 누르면 필터 */
+.tag-cloud {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border);
+}
+.tag-cloud-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-right: 2px;
+}
+.tag-chip {
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px 5px 11px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.tag-chip:hover { border-color: var(--accent); color: var(--text); }
+.tag-chip.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.tag-chip-count {
+  font-size: 0.72rem;
+  font-weight: 700;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text-muted);
+}
+.tag-chip.active .tag-chip-count {
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+}
+
 /* Result count */
 .result-count {
   font-size: 0.85rem;
@@ -126,6 +204,7 @@ body {
 }
 
 .card {
+  position: relative;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -133,6 +212,30 @@ body {
   box-shadow: var(--shadow);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
+
+/* 북마크 버튼 — 카드 썸네일 우상단, 클릭 시 localStorage 저장 */
+.bookmark-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+  line-height: 1;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--text-muted);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 0.12s ease, color 0.12s ease;
+}
+.bookmark-btn:hover { transform: scale(1.12); color: var(--star); }
+.bookmark-btn.marked { color: var(--star); background: #fff; }
 .card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
@@ -173,6 +276,7 @@ body {
 }
 .badge-row {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 6px;
 }
@@ -193,6 +297,20 @@ body {
   color: var(--cat-etc);
   border: 1px solid var(--cat-etc);
 }
+
+/* 카드 내 토픽 태그 — 카테고리 배지 뒤에 표시, 누르면 해당 태그로 필터 */
+.card-tag {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg);
+  padding: 3px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.12s ease, background 0.12s ease;
+}
+.card-tag:hover { color: var(--accent); background: #e8edff; }
+.card-tag.active { color: #fff; background: var(--accent); }
 
 .card-title {
   font-size: 1.02rem;
