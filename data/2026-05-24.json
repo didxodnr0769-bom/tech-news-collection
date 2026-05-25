@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-24T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-05-24-ai-01",
+      "category": "AI",
+      "tags": ["google", "코딩ai"],
+      "title": "피차이 \"구글 코딩, 타사에 뒤져...데이터 선순환 구조로 역전할 것\"",
+      "summary": "순다르 피차이 구글 CEO가 구글의 AI 코딩 성능이 경쟁사 대비 뒤처졌음을 공식 인정했다. 그는 개발자 실시간 워크플로우 데이터를 활용한 '데이터 플라이휠' 구조가 부족했다고 진단하며, 이를 극복하기 위해 '제미나이 3.5 플래시'와 '안티그래비티 2.0'을 출시했다고 밝혔다. 피차이는 \"최전선은 역동적이지만 우리가 격차를 줄일 것\"이라며 추격 의지를 강조했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210871",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210871_213663_618.png",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-ai-02",
+      "category": "AI",
+      "tags": ["openai", "codex"],
+      "title": "오픈AI, '코덱스' 업데이트로 맥락 파악·자율성 강화...\"맥북 닫아도 작동\"",
+      "summary": "오픈AI가 AI 코딩 에이전트 '코덱스'를 대규모 업데이트해 자율성과 맥락 파악 능력을 강화했다. Command 키로 앱 화면을 즉시 첨부하는 '앱샷', 수 시간~며칠 단위 작업을 자동 수행하는 '/goal' 정식 기능화, 맥북이 닫힌 상태에서도 작동을 이어가는 '잠김 사용' 등이 추가됐다. 브라우저 반복 작업 처리 능력도 개선되었고 기업용 협업·분석 기능도 함께 확대됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210864",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210864_213659_4410.jpeg",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-ai-03",
+      "category": "AI",
+      "tags": ["앤트로픽", "기업ai"],
+      "title": "앤트로픽, FDE 담당할 스타트업 인수로 기업용 AI 시장 공략",
+      "summary": "앤트로픽이 AI 서비스 스타트업 '프랙셔널 AI'를 인수해 기업 AI 시장 공략을 본격화한다. 인수된 팀은 블랙스톤·H&F 등과 함께 설립한 15억 달러 규모 합작사의 '전방 배치 엔지니어(FDE)' 역할을 맡아 기업의 생성 AI 도입을 직접 지원한다. 클로드를 기업의 핵심 시스템과 워크플로에 접목하는 데 초점을 맞춘다는 전략이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210860",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210860_213650_5036.jpg",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-ai-04",
+      "category": "AI",
+      "tags": ["메타", "ai앱"],
+      "title": "메타, 한달 새 앱 2개 기습 출시…\"AI로 수십개 개발\" 현실화하나",
+      "summary": "메타가 레딧과 유사한 커뮤니티 앱 '포럼'을 출시하며 13일 '인스턴츠' 출시 후 10일 만에 또 한 번 신규 앱을 선보였다. 마크 저커버그 CEO가 공언했던 \"AI 기반으로 수십 개 앱을 개발한다\"는 전략이 본격화되는 모습이다. AI가 추천, 질문 답변 취합, 커뮤니티 모더레이션 등을 담당하며 대규모 구조조정 이후의 슬림한 조직 체계와 맞물려 빠른 출시 사이클을 만들어내고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210861",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210861_213649_5034.png",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-ai-05",
+      "category": "AI",
+      "tags": ["spotify", "ai음악"],
+      "title": "스포티파이, 'AI 리믹스' 시대 선언...\"음악 감상 넘어 직접 만든다\"",
+      "summary": "스포티파이가 유니버설 뮤직 그룹과 라이선스 계약을 체결하고 프리미엄 구독자를 대상으로 AI 음악 제작 기능을 출시한다. 사용자는 참여를 승인한 아티스트의 곡을 기반으로 AI 커버곡과 리믹스를 만들 수 있으며 수익은 원저작권자·아티스트에게 배분된다. 스포티파이는 단순 스트리밍을 넘어 '생성(Generation) 시대 전략'으로 충성도 높은 사용자의 평균매출을 끌어올린다는 구상이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210865",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210865_213654_424.jpg",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-ai-06",
+      "category": "AI",
+      "tags": ["국방부", "오픈ai"],
+      "title": "미 국방부, 앤트로픽 공백 메우기 착수… 오픈AI·구글 모델 실전 테스트",
+      "summary": "미 국방부가 앤트로픽 클로드 단계적 퇴출 결정 후 오픈AI와 구글 모델을 실전 환경에서 평가 중이다. 지난 3월부터 국방부 '파워 유저' 25명을 대상으로 모델별 응답 방식과 성능을 비교 평가하고 있으며, 6개월 안에 '메이븐 스마트 시스템'에서 클로드를 단계적으로 종료할 계획이다. 국방부는 특정 업체 의존도를 줄이기 위해 여러 AI 모델을 병행 활용할 방침을 굳히고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210846",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210846_213632_4939.jpg",
+      "published": "2026-05-22"
+    },
+    {
+      "id": "2026-05-24-dev-01",
+      "category": "개발",
+      "tags": ["llm", "아키텍처"],
+      "title": "LLM 아키텍처의 최근 동향: KV 공유, mHC, 그리고 압축 어텐션",
+      "summary": "최근 공개된 오픈 가중치 LLM들이 장문 컨텍스트 효율성을 위해 'KV 캐시 크기·메모리 트래픽·어텐션 비용을 줄이는 아키텍처 트릭'을 빠르게 도입하고 있다. Gemma 4는 계층 간 KV 공유로 캐시를 절반으로 줄였고, DeepSeek V4는 제약된 잔차 스트림과 압축 어텐션으로 1M 토큰 컨텍스트에서 FLOPs와 KV 캐시를 크게 절감했다. 전체 파라미터 수는 유지하면서 장문 추론 비용을 낮추는 공통 패턴이 자리잡고 있다.",
+      "url": "https://news.hada.io/topic?id=29775",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-dev-02",
+      "category": "개발",
+      "tags": ["wasp", "typescript"],
+      "title": "5년과 500만 달러의 교훈: 웹 개발용 새 프로그래밍 언어를 만든 것은 실수였다 | Wasp",
+      "summary": "Y Combinator 출신 풀스택 웹 프레임워크 Wasp가 5년간 자체 DSL 기반 언어를 개발한 끝에 결국 포기하고 TypeScript로 전환한다고 밝혔다. \"한 번만 선언하면 되는\" 앱 명세 구조를 노렸으나, IDE·도구 생태계 구축 부담이 예상보다 훨씬 컸다는 회고다. 진짜 가치는 새 언어가 아니라 '컴파일 타임에 전체 앱을 고수준으로 파악하는 것'이었으며, 향후 TypeScript SDK를 기본 인터페이스로 공식 출시한다.",
+      "url": "https://news.hada.io/topic?id=29778",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-dev-03",
+      "category": "개발",
+      "tags": ["zero", "vercel"],
+      "title": "Zero - 에이전트를 위한 프로그래밍 언어",
+      "summary": "Vercel Labs가 AI 에이전트를 주 사용자로 가정한 실험적 프로그래밍 언어 'Zero'를 공개했다. '작은 표면적, 라이브러리 우선, 도구로 검사 가능'을 표방하며, 컴파일러가 구조화된 진단 정보를 제공해 에이전트가 코드를 직접 수리할 수 있도록 설계됐다. 간결한 문법과 매우 작은 바이너리 크기(hello world 289바이트)로 시스템 프로그래밍 언어로서의 가능성도 보여준다.",
+      "url": "https://news.hada.io/topic?id=29780",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-dev-04",
+      "category": "개발",
+      "tags": ["github", "토큰"],
+      "title": "GitHub App 설치 토큰: 요청별 재정의 헤더 도입",
+      "summary": "GitHub이 새로운 토큰 형식의 점진적 도입을 위해 'X-GitHub-Stateless-S2S-Token' 헤더를 도입했다. 개발자는 이 헤더를 사용해 새 토큰 형식의 영향을 요청 단위로 미리 테스트할 수 있으며, 기본 동작은 기존 형식이 유지된다. 새 토큰은 'ghs_' 접두사의 JWT 형식으로 약 520자에 달하므로, 데이터베이스 컬럼 크기 조정과 정규식 업데이트가 필요하다.",
+      "url": "https://news.hada.io/topic?id=29805",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-24"
+    },
+    {
+      "id": "2026-05-24-dev-05",
+      "category": "개발",
+      "tags": ["claudecode", "기획문서"],
+      "title": "Show GN: 떠오른 아이디어를 바로 기획문서로 바꿔주는 /idea2planning",
+      "summary": "막연한 아이디어를 1-pager·PRD·와이어프레임 같은 구조화된 기획 문서로 변환해주는 Claude Code 커스텀 스킬이 공개됐다. 3단계 자동 변환 파이프라인을 통해 단계별 산출물을 생성하며, 조직의 예시 문서를 참고해 맞춤형 결과를 만들어낸다. 주니어부터 시니어까지 PM·PD가 빠르고 일관된 수준의 기획 문서를 작성할 수 있도록 설계됐다.",
+      "url": "https://news.hada.io/topic?id=29793",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-24"
+    },
+    {
+      "id": "2026-05-24-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["엔비디아", "ai서버"],
+      "title": "엔비디아 차세대 AI 서버 한대에 '118억'... 메모리 값만 30억 육박",
+      "summary": "엔비디아의 차세대 AI 서버 'VR200 NVL72' 한 대 가격이 780만 달러(약 118억 원)에 달할 것으로 추산됐다. 현행 'GB300 NVL72'(약 60억 원) 대비 두 배 수준이며, 메모리 비용만 약 200만 달러(약 30억 원)로 기존 대비 435% 증가한 것으로 분석된다. 54TB 규모의 LPDDR5X 메모리와 100만 달러 이상의 3D NAND 스토리지가 탑재될 예정이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210866",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210866_213655_534.png",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["반도체", "관세"],
+      "title": "미국, 반도체 관세 카드 다시 만지작…\"미국 내 제조 확대\" 압박 커지나",
+      "summary": "미국 정부가 반도체 관세를 협상 수단으로 다시 꺼내며 글로벌 기업의 미국 내 생산 시설 확장을 압박하고 있다. 미국 무역대표부는 \"수입 반도체 관세를 계속 검토 중\"이라며 즉각적 부과 계획은 없다고 밝혔지만, 미국에 공장을 짓는 기업에는 수입 부담 완화 혜택을 검토하고 있다. 삼성전자·SK하이닉스 등 한국 반도체 기업도 단순 투자를 넘어 메모리 웨이퍼 현지 생산까지 추진해야 하는 압박이 커지고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210870",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210870_213660_3115.jpg",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["spacex", "ipo"],
+      "title": "스페이스X, 스타십 V3 발사 \"성공적 완수\"…IPO 앞두고 기술력 입증",
+      "summary": "스페이스X가 텍사스 스타베이스에서 대폭 업그레이드된 스타십 V3 로켓의 첫 시험 비행을 실시했다. 추진체는 엔진 기동에 실패했으나, 우주선이 1,500°C 이상의 대기권 진입 열을 견디고 목표 지점 착륙에 성공하며 핵심 기술 검증을 마쳤다. 이번 성과는 다음 달 예정된 IPO를 앞두고 기업 가치 평가에 긍정적으로 작용할 전망이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210872",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210872_213664_1020.jpeg",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-05-24-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["인바디", "헬스케어"],
+      "title": "\"스타트업 발굴 지원\"…100억 투자하는 '이 회사'",
+      "summary": "글로벌 헬스케어 기업 인바디가 딥테크 액셀러레이터 블루포인트파트너스와 함께 100억 원 규모의 전용 펀드를 조성하고 오픈이노베이션 프로그램 '인바디라이크'를 출범했다. AI·데이터 기반 헬스케어 기술과 글로벌 확장 가능성을 가진 예비·초기 스타트업이 대상이며, 선정 팀은 4개월간 PoC 검증·상용화 멘토링·블루포인트 초기 투자·팁스 연계 검토 등을 받는다. 모집은 6월 12일까지다.",
+      "url": "https://www.newsis.com/view/NISX20260522_0003640415",
+      "source": "뉴시스",
+      "thumbnail": "https://img1.newsis.com/2026/05/22/NISI20260522_0002142495_web.jpg",
+      "published": "2026-05-23"
+    }
+  ]
+}
