@@ -315,16 +315,22 @@ body {
   color: var(--text-muted);
 }
 .tag-cloud-chips {
+  /* --tag-rows: JS 가 동적으로 설정 (기본 2줄).
+   * 실제 max-height 는 JS 가 첫 칩 높이를 실측해 style.maxHeight 로 덮어쓴다.
+   * 아래 calc 는 JS 실행 전 초기 paint 가 마지막 줄을 자르지 않도록 여유 있게(42px) 잡은 fallback. */
+  --tag-rows: 2;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
   width: 100%;
-}
-.tag-cloud-chips.collapsed {
-  /* 칩(32px 안팎) 두 줄 + gap 1줄 */
-  max-height: 76px;
+  max-height: calc(var(--tag-rows) * 42px);
   overflow: hidden;
+}
+.tag-cloud-actions {
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 /* 태그 칩과 명확히 구분되도록 — 알약 모양 대신 텍스트 링크 + 셰브론 아이콘 */
 .tag-cloud-toggle {
@@ -349,7 +355,9 @@ body {
   line-height: 1;
   transition: transform 0.18s ease;
 }
-.tag-cloud-toggle.expanded::after { transform: rotate(180deg); }
+.tag-cloud-toggle.is-less { color: var(--text-muted); }
+.tag-cloud-toggle.is-less::after { transform: rotate(180deg); }
+.tag-cloud-toggle.is-less:hover { background: var(--bg); }
 .tag-chip {
   font: inherit;
   font-size: 0.82rem;
@@ -437,6 +445,36 @@ body {
 }
 .bookmark-btn:hover { transform: scale(1.12); color: var(--star); }
 .bookmark-btn.marked { color: var(--star); background: #fff; }
+
+/* 읽음 표시 — 클릭하여 새 탭으로 열렸던 기사. localStorage 에 저장됨.
+ * 시각적으로 한 번에 띄지 않도록 명암을 낮추고 살짝 채도를 빼며,
+ * 우상단에 '읽음' 칩으로 명시한다. hover 시에는 원래 상태로 복귀. */
+.card.read {
+  opacity: 0.62;
+  filter: saturate(0.7);
+  transition: opacity 0.18s ease, filter 0.18s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card.read .thumb { filter: grayscale(0.4); }
+.card.read:hover {
+  opacity: 1;
+  filter: none;
+}
+.card.read:hover .thumb { filter: none; }
+.read-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(17, 24, 39, 0.78);
+  color: #fff;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+}
+
 .card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
@@ -533,6 +571,13 @@ body {
 }
 .card-meta .source { font-weight: 600; }
 
+/* 무한 스크롤 sentinel — JS IntersectionObserver 가 이 요소를 관찰한다.
+ * rootMargin 600px 으로 미리 더 불러오므로 사용자에게는 보이지 않아도 된다. */
+.scroll-sentinel {
+  height: 1px;
+  margin-top: -1px;
+}
+
 /* Empty state */
 .empty-state {
   text-align: center;
@@ -550,9 +595,93 @@ body {
 }
 .footer-sep { margin: 0 8px; }
 
-@media (max-width: 520px) {
-  .news-grid { grid-template-columns: 1fr; }
-  .field select { width: 100%; }
-  .date-picker-btn { min-width: 0; flex: 1; }
-  .date-picker-popup { width: calc(100vw - 40px); max-width: 320px; }
+/* ──────────────────────────────────────────────────────────────
+ * 모바일 / 태블릿 — 768px 이하: 컨트롤을 세로로 더 잘 배치하고
+ * 터치 타겟을 키운다. 컬럼 폭을 줄여 카드 가독성을 확보한다.
+ * ────────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .wrap { padding: 0 16px; }
+
+  .site-header { padding: 20px 0 18px; }
+  .site-header h1 { font-size: 1.35rem; }
+  .site-desc { font-size: 0.88rem; }
+
+  .controls { margin: 18px 0 14px; }
+  .control-row {
+    gap: 10px;
+  }
+  /* 날짜 필드와 검색 필드를 한 줄 가득 차게 */
+  .date-field { width: 100%; }
+  .field-grow { flex-basis: 100%; min-width: 0; }
+  .bookmark-toggle { flex: 1; min-width: 0; }
+
+  .date-controls { gap: 6px; }
+  .date-picker-btn { flex: 1; min-width: 0; }
+
+  /* 터치 타겟: 44px 권장 */
+  .date-nav-btn { width: 40px; padding: 11px 0; }
+  .date-picker-btn,
+  .date-all-btn,
+  .bookmark-toggle,
+  .field input { padding: 11px 12px; font-size: 0.95rem; }
+
+  .news-grid {
+    /* 280px 이하 화면에서는 1열, 그 외 2열까지 자연스럽게 채워짐 */
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .card-body { padding: 14px; gap: 6px; }
+  .card-title { font-size: 0.98rem; }
+  .card-summary { font-size: 0.86rem; }
+  /* 모바일에서는 카드가 좁아 hover 가 없으므로 읽음 표시가 더 잘 보이도록 명암을 살짝 더 낮춤 */
+  .card.read { opacity: 0.55; }
+
+  /* 모바일에서는 카드 안의 태그가 너무 많이 보이면 답답 — 최대 3개까지만 */
+  .card-tag:nth-of-type(n+4) { display: none; }
+
+  .date-picker-popup { width: calc(100vw - 32px); max-width: 320px; left: 0; }
+}
+
+/* ──────────────────────────────────────────────────────────────
+ * 핸드폰 세로 — 480px 이하: 1열 그리드로 강제하고 컨트롤을 세로 정렬.
+ * ────────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .wrap { padding: 0 14px; }
+
+  .site-header { padding: 16px 0 14px; }
+  .site-header h1 { font-size: 1.2rem; }
+
+  .control-row { flex-direction: column; align-items: stretch; gap: 10px; }
+  .date-field, .field-grow, .bookmark-toggle { width: 100%; }
+  .bookmark-toggle { text-align: center; }
+
+  /* 카테고리/태그가 좌우로 짧게 보여 가로 스크롤 느낌이 들지 않도록 wrap 유지 */
+  .category-filter { gap: 6px; }
+  .cat-btn { padding: 8px 12px; font-size: 0.86rem; }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  /* 한 줄을 길게 쓰는 핸드폰 — 썸네일 비율을 살짝 낮춰 카드가 너무 길어지지 않게 */
+  .thumb { aspect-ratio: 16 / 10; }
+
+  .bookmark-btn {
+    width: 36px;
+    height: 36px;
+    top: 10px;
+    right: 10px;
+  }
+  .read-badge { top: 12px; left: 12px; }
+
+  /* 캘린더 팝업 — 화면 폭에 더 맞도록 */
+  .date-picker-popup { width: calc(100vw - 28px); max-width: 360px; }
+  .cal-day { font-size: 0.9rem; }
+}
+
+@media (hover: none) {
+  /* 터치 전용 기기: hover 가 끝까지 유지될 수 없으므로 읽음 시각화를 hover 로 풀지 않음 */
+  .card.read:hover { opacity: 0.62; filter: saturate(0.7); }
+  .card.read:hover .thumb { filter: grayscale(0.4); }
 }

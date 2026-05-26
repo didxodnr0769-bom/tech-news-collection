@@ -5,7 +5,15 @@
  */
 
 const BOOKMARK_KEY = 'tnc:bookmarks';
+const READ_KEY = 'tnc:read';
 const WEEKDAYS = ['일', '월', '화', '수', '목', '금', '토'];
+
+/* 태그 영역: 기본 2줄 노출 → 더보기 클릭 시 +2줄씩 펼침 */
+const TAG_ROWS_INITIAL = 2;
+const TAG_ROWS_STEP = 2;
+
+/* 무한 스크롤: 한 번에 그릴 카드 수 */
+const PAGE_SIZE = 30;
 
 const state = {
   index: null,
@@ -17,9 +25,13 @@ const state = {
   query: '',
   bookmarkOnly: false,
   bookmarks: loadBookmarks(), // Set<기사 id>
+  read: loadReadArticles(), // Set<읽은 기사 id>
   dateSet: new Set(), // 데이터가 있는 날짜 Set — 캘린더에서 활성/비활성 판정
   cal: { open: false, year: null, month: null }, // 캘린더 팝업 상태
-  tagsExpanded: false, // 태그 영역 펼침 여부
+  tagsRows: TAG_ROWS_INITIAL, // 태그 영역에 노출할 줄 수
+  filtered: [], // 현재 필터링된 전체 기사 (무한 스크롤 기준)
+  visibleCount: PAGE_SIZE, // 현재 그려진 카드 수
+  sentinelObserver: null,
 };
 
 const el = {
@@ -37,6 +49,7 @@ const el = {
   filter: document.getElementById('category-filter'),
   tagCloud: document.getElementById('tag-cloud'),
   grid: document.getElementById('news-grid'),
+  sentinel: document.getElementById('scroll-sentinel'),
   count: document.getElementById('result-count'),
   empty: document.getElementById('empty-state'),
   lastUpdated: document.getElementById('last-updated'),
@@ -189,12 +202,19 @@ function bindEvents() {
     render();
   });
 
-  // ── 태그 영역: 칩 클릭 + 더보기/접기 토글 ─────────────────
+  // ── 태그 영역: 칩 클릭 + 더보기(+2줄)/접기 토글 ───────────
   el.tagCloud.addEventListener('click', (e) => {
-    const toggle = e.target.closest('#tag-cloud-toggle');
-    if (toggle) {
-      state.tagsExpanded = !state.tagsExpanded;
-      applyTagsExpandedUI();
+    const more = e.target.closest('#tag-cloud-more');
+    if (more) {
+      state.tagsRows += TAG_ROWS_STEP;
+      applyTagsRowsUI();
+      return;
+    }
+    const less = e.target.closest('#tag-cloud-less');
+    if (less) {
+      state.tagsRows = TAG_ROWS_INITIAL;
+      applyTagsRowsUI();
+      el.tagCloud.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       return;
     }
     const chip = e.target.closest('.tag-chip');
@@ -208,7 +228,7 @@ function bindEvents() {
     }
   });
 
-  // ── 카드 내부 클릭 (북마크 / 태그 필터) ───────────────────
+  // ── 카드 내부 클릭 (북마크 / 태그 필터 / 읽음 표시) ───────
   el.grid.addEventListener('click', (e) => {
     const bm = e.target.closest('.bookmark-btn');
     if (bm) {
@@ -227,6 +247,17 @@ function bindEvents() {
     if (tagEl) {
       e.preventDefault();
       selectTag(tagEl.dataset.tag);
+      return;
+    }
+    // 카드 링크 클릭 → 새 탭에서 열림, 동시에 읽음 표시
+    const link = e.target.closest('.card-link');
+    if (link) {
+      const card = link.closest('.card');
+      const id = card && card.dataset.id;
+      if (id && !state.read.has(id)) {
+        markAsRead(id);
+        card.classList.add('read');
+      }
     }
   });
 }
@@ -447,11 +478,19 @@ function render() {
       ? '북마크한 기사가 없습니다. 카드의 ☆ 를 눌러 추가하세요.'
       : '표시할 뉴스가 없습니다.';
   }
-  el.grid.innerHTML = list.map(cardHTML).join('');
+
+  // 필터가 바뀌었으므로 무한 스크롤 누적 카운트 초기화
+  state.filtered = list;
+  state.visibleCount = Math.min(PAGE_SIZE, list.length);
+  el.grid.innerHTML = list.slice(0, state.visibleCount).map(cardHTML).join('');
+
+  updateScrollSentinel();
+  // 사용자가 다른 필터로 이동하면 위쪽으로 스크롤되어 있다고 가정 — 사용 시 즉시 보이는 카드부터 보여준다
 }
 
 /* 전체 날짜 기사의 tags 를 집계해 많은 순으로 칩을 그린다.
- * 기본은 2줄까지만 표출(.collapsed), 넘치면 '더보기' 토글로 펼친다. */
+ * 기본은 2줄까지만 보여주고, '더보기'를 누르면 +2줄씩 점진적으로 펼친다.
+ * '접기'는 기본(2줄)으로 복귀한다. */
 function renderTagCloud(articles) {
   const counts = new Map();
   articles.forEach((a) => {
@@ -489,45 +528,47 @@ function renderTagCloud(articles) {
   el.tagCloud.hidden = false;
   el.tagCloud.innerHTML = `
     <span class="tag-cloud-label">태그 · 전체 날짜</span>
-    <div class="tag-cloud-chips${state.tagsExpanded ? '' : ' collapsed'}" id="tag-cloud-chips">${chips}</div>
-    <button type="button" class="tag-cloud-toggle${state.tagsExpanded ? ' expanded' : ''}" id="tag-cloud-toggle" hidden>${state.tagsExpanded ? '접기' : '더보기'}</button>
+    <div class="tag-cloud-chips" id="tag-cloud-chips" style="--tag-rows:${state.tagsRows}">${chips}</div>
+    <div class="tag-cloud-actions">
+      <button type="button" class="tag-cloud-toggle" id="tag-cloud-more" hidden>더보기</button>
+      <button type="button" class="tag-cloud-toggle is-less" id="tag-cloud-less" hidden>접기</button>
+    </div>
   `;
 
-  // 칩이 두 줄을 넘어가는지 측정해 토글 노출 여부 결정
-  requestAnimationFrame(updateTagToggleVisibility);
+  // 보이는 줄과 실제 칩 줄을 비교해 더보기/접기 노출 여부 결정
+  requestAnimationFrame(applyTagsRowsUI);
 }
 
-/* collapsed 상태에서 칩이 max-height 를 넘으면 토글을 노출한다 */
-function updateTagToggleVisibility() {
+/* 현재 state.tagsRows 를 DOM 에 반영하고 더보기/접기 노출을 갱신한다 (재렌더 X).
+ *
+ * max-height 를 줄 수 × 고정 px 로 추정하면 (이전엔 38px) 칩 실제 높이와의 미세한
+ * 차이가 누적되어 4·6줄에서 마지막 줄이 살짝 가려졌다. 첫 칩 높이와 row gap 을
+ * 실측해 픽셀 단위로 정확한 max-height 를 inline 으로 덮어쓴다. */
+function applyTagsRowsUI() {
   const chipsEl = document.getElementById('tag-cloud-chips');
-  const toggleEl = document.getElementById('tag-cloud-toggle');
-  if (!chipsEl || !toggleEl) return;
+  const moreEl = document.getElementById('tag-cloud-more');
+  const lessEl = document.getElementById('tag-cloud-less');
+  if (!chipsEl || !moreEl || !lessEl) return;
 
-  const isCollapsed = chipsEl.classList.contains('collapsed');
-  let overflows;
-  if (isCollapsed) {
-    overflows = chipsEl.scrollHeight > chipsEl.clientHeight + 1;
-  } else {
-    // 펼친 상태에서는 임시로 collapsed 적용해 측정
-    chipsEl.classList.add('collapsed');
-    overflows = chipsEl.scrollHeight > chipsEl.clientHeight + 1;
-    chipsEl.classList.remove('collapsed');
-  }
-  toggleEl.hidden = !overflows;
-  // 펼친 상태인데 더 이상 넘치지 않는다면 자동으로 접힘 상태로 동기화
-  if (!overflows && state.tagsExpanded) {
-    state.tagsExpanded = false;
-  }
-}
+  // 가시성 갱신을 위한 줄 수 (CSS 변수는 더는 max-height 계산에 쓰지 않지만
+  // 디버깅·외부 스타일링 호환 목적으로 그대로 유지)
+  chipsEl.style.setProperty('--tag-rows', state.tagsRows);
 
-/* 태그 영역 펼침/접힘만 빠르게 토글 (전체 재렌더 없이) */
-function applyTagsExpandedUI() {
-  const chipsEl = document.getElementById('tag-cloud-chips');
-  const toggleEl = document.getElementById('tag-cloud-toggle');
-  if (!chipsEl || !toggleEl) return;
-  chipsEl.classList.toggle('collapsed', !state.tagsExpanded);
-  toggleEl.classList.toggle('expanded', state.tagsExpanded);
-  toggleEl.textContent = state.tagsExpanded ? '접기' : '더보기';
+  const firstChip = chipsEl.querySelector('.tag-chip');
+  if (firstChip) {
+    const chipH = firstChip.offsetHeight;
+    const rowGap = parseFloat(getComputedStyle(chipsEl).rowGap) || 8;
+    const rows = Math.max(1, state.tagsRows);
+    // n 줄 = n*칩높이 + (n-1)*간격. sub-pixel 반올림 여유 1px.
+    chipsEl.style.maxHeight = rows * chipH + (rows - 1) * rowGap + 1 + 'px';
+  }
+
+  const overflows = chipsEl.scrollHeight > chipsEl.clientHeight + 1;
+  // 더 펼칠 게 없다면 max-height 잠금을 풀어 빈 공간이 남지 않게 한다
+  if (!overflows) chipsEl.style.maxHeight = 'none';
+
+  moreEl.hidden = !overflows;
+  lessEl.hidden = state.tagsRows <= TAG_ROWS_INITIAL;
 }
 
 function renderBookmarkToggle() {
@@ -568,9 +609,13 @@ function cardHTML(a) {
       data-id="${escapeHTML(a.id || '')}" aria-label="${bmLabel}" title="${bmLabel}"
       aria-pressed="${marked}">${marked ? '★' : '☆'}</button>`;
 
+  const isRead = a.id && state.read.has(a.id);
+  const readBadge = isRead ? '<span class="read-badge" aria-hidden="true">읽음</span>' : '';
+
   return `
-    <article class="card">
+    <article class="card${isRead ? ' read' : ''}" data-id="${escapeHTML(a.id || '')}">
       ${bookmarkBtn}
+      ${readBadge}
       <a class="card-link" href="${escapeHTML(a.url || '#')}" target="_blank" rel="noopener noreferrer">
         ${thumb}
         <div class="card-body">
@@ -621,6 +666,64 @@ function toggleBookmark(id) {
   if (state.bookmarks.has(id)) state.bookmarks.delete(id);
   else state.bookmarks.add(id);
   saveBookmarks();
+}
+
+/* ── 읽음 표시 (localStorage) ── */
+function loadReadArticles() {
+  try {
+    const raw = localStorage.getItem(READ_KEY);
+    const arr = raw ? JSON.parse(raw) : [];
+    return new Set(Array.isArray(arr) ? arr : []);
+  } catch (err) {
+    console.warn('읽음 기록을 불러오지 못했습니다.', err);
+    return new Set();
+  }
+}
+
+function saveReadArticles() {
+  try {
+    localStorage.setItem(READ_KEY, JSON.stringify([...state.read]));
+  } catch (err) {
+    console.warn('읽음 기록을 저장하지 못했습니다.', err);
+  }
+}
+
+function markAsRead(id) {
+  if (!id || state.read.has(id)) return;
+  state.read.add(id);
+  saveReadArticles();
+}
+
+/* ── 무한 스크롤 ── */
+/* sentinel 이 뷰포트에 들어오면 다음 PAGE_SIZE 만큼 카드를 추가로 그린다. */
+function ensureSentinelObserver() {
+  if (state.sentinelObserver || !el.sentinel) return;
+  state.sentinelObserver = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) loadMoreCards();
+      }
+    },
+    { rootMargin: '600px 0px' } // 한참 전에 미리 로드해 끊김을 줄인다
+  );
+  state.sentinelObserver.observe(el.sentinel);
+}
+
+function updateScrollSentinel() {
+  if (!el.sentinel) return;
+  ensureSentinelObserver();
+  const more = state.visibleCount < state.filtered.length;
+  el.sentinel.hidden = !more;
+}
+
+function loadMoreCards() {
+  if (state.visibleCount >= state.filtered.length) return;
+  const start = state.visibleCount;
+  const end = Math.min(start + PAGE_SIZE, state.filtered.length);
+  const html = state.filtered.slice(start, end).map(cardHTML).join('');
+  el.grid.insertAdjacentHTML('beforeend', html);
+  state.visibleCount = end;
+  updateScrollSentinel();
 }
 
 /* ── 유틸 ── */
