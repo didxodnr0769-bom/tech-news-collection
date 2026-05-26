@@ -86,6 +86,171 @@ body {
   outline-offset: -1px;
 }
 
+/* 날짜 컨트롤 — 이전/다음 데이터 날짜 + 캘린더 팝업 + 전체 기간 토글 */
+.date-field { position: relative; }
+.date-controls {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.date-nav-btn,
+.date-picker-btn,
+.date-all-btn {
+  font: inherit;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+.date-nav-btn {
+  width: 36px;
+  padding: 9px 0;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1;
+  color: var(--text-muted);
+}
+.date-nav-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--text); }
+.date-nav-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.date-picker-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 200px;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.date-picker-btn:hover { border-color: var(--accent); }
+.date-picker-btn[aria-expanded="true"] {
+  border-color: var(--accent);
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+.date-picker-caret {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.date-all-btn {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.date-all-btn:hover { border-color: var(--accent); color: var(--text); }
+.date-all-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* 캘린더 팝업 — 데이터가 있는 날짜만 활성화 */
+.date-picker-popup {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 30;
+  width: 300px;
+  padding: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-hover);
+}
+.cal-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+/* 셀렉트는 남는 공간을 균등 분배 — 좌우 nav 버튼 사이에 안전하게 배치된다 */
+.cal-head-selects {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  gap: 6px;
+}
+.cal-head select {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+.cal-nav {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.cal-nav:hover:not(:disabled) { border-color: var(--accent); color: var(--text); }
+.cal-nav:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.cal-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-align: center;
+}
+.cal-weekdays span { padding: 4px 0; }
+.cal-weekdays span.sun { color: #dc2626; }
+.cal-weekdays span.sat { color: var(--accent); }
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+.cal-day {
+  font: inherit;
+  font-size: 0.85rem;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: #cbd5e1;
+  cursor: default;
+  padding: 0;
+}
+.cal-day.other-month { visibility: hidden; }
+.cal-day.has-data {
+  background: #eef2ff;
+  color: var(--accent);
+  font-weight: 700;
+  cursor: pointer;
+}
+.cal-day.has-data:hover {
+  background: var(--accent);
+  color: #fff;
+}
+.cal-day.selected {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 /* 북마크만 보기 토글 — 전체 날짜의 북마크 기사를 모아 본다 */
 .bookmark-toggle {
   font: inherit;
@@ -133,12 +298,13 @@ body {
   color: #fff;
 }
 
-/* 태그 집계 — 기사 tags를 많은 순으로 칩 표출, 누르면 필터 */
+/* 태그 집계 — 기사 tags를 많은 순으로 칩 표출, 누르면 필터.
+ * 칩 영역은 기본 2줄까지만 표출하고, 넘치면 '더보기' 버튼으로 펼친다. */
 .tag-cloud {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
   margin-top: 14px;
   padding-top: 14px;
   border-top: 1px dashed var(--border);
@@ -147,8 +313,43 @@ body {
   font-size: 0.78rem;
   font-weight: 700;
   color: var(--text-muted);
-  margin-right: 2px;
 }
+.tag-cloud-chips {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+}
+.tag-cloud-chips.collapsed {
+  /* 칩(32px 안팎) 두 줄 + gap 1줄 */
+  max-height: 76px;
+  overflow: hidden;
+}
+/* 태그 칩과 명확히 구분되도록 — 알약 모양 대신 텍스트 링크 + 셰브론 아이콘 */
+.tag-cloud-toggle {
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s ease;
+}
+.tag-cloud-toggle:hover { background: #e8edff; }
+.tag-cloud-toggle::after {
+  content: '▾';
+  font-size: 0.72rem;
+  line-height: 1;
+  transition: transform 0.18s ease;
+}
+.tag-cloud-toggle.expanded::after { transform: rotate(180deg); }
 .tag-chip {
   font: inherit;
   font-size: 0.82rem;
@@ -352,4 +553,6 @@ body {
 @media (max-width: 520px) {
   .news-grid { grid-template-columns: 1fr; }
   .field select { width: 100%; }
+  .date-picker-btn { min-width: 0; flex: 1; }
+  .date-picker-popup { width: calc(100vw - 40px); max-width: 320px; }
 }
