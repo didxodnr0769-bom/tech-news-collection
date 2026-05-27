@@ -1,0 +1,221 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-05-28-ai-01",
+      "category": "AI",
+      "tags": ["gpt", "claude"],
+      "title": "코딩 벤치마크 논란…새 평가서 GPT-5.5 압승·클로드 '치팅' 의혹",
+      "summary": "새로 공개된 코딩 벤치마크에서 오픈AI의 GPT-5.5가 앤트로픽 클로드를 큰 폭으로 앞서며 1위를 차지했고, 클로드 측에 대해선 일부 벤치마크 데이터를 학습에 활용했다는 '치팅' 의혹이 제기됐다. 코딩 분야의 모델 우위가 자주 뒤바뀌고 있고, 벤치마크 자체의 공정성 검증이 다시 논쟁의 중심이 됐다. 기업이 AI 코딩 도구를 도입할 때 단일 벤치마크 점수보다 실제 워크로드 검증이 중요하다는 점을 보여주는 사례다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210988",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210988_213812_4249.png",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-ai-02",
+      "category": "AI",
+      "tags": ["openai", "사이버안보"],
+      "title": "오픈AI, 한국과 '사이버 안보 플랜' 가동…\"다방면서 장기 협력 기대\"",
+      "summary": "오픈AI가 한국 정부와 함께 '코리아 사이버 액션 플랜'을 가동한다고 27일 발표하며, 사이버 보안 특화 모델 'GPT-5.5-Cyber' 접근권 등을 한국 측에 제공하기로 했다. 제이슨 권 오픈AI 최고전략책임자는 \"단기 이벤트가 아니라 장기 협력으로 가져갈 것\"이라고 강조했다. 한국이 미국 빅테크의 보안 AI 도입 거점으로 부상하며 국내 보안 산업·공공 인프라에 직접 영향이 예상된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210966",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210966_213777_4139.jpg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-ai-03",
+      "category": "AI",
+      "tags": ["claude", "미토스"],
+      "title": "앤트로픽 '미토스' 곧 나오나…클로드 코드에 모델 토글 잠깐 노출",
+      "summary": "앤트로픽이 그동안 일부 기업에만 제한적으로 열어둔 차세대 모델 '미토스(Mythos)'가 25일 클로드 코드의 공개 참조 항목에 등장하고 일부 사용자에게 모델 토글이 잠깐 보였다가 사라졌다. 미토스는 보안 취약점 자동 탐지 같은 고난도 작업에 활용되어 온 모델로, 공개 준비가 막바지에 이르렀다는 신호로 해석된다. 정식 공개 시점은 확정되지 않았지만 코딩·보안 AI 시장에서 클로드 라인업 확장이 임박했다.",
+      "url": "https://zdnet.co.kr/view/?no=20260527150826",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/27/ai82545d77f6a621b30343024d0ef0dc90.jpg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-ai-04",
+      "category": "AI",
+      "tags": ["chatgpt", "openai"],
+      "title": "오픈AI, '챗GPT 광고' 소상공인까지 확대…메타·구글에 정면 도전",
+      "summary": "오픈AI가 챗GPT 안에서 노출되는 광고 상품을 소상공인까지 확대하면서 메타·구글이 주도하던 검색·디스플레이 광고 시장에 본격 진입한다. 챗GPT의 대규모 트래픽을 광고 인벤토리로 전환하면서 광고 기반 수익 모델이 본격 가동되는 단계다. 광고가 답변 품질과 사용자 신뢰에 미칠 영향이 새로운 쟁점으로 떠올랐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210960",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210960_213771_3453.jpg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-ai-05",
+      "category": "AI",
+      "tags": ["openai", "일자리"],
+      "title": "알트먼 \"AI '일자리 대란' 예측 틀려서 다행…인간 교감은 AI로 대체 불가능\"",
+      "summary": "샘 올트먼 오픈AI CEO가 자신이 과거에 내놨던 'AI에 의한 대규모 일자리 충격' 예측이 빗나간 것이 다행이라며, 인간 사이의 교감과 신뢰가 필요한 영역은 AI가 대체할 수 없다고 강조했다. 코딩·고객지원처럼 자동화 영향이 큰 영역과 그렇지 않은 영역의 격차가 뚜렷해지고 있다는 진단이다. AI 도입 전략을 세우는 기업 입장에서는 자동화 우선순위를 정하는 참고 시그널이 된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210969",
+      "source": "AI타임스",
+      "thumbnail": "",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-ai-06",
+      "category": "AI",
+      "tags": ["ai에이전트", "lg전자"],
+      "title": "[현장] 1년 만에 AI 에이전트 절반 사라진 LG전자…AX 성공 열쇠는 '이것'",
+      "summary": "LG전자가 지난 1년간 도입한 AI 에이전트의 약 절반이 사라지거나 통합됐다며, 무분별한 에이전트 생성이 오히려 운영 부담을 키운다고 자체 진단했다. 성공한 AI 전환(AX) 사례의 공통점으로 '확실한 KPI에 묶인 단일 책임 에이전트'를 꼽았다. 국내 대기업의 실제 운영 결과 데이터라는 점에서 AI 에이전트 도입을 검토하는 기업에 시사하는 바가 크다.",
+      "url": "https://zdnet.co.kr/view/?no=20260527175217",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/27/5e75945ef41758e9621f801cd9d70d1e-watermark.jpg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-ai-07",
+      "category": "AI",
+      "tags": ["기업ai", "한국기업"],
+      "title": "\"AI 효과 본 한국 기업 75%, 그런데 '진짜 강자'는 단 2%뿐이었다\"",
+      "summary": "글로벌 조사에서 한국 기업 75%가 AI 도입 효과가 기대를 넘어섰다고 답했지만, 전사적으로 가치를 창출하는 '진짜 AI 강자' 비율은 단 2%에 그친 것으로 나타났다. 파일럿은 성공해도 본격 확장 단계에서 데이터·거버넌스·인재 문제로 막히는 패턴이 반복됐다. AI 도입을 막 시작한 조직과 확장 단계 조직 사이의 격차가 한국에서 특히 크다는 점이 드러났다.",
+      "url": "https://zdnet.co.kr/view/?no=20260527204728",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/27/ai49637a4f34136f0917ad0fc956f1d9dd.jpg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-ai-08",
+      "category": "AI",
+      "tags": ["microsoft", "브라우저에이전트"],
+      "title": "MS, 차세대 브라우저 에이전트 '파라1.5' 공개…\"오픈AI·구글 성능 추월\"",
+      "summary": "마이크로소프트가 '관찰-사고-행동' 루프를 기반으로 한 차세대 브라우저 에이전트 '파라(Para) 1.5'를 공개하며, 오픈AI와 구글의 동급 에이전트보다 벤치마크 성능이 앞선다고 밝혔다. 복잡한 웹 작업을 자율적으로 수행하는 능력이 강화됐고, MS 365·코파일럿 스택과의 결합도 본격화될 전망이다. 브라우저 에이전트 경쟁이 또 한 단계 격화되며 업무용 AI 자동화 시장의 판도가 바뀌고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210879",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210879_213674_2613.png",
+      "published": "2026-05-24"
+    },
+    {
+      "id": "2026-05-28-dev-01",
+      "category": "개발",
+      "tags": ["microsoft", "webwright"],
+      "title": "MS, 코딩으로 웹 움직이는 에이전트 '웹라이트' 공개…\"클릭 대신 터미널로 제어\"",
+      "summary": "마이크로소프트가 화면 클릭 대신 AI가 코드를 직접 생성·실행해 웹 업무를 처리하는 오픈소스 에이전트 프레임워크 '웹라이트(Webwright)'를 공개했다. 브라우저 UI 자동화의 취약성을 코드 기반 제어로 우회해 안정성과 재현성을 끌어올렸다. 웹 자동화·RPA를 다루는 개발팀에 새로운 선택지가 생긴 셈이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210980",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210980_213803_1951.jpg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-dev-02",
+      "category": "개발",
+      "tags": ["antigravity", "google"],
+      "title": "AI 코딩 시장 존재감 없던 구글, 안티그래비티 2.0으로 반격 나섰다",
+      "summary": "구글이 I/O 2026에서 에이전트 개발 플랫폼 안티그래비티 2.0과 제미나이 3.5 플래시를 공개하며 앤트로픽·오픈AI가 선점한 AI 코딩 시장을 정조준했다. 새 버전은 리뉴얼된 데스크톱 앱, Go로 다시 작성된 CLI, 커스텀 에이전트용 SDK를 갖춰 IDE를 대체하는 본격 개발 플랫폼으로 자리 잡았다. 윈드서프 기술 인수까지 동원한 구글의 베팅이라 IDE 시장 재편 가능성이 커졌다.",
+      "url": "https://byline.network/2026/05/google/",
+      "source": "바이라인네트워크",
+      "thumbnail": "",
+      "published": "2026-05-21"
+    },
+    {
+      "id": "2026-05-28-dev-03",
+      "category": "개발",
+      "tags": ["googleio", "google"],
+      "title": "구글I/O 2026 개발자 뉴스 모아보기, 그리고 반응",
+      "summary": "구글 I/O 2026에서 발표된 개발자용 신규 발표들을 정리하고 업계 반응을 짚었다. 차세대 제미나이 모델, 앱을 가로지르는 에이전트 'Gemini Intelligence', Android XR, '알루미늄 OS'·'구글북' 등이 개발자가 주목할 포인트로 꼽혔다. 안드로이드 점유율이 높은 국내 IT 업계에 직접 영향이 큰 변화들이다.",
+      "url": "https://byline.network/2026/05/21-575/",
+      "source": "바이라인네트워크",
+      "thumbnail": "",
+      "published": "2026-05-21"
+    },
+    {
+      "id": "2026-05-28-dev-04",
+      "category": "개발",
+      "tags": ["ai에이전트", "에이전트스프롤"],
+      "title": "\"만들긴 쉬운데 관리는 어려워\"...기업 위협하는 '에이전트 스프롤'",
+      "summary": "AI 에이전트가 폭증하면서 같은 작업을 수행하는 에이전트가 부서마다 중복 생성되고 비용·보안 리스크가 누적되는 '에이전트 스프롤' 현상이 기업 IT 부서를 위협하고 있다. 가시성·거버넌스 도구 없이 에이전트를 양산한 조직은 1년 안에 운영 부담이 한계에 도달한다는 진단이 나온다. 에이전트 플랫폼 도입 시 카탈로그·권한·관측성 설계가 필수임을 보여준다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210892",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210892_213694_4725.jpg",
+      "published": "2026-05-25"
+    },
+    {
+      "id": "2026-05-28-dev-05",
+      "category": "개발",
+      "tags": ["피지컬ai", "보안"],
+      "title": "피지컬 AI 전용 보안 법제·거버넌스 과제 부상",
+      "summary": "로봇·자율주행·드론 같은 피지컬 AI 시스템이 본격 보급되며, 해킹된 로봇이 사람을 다치게 하거나 군사·사회 인프라로 위험이 전이될 가능성이 새로운 보안 이슈로 부상하고 있다. 기존 사이버 보안 체계로는 물리 행위까지 연결되는 위험을 다루기 어렵다는 진단이 나오면서 별도 법제·거버넌스 마련이 시급해졌다. 로보틱스·자율주행 SW를 다루는 개발자라면 안전·보안 요구사항 변화를 미리 살펴야 한다.",
+      "url": "https://byline.network/2026/05/20-602/",
+      "source": "바이라인네트워크",
+      "thumbnail": "",
+      "published": "2026-05-20"
+    },
+    {
+      "id": "2026-05-28-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "veracpu"],
+      "title": "엔비디아 '베라 CPU', 벤치마크서 인텔·AMD 최신 서버 칩 압도",
+      "summary": "엔비디아가 자체 설계 서버 CPU '베라(Vera)'의 초기 벤치마크에서 인텔 제온·AMD 에픽 최신 세대보다 멀티스레드·AI 워크로드 성능이 앞섰다고 공개했다. GPU와의 결합 효율을 극단적으로 끌어올린 설계가 핵심으로, AI 데이터센터 표준 구성 자체를 바꿀 잠재력이 있다. 데이터센터 인프라 시장에서 엔비디아 의존도가 더 깊어질 전망이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210971",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210971_213786_5337.jpeg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["qualcomm", "데이터센터"],
+      "title": "퀄컴, 바이트댄스와 '데이터센터용' 칩 계약...AI 인프라로 영역 확장",
+      "summary": "모바일 칩 강자인 퀄컴이 바이트댄스와 데이터센터용 AI 칩 공급 계약을 체결하며 서버 인프라 시장으로 영역을 넓혔다. 엔비디아·AMD가 장악한 AI 가속기 시장에 모바일 SoC 노하우를 가진 새 경쟁자가 본격 진입했다는 의미다. AI 칩 공급망의 선택지가 한 축 늘어나며 가격·공급 협상력에도 영향이 예상된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210968",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210968_213780_1120.jpg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-etc-03",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["반도체", "gan"],
+      "title": "ST마이크로, 새로운 700V GaN 반도체 출시",
+      "summary": "ST마이크로일렉트로닉스가 데이터센터·전기차·산업용 전원장치를 겨냥한 700V급 질화갈륨(GaN) 전력 반도체 신제품을 공개했다. 기존 실리콘 기반 제품 대비 효율과 스위칭 속도를 끌어올려 AI 서버의 전력 손실을 줄일 수 있다. AI 인프라 전력 수요가 폭증하면서 전력 반도체가 메모리·로직과 함께 핵심 부품으로 부상하고 있다.",
+      "url": "https://zdnet.co.kr/view/?no=20260527165850",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/27/905756c7ad1cba8dab1f686d55aa893e.png",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["skhynix", "시가총액"],
+      "title": "SK하이닉스, 시총 '1조달러 클럽' 진입...삼성전자 이어 국내 2번째",
+      "summary": "SK하이닉스 시가총액이 1조 달러를 돌파하며 삼성전자에 이어 국내 두 번째로 '1조 달러 클럽'에 진입했다. HBM 수요 폭증과 AI 서버 투자 확대가 직접 동력으로 작용했다. 메모리 슈퍼사이클이 한국 경제·증시에 끼치는 영향이 본격 가시화된 셈으로, 반도체 의존도가 높은 국내 산업 구조에서 거시적 파급력이 크다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210990",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210990_213817_1343.jpg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-etc-05",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["모티프", "투자유치"],
+      "title": "모티프, '독자 설계' AI 모델 기술로 240억 시리즈B 투자 유치",
+      "summary": "국내 AI 스타트업 모티프테크놀로지스가 독자 설계 파운데이션 모델 기술력을 인정받아 240억원 규모 시리즈B 투자를 유치했다고 27일 밝혔다. 기존 투자사인 나이스투자파트너스·노틸러스인베스트먼트 등이 후속 투자에 참여했다. 국가대표 AI 모델 프로젝트 참여 기업 중 한 곳으로, 한국형 파운데이션 모델 진영에 자금이 본격 유입되는 흐름이 이어진다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210974",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210974_213788_3713.png",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-28-etc-06",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["nvidia", "대만"],
+      "title": "젠슨 황 \"대만은 AI 혁명 진원지...매년 225조 투자할 것\"",
+      "summary": "젠슨 황 엔비디아 CEO가 \"대만은 AI 혁명의 진원지\"라며 향후 매년 225조원 규모를 대만 공급망에 투자하겠다고 밝혔다. TSMC를 중심으로 한 첨단 패키징·HBM 생태계 의존도를 더 깊이 가져가겠다는 신호다. 한국 메모리 진영과 대만 파운드리·후공정 진영의 AI 공급망 분담 구도에 직접 영향을 주는 발언이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210992",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210992_213816_130.png",
+      "published": "2026-05-27"
+    }
+  ]
+}
