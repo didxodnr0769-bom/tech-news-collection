@@ -1,0 +1,222 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-05-27-ai-01",
+      "category": "AI",
+      "tags": ["claude", "바이브슬롭"],
+      "title": "거물 개발자들의 경고 \"클로드 코드는 망가진 도구...'바이브 슬롭' 위기 다가와\"",
+      "summary": "마리오 제크너·아르민 로나허 등 거물급 개발자들이 AI 코딩 도구의 과도한 도입이 만들어내는 저품질 코드 양산 문제를 정면 비판했다. 제크너는 \"클로드 코드는 인생에서 써본 가장 망가진 소프트웨어 중 하나\"라며 인간 검토를 거치지 않은 자동 생성 코드가 유지보수 불가능한 '바이브 슬롭'을 부른다고 경고했다. 구글·메타 등 빅테크가 경쟁적으로 AI 코드 비중을 높이는 흐름에 대한 강한 반작용으로 읽힌다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210924",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210924_213731_462.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-ai-02",
+      "category": "AI",
+      "tags": ["google", "aistudio"],
+      "title": "구글 AI 스튜디오, 일주일 만에 앱 25만개 쏟아져...\"99%가 초보자\"",
+      "summary": "구글이 I/O 2026에서 공개한 AI 스튜디오의 안드로이드 앱 생성 기능이 일주일 만에 25만 개 이상의 앱을 만들어냈다. 로건 킬패트릭 책임자는 \"사용자의 99% 이상이 안드로이드 앱을 만들어본 적 없는 사람들\"이라며 프롬프트만으로 배포 가능한 앱을 제작하는 노코드 흐름을 부각했다. 코딩 없는 앱 제작이 일반 사용자에게도 본격적으로 열렸다는 신호다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210915",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210915_213759_2542.png",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-ai-03",
+      "category": "AI",
+      "tags": ["오픈소스", "ai안전"],
+      "title": "안전 장치 해제된 모델 1300만건 다운로드...\"오픈소스 무방비 노출\"",
+      "summary": "메타·구글 오픈소스 LLM에서 안전장치를 제거하는 '헤레틱' 같은 도구가 빠르게 확산되며 검열 해제 모델 다운로드가 1300만 건을 넘어섰다. 10분 만에 라마 3.3의 보안 가드를 무력화할 수 있고, 생물무기 정보·악성코드·아동 학대물 등을 생성하는 사례까지 보고됐다. 오픈소스 AI의 책임 있는 배포 기준을 둘러싼 논쟁이 다시 격화될 전망이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210913",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210913_213715_123.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-ai-04",
+      "category": "AI",
+      "tags": ["google", "ai에이전트"],
+      "title": "구글, 에이전트 장시간 문제 해결하는 런타임 플랫폼 오픈 공개",
+      "summary": "구글이 장시간 실행되는 AI 에이전트를 안정적으로 운영하기 위한 오픈소스 런타임 'AX(Agent eXecutor)'를 공개했다. 에이전트 상태를 이벤트 로그·스냅샷으로 지속 저장해 장애가 나도 중단 지점부터 재개할 수 있고, 보안 샌드박스와 세션 일관성 유지 기능까지 제공한다. 함께 공개된 쿠버네티스 기반 '에이전트 서브스트레이트'까지 더해 대규모 에이전트 운영 인프라 경쟁이 본격화됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210930",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210930_213741_2727.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-ai-05",
+      "category": "AI",
+      "tags": ["kaist", "음성ai"],
+      "title": "KAIST, 화면 맥락 분석해 맞춤형 효과음 생성해주는 AI '파바스' 개발",
+      "summary": "KAIST·POSTECH·소니AI 공동 연구팀이 영상 속 물리 상황을 분석해 자연스러운 효과음을 만들어주는 AI '파바스(PhAVAS)'를 공개했다. 물체의 질량·속도 등 보이지 않는 물리 정보까지 추론해 충돌·접촉 장면에 실제와 유사한 사운드를 입힌다. AR·VR·메타버스·게임 등 분야에서 사실적 사운드 디자인 자동화의 단초가 될 것으로 평가된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210935",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210935_213743_3734.jpeg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-ai-06",
+      "category": "AI",
+      "tags": ["삼성전자", "ai전환"],
+      "title": "삼성전자, 빅테크 AI 들인다…'AI 격차' 좁힐 승부수",
+      "summary": "삼성전자 DX 부문이 6월부터 제미나이·챗GPT·클로드 등 외부 생성형 AI를 업무에 도입한다. 자체 모델 '삼성 가우스'를 계속 발전시키면서 외부 AI를 병행 활용하는 투트랙 전략으로 AI 격차 좁히기에 나선 것이다. 보안 관리를 위해 사내 교육을 이수한 직원에게만 사용 권한을 부여한다.",
+      "url": "https://www.etnews.com/20260526000264",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2026/05/23/news-p.v1.20260523.0cab59fb2fed4f64a0f9e926ac97db67_P1.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-ai-07",
+      "category": "AI",
+      "tags": ["nhn", "ai인프라"],
+      "title": "[현장] NHN클라우드, AI 풀스택 '팩토리X' 출사표…\"국가대표 인프라 기업 도약\"",
+      "summary": "NHN클라우드가 GPU 인프라부터 AI 에이전트 실행까지 통합하는 AI 풀스택 브랜드 '팩토리X'를 공개했다. 광주 국가 AI 데이터센터에서 아시아 최초 H100 GPU를 도입한 데 이어 AI 사업 비중을 50% 이상으로 키우겠다는 목표를 제시했다. 국내 클라우드 사업자들이 잇따라 AI 통합 스택 전략을 내놓는 흐름과 맞물려 있다.",
+      "url": "https://zdnet.co.kr/view/?no=20260526103237",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/26/4866b699a2f4dfc9c8071d7b8d9f1a3c-watermark.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-ai-08",
+      "category": "AI",
+      "tags": ["google", "ai검색"],
+      "title": "구글 AI 검색, 웹 경제도 바꾼다…'제로클릭' 시대, 퍼블리셔 트래픽은 어디로",
+      "summary": "구글 AI 검색 개편이 검색 결과 페이지 방문 없이 답을 바로 제공하는 '제로클릭' 시대를 가속하며 퍼블리셔 트래픽 감소 우려가 커지고 있다. 제미나이 월간 활성 사용자가 1년 만에 4억 명에서 9억 명으로 두 배 이상 늘면서 정보 안내 도구에서 과업 완수 도구로 진화하고 있다. 검색 유입에 의존하던 매체·크리에이터 비즈니스 모델에 실존적 위협이 되는 변화다.",
+      "url": "https://zdnet.co.kr/view/?no=20260526170217",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/26/ai35a2395c4b797ba41ccdc23ddbbf05e5.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-dev-01",
+      "category": "개발",
+      "tags": ["mythos", "ai보안"],
+      "title": "[현장] 미토스 충격파…\"에이전틱 AI 체계, 선점이 곧 표준\"",
+      "summary": "앤트로픽 차세대 모델 '미토스'가 한 달 만에 주요 SW에서 1만 건 이상의 보안 취약점을 찾아내며 에이전틱 AI의 보안 위협이 현실화됐다. KISA는 에이전틱 AI 특화 보안 안내서 고도화와 AI 제로트러스트 성숙도 모델을 연내 발표할 계획이다. 업계는 \"AI 에이전트 인증 체계를 먼저 구축한 나라가 글로벌 표준을 주도할 것\"이라며 선점 경쟁을 강조했다.",
+      "url": "https://zdnet.co.kr/view/?no=20260526141049",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/26/f603e72e770839f35392232c30d29c42-watermark.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-dev-02",
+      "category": "개발",
+      "tags": ["defcon", "ctf"],
+      "title": "'해킹 올림픽' '데프콘 2026' 예선 종료…한국 주축 팀 1위",
+      "summary": "글로벌 해킹 경연 데프콘 CTF 2026 예선에 686개 팀이 참여했고, 한국 해커들이 주축이 된 '슈퍼다이스코드러버스'가 1위를 차지했다. 본선 진출권을 따낸 6개 팀 가운데 한국 주축 팀이 다수 포함됐다. 엔키화이트햇·라온시큐어·KR시큐리티 등 국내 보안 기업 소속 연구원들이 상위권 성적을 견인했다.",
+      "url": "https://zdnet.co.kr/view/?no=20260525162901",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/25/e5bb2d7ad0588abb405b362a9c234fc6.png",
+      "published": "2026-05-25"
+    },
+    {
+      "id": "2026-05-27-dev-03",
+      "category": "개발",
+      "tags": ["ghostcms", "취약점"],
+      "title": "패치 안 한 고스트 CMS, 악성코드 유포지로 악용… 700개 사이트 해킹 통로로 사용됐다",
+      "summary": "해커들이 Ghost CMS의 미패치 SQL 인젝션 취약점(CVE-2026-26980)을 악용해 700개 이상의 웹사이트를 감염시켰다. 가짜 인증 화면으로 'Windows+R 키를 눌러 명령어를 붙여넣으라'고 유도하는 클릭픽스(ClickFix) 기법이 사용됐다. 최소 두 개 이상의 공격 조직이 이미 감염된 사이트를 두고 경쟁한 정황도 포착됐다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=206912",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202605/206912_207821_3116.jpeg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-27-dev-04",
+      "category": "개발",
+      "tags": ["lazarus", "악성코드"],
+      "title": "북한 라자루스 해킹조직, 메모리 은신형 악성코드로 금융·가상화폐 조직 공격",
+      "summary": "북한 연계 라자루스 그룹이 금융·가상화폐 조직을 노린 신규 악성코드 'RemotePE'를 운용하고 있다. 디스크에 흔적을 남기지 않는 메모리 전용 실행 방식으로 탐지를 회피하며, 사회공학 기법으로 초기 침투한 뒤 장기간 잠복해 자산 탈취를 노린다. 개발자·자산 운용 인력 대상 표적 공격이 더 정교해지고 있음을 보여주는 사례다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=206911",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202605/206911_207820_1723.jpeg",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-27-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["삼성전자", "ai반도체"],
+      "title": "삼성전자, 내년 칩렛 기반 '피지컬 AI 반도체' 플랫폼 파운드리 추진",
+      "summary": "삼성전자가 케이던스와 손잡고 내년 초 피지컬 AI용 칩렛 기반 반도체 플랫폼을 테이프아웃하고 하반기 양산을 목표로 잡았다. 자율주행·로봇·산업 자동화 등에 공통으로 쓰이는 기능을 60~80% 미리 구현해 두고 응용처별로 맞춤화할 수 있는 구조다. 파운드리 사업이 'AI용 표준 플랫폼 제공자'로 무게중심을 옮기는 신호로 평가된다.",
+      "url": "https://www.etnews.com/20260526000274",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2026/05/26/news-p.v1.20260526.9d3ff3bcee2d42e29f79fd203954b3e9_P1.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["웨어러블", "스마트워치"],
+      "title": "웨어러블 회선 200만 시대…셀룰러 스마트워치가 성장 견인",
+      "summary": "국내 웨어러블 기기 가입 회선이 처음으로 200만 개를 넘었다. 스마트폰 시장 포화 속에서 셀룰러 모델 채택률이 33%를 돌파하며 통신사 무선 회선 증가에 기여하고 있다. 헬스케어 기능 강화와 AI 기반 성능 고도화로 스마트폰과 별도 통신이 가능한 셀룰러 스마트워치 수요가 빠르게 늘고 있다.",
+      "url": "https://www.etnews.com/20260526000337",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2025/09/30/ams.V01.photo.ETN.P.20250930.P12025093008380388347424665_P1.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-etc-03",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["tcl", "가전"],
+      "title": "[단독] 中 TCL 한국 수장 바꾸고 종합가전 안방 공략…\"프리미엄 정면 승부\"",
+      "summary": "TCL이 신임 한국 대표 게리 자오를 앞세워 한국 프리미엄 가전 시장 공략을 본격화한다. 가격 경쟁 일변도에서 벗어나 디스플레이 기술 경쟁력과 사용자 경험으로 정면 승부하겠다는 전략이다. TV 중심 브랜드 이미지에서 벗어나 에어컨·냉장고 등 종합 가전 라인업으로 확장할 계획이다.",
+      "url": "https://www.etnews.com/20260526000279",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2026/05/26/news-p.v1.20260526.632dc38ece914e45ae128084afa1e7db_P2.png",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["aix억만장자", "스타트업"],
+      "title": "미국, 1년새 'AI 억만장자' 19명 배출…자산 총합은 90조원",
+      "summary": "미국에서 지난 1년간 AI 스타트업 창업자 19명이 새로 억만장자 대열에 합류했고, 자산 총합은 593억 달러(약 90조 원)에 달한다. 새로 부를 거머쥔 창업가들은 첨단 모델 자체보다 법률·헬스케어·고객서비스 등 '오래된 산업'에 AI를 적용해 성공했다는 점이 공통점이다. AI 가치 창출이 모델 개발에서 응용·인프라 계층으로 빠르게 확산되는 흐름을 보여준다.",
+      "url": "https://zdnet.co.kr/view/?no=20260526193332",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/26/ai0bfac1e35ae4fae78a503b77a840546d.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-etc-05",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["aix", "m&a"],
+      "title": "모건 스탠리 \"AI 관련 M&A, 모델 넘어 전력·인프라까지 전방위 확산\"",
+      "summary": "모건 스탠리는 AI 관련 인수·합병이 모델 중심을 벗어나 반도체·전력·네트워킹·데이터센터 인프라까지 광범위하게 확산될 것으로 전망했다. 월리 쳉 글로벌 기술 M&A 책임자는 \"기업들이 AI 시대 기술 격차를 메우기 위해 공격적으로 움직이고 있다\"고 진단했다. 지난해 기술 분야 거래 규모는 약 9,011억 달러로 집계됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210937",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210937_213748_2056.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-etc-06",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["코스피", "반도체"],
+      "title": "코스피, 8000 시대 열었다…'삼전·닉스'가 이끌어",
+      "summary": "코스피가 사상 처음 종가 기준 8000선을 돌파했다. 삼성전자와 SK하이닉스 같은 반도체 대형주들의 강한 상승이 사상 최고 지수를 견인했고, 두 회사 시가총액 합계만 3200조 원에 이른다. AI·HBM 사이클을 등에 업은 반도체 슈퍼사이클 기대가 한국 증시의 새 이정표를 만들고 있다.",
+      "url": "https://www.etnews.com/20260526000298",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2026/05/15/news-p.v1.20260515.b73e38f13f9d4ab693beb084b787a2dc_P1.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-27-etc-07",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["휴머노이드", "중국"],
+      "title": "바클레이즈 \"휴머노이드 로봇, 중국 노동력 감소분 60% 메운다\"",
+      "summary": "바클레이즈는 향후 10년간 휴머노이드 로봇이 중국 노동연령 인구 감소분의 최대 60%를 충당할 수 있다고 분석했다. 노동연령 인구 비중이 빠르게 줄어드는 중국에서 휴머노이드는 사실상 산업 정책 수준의 의미를 갖게 된다. 글로벌 휴머노이드 시장은 2035년까지 약 2000억 달러 규모로 성장할 전망이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210934",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210934_213744_4021.png",
+      "published": "2026-05-26"
+    }
+  ]
+}
