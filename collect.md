@@ -7,7 +7,7 @@ macOS `launchd`가 헤드리스 Claude Code를 실행하고, Claude가 이 파�
 
 AI · 개발 · 기타 3개 카테고리의 최신 뉴스를 웹 검색으로 수집해
 `data/<오늘 날짜>.json` 파일로 저장하고, `data/index.json`을 갱신한다.
-**git 커밋·푸시는 하지 않는다** — 수집 결과는 사용자가 직접 검토한 뒤 커밋·푸시한다.
+**git 커밋·푸시는 호출 쉘 스크립트(`scripts/run-collect.sh`)가 자동으로 처리한다** — Claude는 파일 저장까지만 하고 종료한다.
 
 > ## ⚠️ 필수 원칙: 한국에서 발행된 뉴스·글만 수집한다
 > - 출처(`source`)는 **반드시 한국 매체이거나 한국어로 발행된 글**이어야 한다.
@@ -91,10 +91,10 @@ AI · 개발 · 기타 3개 카테고리의 최신 뉴스를 웹 검색으로 �
 - `last_updated`를 현재 시각 ISO 8601(+09:00)로 갱신
 - `site_title` · `description` · `categories`는 그대로 둔다
 
-### 7. 마무리 — git 커밋·푸시는 하지 않는다
+### 7. 마무리 — Claude는 파일 저장까지만, git 작업은 쉘이 한다
 - 5·6단계의 파일 저장까지만 하고 **종료한다.**
-- **`git add`·`git commit`·`git push`를 실행하지 않는다.**
-- 수집 결과는 사용자가 직접 검토한 뒤 커밋·푸시한다. 사용자가 `main`에 push하면 GitHub Pages가 사이트를 자동 갱신한다.
+- **Claude는 `git add`·`git commit`·`git push`를 직접 실행하지 않는다.** (이중 커밋 방지)
+- 호출한 `scripts/run-collect.sh`가 수집 성공을 확인한 뒤 자동으로 `git add data/ → commit → push`를 수행하며, push되면 GitHub Pages가 사이트를 자동 갱신한다.
 
 ## 주의사항
 - **출처는 무조건 한국 매체/한국어 글.** 영어권 매체 영문 기사는 제외한다.
