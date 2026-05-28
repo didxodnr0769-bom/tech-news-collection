@@ -1,0 +1,199 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-05-29-ai-01",
+      "category": "AI",
+      "tags": ["minimax", "모델출시"],
+      "title": "미니맥스, 차세대 모델 'M3' 출시 예고…장문 추론 속도 15.6배 향상",
+      "summary": "중국 AI 기업 미니맥스가 차세대 모델 'M3'에 적용할 새로운 희소 어텐션 기술을 공개하며, 100만 토큰 길이의 문맥에서 기존 모델 대비 최대 15.6배 빠른 응답 속도를 달성한다고 발표했다. 기존 LLM의 쿼드러틱 스케일링 문제를 압축하지 않은 키-값 데이터 기반 블록 단위 선택 방식으로 해결했다. 장시간 대화·대형 문서 처리에서 디코딩 병목을 크게 줄여 장문 추론이 필요한 서비스에 직접적인 영향이 예상된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211042",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211042_213883_3645.jpg",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-ai-02",
+      "category": "AI",
+      "tags": ["meta", "구독"],
+      "title": "메타, AI 챗봇 유료 구독제 '메타 원' 출시…월 7.99달러부터",
+      "summary": "메타가 AI 챗봇 수익화를 위해 메타 원 플러스(월 7.99달러)와 메타 원 프리미엄(월 19.99달러) 두 가지 유료 구독제를 선보였다. 싱가포르·과테말라·볼리비아에서 먼저 테스트 출시되며, 무료 사용자도 일정 한도 내에서 메타 AI를 이용할 수 있다. 대규모 AI 투자 비용 회수와 광고 의존도 완화를 노린 조치로, 발표 후 주가가 3% 이상 상승했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211004",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211004_213832_1545.jpg",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-ai-03",
+      "category": "AI",
+      "tags": ["elevenlabs", "ai음악"],
+      "title": "일레븐랩스, 곡 중간에 장르 바뀌는 AI 음악 모델 '뮤직 v2' 출시",
+      "summary": "음성 AI 스타트업 일레븐랩스가 곡 중간에 장르를 자유롭게 전환할 수 있는 차세대 음악 생성 모델 '뮤직 v2'를 공개했다. 인트로·벌스·코러스 등 각 구간을 단계별로 생성해 이어붙일 수 있고, 라이선스를 확보한 데이터로만 학습해 상업적 사용이 가능하다. 가격을 최대 50% 인하하며 구글·스테이블AI 등과의 AI 음악 시장 경쟁이 급격히 심화되고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211024",
+      "source": "AI타임스",
+      "thumbnail": "",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-ai-04",
+      "category": "AI",
+      "tags": ["xiaomi", "mimo"],
+      "title": "샤오미, '미모' 가격 99% 영구 인하…딥시크 겨냥한 가격 경쟁 돌입",
+      "summary": "샤오미가 미모-V2.5 시리즈 API 가격을 최대 99%까지 영구 인하하고 복잡한 과금 체계를 폐지해 동일 요금제를 적용했다. 책정 가격이 딥시크-V4 프로 수준과 동일해 개발자가 두 모델을 자유롭게 전환할 수 있게 됐다. 저가 전략의 대형 플랫폼과 프리미엄 전략의 스타트업이 양극화되는 'K자형 경쟁'이 중국 AI 시장에서 심화되고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211014",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211014_213850_3723.jpg",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-ai-05",
+      "category": "AI",
+      "tags": ["youtube", "ai라벨"],
+      "title": "유튜브, AI 생성 영상 표시 강화...시스템이 자동 분류",
+      "summary": "유튜브가 2026년 5월부터 자동 탐지 시스템으로 크리에이터가 표시하지 않아도 사실적인 AI 콘텐츠를 감지해 자동으로 라벨을 부착한다. 일반 영상은 플레이어 바로 아래, 쇼츠는 영상 위 오버레이 형태로 AI 라벨을 노출하도록 방식이 변경됐다. 유튜브는 AI 라벨 부착이 추천 알고리즘이나 수익 창출 여부에는 영향을 주지 않는다고 강조했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211027",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211027_213865_911.png",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-ai-06",
+      "category": "AI",
+      "tags": ["크라우드웍스", "피지컬ai"],
+      "title": "크라우드웍스, '피지컬AI 데이터랩' 신설...\"로봇 학습 데이터 시장 공략\"",
+      "summary": "크라우드웍스가 로봇·자율주행 등 물리 환경에서 작동하는 피지컬AI용 고품질 학습 데이터를 개발하기 위해 '피지컬AI 데이터랩'을 구축했다. 유니트리의 휴머노이드 로봇을 도입해 텔레오퍼레이션·모션캡처 등으로 관절 궤적·힘·시각 정보 등 인간 행동과 로봇 센서 데이터를 정밀하게 수집한다. 확보한 데이터는 'A1 데이터 마켓플레이스'로 전 세계 로봇 기업에 공급되며 현재 100테라바이트 이상이 유통되고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211051",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211051_213898_2352.png",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-ai-07",
+      "category": "AI",
+      "tags": ["ai검색", "geo"],
+      "title": "'팔로워 2만명' 수천만 인플루언서 눌렀다…AI 검색 인용 글의 의외 공통점",
+      "summary": "멜트워터 분석에 따르면 AI 검색은 답변을 만들 때 링크드인을 유튜브 다음으로 자주 인용하며, 개인 회원 글이 기업 공식 페이지보다 3배 더 많이 인용된다. AI에 인용되는 글은 목록 형식·구체적 숫자·명확한 제목 구조 등 공통된 형식을 갖췄고, '최고의 OO' 같은 비교형 콘텐츠가 거창한 통찰보다 자주 선택됐다. 팔로워 규모보다 전문성·실용성이 중요해, 조직은 '링크가 되는 것'에서 'AI 답변의 근거가 되는 것'으로 전략을 바꿔야 한다는 진단이다.",
+      "url": "https://zdnet.co.kr/view/?no=20260528225853",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/28/ai234148edc9377097df22758002c5d7a7.jpg",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-dev-01",
+      "category": "개발",
+      "tags": ["솔트룩스", "에이전트빌더"],
+      "title": "솔트룩스, '에이전트 빌더' 시장 정조준...\"누구나 AI 에이전트 만든다\"",
+      "summary": "솔트룩스가 AI 에이전트 빌더 생태계 진출을 선언하며 온톨로지 기반 차세대 모델 '루시아 4.0'과 온톨로지 파운드리 플랫폼을 공개했다. 기업이 복잡한 업무에 맞춤형 AI 에이전트를 직접 설계할 수 있고 ERP·CRM·SCM 등 다양한 시스템과 연결된다. 7월 출시 예정인 'AI 버디' 기능으로 사용자가 1분 내에 맞춤형 에이전트를 생성할 수 있게 된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211060",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211060_213904_5959.jpeg",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-dev-02",
+      "category": "개발",
+      "tags": ["figma", "ai에이전트"],
+      "title": "피그마, 캔버스에 AI 에이전트 심다…디자인 협업 자동화 구현",
+      "summary": "피그마가 제품 디자인에 특화된 AI 에이전트를 공개했으며, 멀티플레이어 캔버스에 내장돼 디자인 시스템과 작업 맥락을 이해하면서 협업하도록 설계됐다. 자연어 기반으로 작동해 전문 디자인 경험이 많지 않은 구성원도 디자인 제작 과정에 참여할 수 있다. 피그마 메이크, 모델 컨텍스트 프로토콜(MCP) 서버 등과 연계돼 기획부터 코드 전환까지 워크플로를 자동화한다.",
+      "url": "https://zdnet.co.kr/view/?no=20260528180245",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/28/be5ecf3bcdd3ed519596418684b17219.png",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-dev-03",
+      "category": "개발",
+      "tags": ["react", "코드검증"],
+      "title": "React Doctor — AI가 생성한 React 코드를 정적 분석으로 검증하는 진단 도구",
+      "summary": "React Doctor는 AI가 작성한 React 코드의 품질을 검증하기 위한 도구로, 설치 즉시 전체 범주 진단을 실행하는 '감사 도구'다. 상태 관리·부수 효과·성능·보안·접근성 등을 0~100점으로 평가한다. oxlint 기반의 100개 이상 규칙을 내장하고 있어 AI 코딩 에이전트가 만든 코드의 신뢰성 점검에 활용할 수 있다.",
+      "url": "https://news.hada.io/topic?id=29920",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-dev-04",
+      "category": "개발",
+      "tags": ["codegraph", "ai코딩"],
+      "title": "CodeGraph - AI 코딩 에이전트를 위한 코드 지식 그래프",
+      "summary": "CodeGraph는 사전 인덱싱된 시맨틱 코드 지식 그래프로 클로드 코드·커서 등의 코드 탐색을 가속화해, 기존 방식 대비 비용 35% 절감·토큰 59% 감소·속도 49% 향상을 제공한다. 심볼 관계·호출 그래프·코드 구조를 미리 인덱싱해 즉시 질의할 수 있다. 19개 이상 프로그래밍 언어를 지원하며 100% 로컬에서 작동한다.",
+      "url": "https://news.hada.io/topic?id=29873",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-29-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["intel", "패키징"],
+      "title": "급성장하는 인텔 EMIB 패키징…실리콘 커패시터도 뜬다",
+      "summary": "인텔이 차세대 2.5D 패키징 기술 EMIB-T에 실리콘 커패시터를 내년부터 대량 채용할 예정이며, 구글의 차세대 AI 칩 'v8e'에 이미 적용된다. 실리콘 커패시터는 기존 MLCC 대비 저항이 100배 이상 낮아 고주파 영역의 전압강하 문제를 효과적으로 해결한다. 반도체 기판 업체 이비덴이 EMIB-T 전용 라인에 2조1000억원을 투자하는 등 AI 반도체 패키징 시장의 급성장을 뒷받침하는 신호다.",
+      "url": "https://zdnet.co.kr/view/?no=20260528111851",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/28/5ac88db774d1a663730af6d9aabf3b59.jpg",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["broadcom", "퓨리오사ai"],
+      "title": "韓 AI 반도체에 손 내민 브로드컴…퓨리오사AI와 계약",
+      "summary": "브로드컴이 국내 AI 반도체 팹리스 기업들에 턴키 서비스를 제안하고 있으며, 퓨리오사AI는 3세대 AI 칩 양산을 위해 브로드컴과 약 2000억원 규모 계약을 체결했다. 리벨리온과 딥엑스도 협력을 검토 중이지만 업체들은 브로드컴의 높은 이용료가 스타트업에 부담이라고 지적한다. 팹리스가 핵심 설계를 외주화하면서 산업 내에서는 정체성 상실에 대한 우려도 나온다.",
+      "url": "https://zdnet.co.kr/view/?no=20260527235545",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2024/05/07/65e5df85cb8e41f3c548ab05b31e8cbd.png",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-etc-03",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["cxl", "프라임마스"],
+      "title": "'AI 인프라 병목 해결'...프라임마스, 메모리 솔루션 하반기 본격 양산",
+      "summary": "프라임마스가 CXL 기반 메모리 확장 솔루션 'JBOM'을 하반기부터 양산하며, 마이크론에 수백 TB급 물량을 공급하기로 확정했다. AI 데이터센터에서 GPU 메모리 부족에 따른 유휴 현상이 심각한 가운데, 이 솔루션은 기존 2~4TB 수준의 D램 용량 한계를 수십~수백 TB로 확장한다. 삼성전자와 차세대 메모리 공동 개발도 진행 중이며, 연산 중심에서 메모리 중심 컴퓨팅으로의 아키텍처 전환을 전망했다.",
+      "url": "https://zdnet.co.kr/view/?no=20260528093709",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/28/de08fa231f095afd361818cbacf00ff5.png",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-etc-04",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["삼성디스플레이", "qdoled"],
+      "title": "삼성D, 세계 첫 4K 360Hz 모니터 QD-OLED 하반기 양산...컴퓨텍스서 공개",
+      "summary": "삼성디스플레이가 모니터 최초로 4K 해상도와 360Hz 주사율을 동시에 구현한 31.5인치 QD-OLED 모니터를 하반기에 양산하며, 다음 달 대만 컴퓨텍스 2026에서 처음 공개한다. 듀얼 모드로 FHD 해상도에서는 680Hz까지 주사율을 높일 수 있고, 모니터 패널 최초로 베사 디스플레이HDR 트루블랙 600 인증을 지원한다. 현재 약 10여 개 고객사와 납품을 논의 중이다.",
+      "url": "https://zdnet.co.kr/view/?no=20260528080733",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/28/64e5cb190daca4166ed7d94e5624b975.png",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-etc-05",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["cognition", "투자유치"],
+      "title": "\"1년 새 매출 10배\"...코그니션, 39조 가치로 대규모 투자 유치",
+      "summary": "AI 코딩 스타트업 코그니션이 10억달러 이상의 신규 투자를 유치하며 기업 가치 260억달러(약 39조원)를 인정받았다. 연간 반복 매출(ARR)이 1년 전 3700만달러에서 4억9200만달러로 10배 이상 늘었고, 최근 6개월간 기업용 사용량이 매달 50%씩 증가했다. 골드만삭스·메르세데스벤츠·NASA 등 주요 고객을 확보하며 독립 AI 코딩 스타트업의 생존 가능성을 보여줬다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211034",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211034_213873_4745.jpg",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-29-etc-06",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["kling", "콰이쇼우"],
+      "title": "콰이쇼우, 영상 AI '클링'으로 매출 7500억 돌파…몸값 30조 분사 추진",
+      "summary": "중국 숏폼 플랫폼 콰이쇼우의 AI 영상 생성 서비스 '클링 AI'가 연간 반복 매출 5억달러(약 7500억원)를 돌파했다. 클링의 1분기 매출은 6억5000만위안으로 전년 대비 300% 이상 증가했으며, 기업 공개를 위해 분사와 외부 투자 유치를 추진 중이다. 마케팅·영화·TV·숏드라마·게임 등 다양한 산업에서 활용되며 42개국 앱스토어에서 1위를 기록했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211038",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211038_213878_714.jpg",
+      "published": "2026-05-28"
+    }
+  ]
+}
