@@ -1,0 +1,176 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-05-30-ai-01",
+      "category": "AI",
+      "tags": ["anthropic", "claude"],
+      "title": "앤트로픽, '클로드 오퍼스 4.8'로 정상 탈환…'미소스급' 출시도 예고",
+      "summary": "앤트로픽이 플래그십 모델 '클로드 오퍼스 4.8'을 출시하며, 아티피셜 애널리시스 지능 순위에서 GPT-5.5를 1점차로 누르고 다시 정상에 올랐다. 직전 버전인 오퍼스 4.7이 나온 지 42일 만의 업그레이드로, SWE-벤치 프로 69.2%·터미널-벤치 2.1 74.6%를 기록하고 작성 코드의 결함을 놓치는 경우가 이전 대비 약 4배 감소하는 등 정직성과 코딩 능력을 동시에 끌어올렸다. API 가격은 동결했으며, 앞으로 몇 주 안에 차세대 '미소스급' 모델을 정식 출시할 계획이라고 밝혔다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211064",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211064_213913_530.png",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-ai-02",
+      "category": "AI",
+      "tags": ["microsoft", "코딩모델"],
+      "title": "MS, 2일 '빌드'서 자체 코딩 모델 공개 예정…\"가성비로 승부\"",
+      "summary": "마이크로소프트가 6월 2일 샌프란시스코 개발자 행사 '빌드'에서 코딩 특화 모델을 포함한 자체 AI 모델 제품군을 공개할 예정이다. 그동안 의존해온 오픈AI·앤트로픽 모델 대신 자체 모델로 비용 경쟁력을 확보하려는 전략이다. 음성 인식·이미지 생성·추론 등 다양한 분야의 모델이 함께 발표될 것으로 전망된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211075",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211075_213926_4022.jpg",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-ai-03",
+      "category": "AI",
+      "tags": ["오토tts", "추론최적화"],
+      "title": "구글·메타, AI가 스스로 추론 최적화하는 기술 개발...\"토큰 비용 69.5% 절감\"",
+      "summary": "구글과 메타가 대형언어모델의 추론 효율을 자동으로 최적화하는 '오토TTS' 프레임워크를 공개했다. 이 기술은 답변 정확도를 동일 수준으로 유지하면서 토큰 사용량을 최대 69.5%까지 줄인다. 단 39.9달러와 160분의 탐색 비용으로 기업이 자체 모델에 맞는 최적 추론 전략을 찾을 수 있어 운영 비용 절감 효과가 클 것으로 기대된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211087",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211087_213945_5925.png",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-ai-04",
+      "category": "AI",
+      "tags": ["오케스트로", "ai추론"],
+      "title": "오케스트로, GPU 활용률 높이는 AI 추론 운영 플랫폼 '콘체르토 AI' 공개",
+      "summary": "AI·클라우드 기업 오케스트로가 GPU 활용 효율을 높이는 AI 추론 운영 플랫폼 '콘체르토 AI'를 출시했다. 질문 분석과 답변 생성 작업을 나눠 처리하는 분산 서빙 방식으로 병목을 줄인다. 벤치마크에서 기존 방식 대비 토큰 출력 속도를 2.2배 향상시켜 AI 서비스 운영 비용 절감에 활용할 수 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211122",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211122_213976_4817.png",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-ai-05",
+      "category": "AI",
+      "tags": ["플리토", "ai통역"],
+      "title": "플리토, 실시간 AI 통역에 '기록' 더했다… '챗 트랜스레이션 노트테이킹' 출시",
+      "summary": "플리토가 실시간 AI 통역·번역 솔루션 '챗 트랜스레이션'에 노트테이킹 기능을 추가했다. 다국어 발화를 실시간으로 텍스트화·구조화해 회의·강연 같은 환경에서 대화를 자동으로 기록하고 정리해준다. 원문과 번역문 중 선택해 저장할 수 있고 AI 요약과 마크다운 복사 기능도 지원한다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211110",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211110_213960_405.jpeg",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-ai-06",
+      "category": "AI",
+      "tags": ["코난테크", "ai글라스"],
+      "title": "글라스로 기계 보면 AI가 안내…코난테크 '비전플로우' 출격",
+      "summary": "코난테크놀로지가 비전언어모델(VLM)과 임베디드 AI를 결합한 제조 현장 작업지원 에이전트 '비전플로우'를 선보였다. 글라스로 기계를 바라보면 상황을 진단하고 단계별 작업 가이드를 실시간 가상 패널로 제공하며, 네트워크 연결 없이 웨어러블 기기에서 온디바이스로 구동된다. 자체 LLM 기반 음성인식·실시간 다국어 번역도 탑재했고, 6월 10일부터 코엑스에서 열리는 '2026 스마트테크코리아'에 출품될 예정이다.",
+      "url": "https://zdnet.co.kr/view/?no=20260529172526",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/29/9131ebbbacccb485c28dd7477f6db9ef.jpg",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-dev-01",
+      "category": "개발",
+      "tags": ["codeboarding", "아키텍처다이어그램"],
+      "title": "CodeBoarding — 코드베이스용 인터랙티브 아키텍처 다이어그램",
+      "summary": "CodeBoarding은 정적 분석과 LLM 추론을 결합해 코드베이스의 아키텍처 다이어그램을 자동 생성하는 오픈소스 도구다. Markdown·Mermaid 형식 결과물을 IDE나 CI 환경에 바로 임베드할 수 있고, 변경된 부분만 다시 분석하는 증분 업데이트를 지원한다. Python·TypeScript·Java 등 8개 언어를 지원하며 CLI·VS Code 익스텐션·GitHub Action 형태로 제공된다.",
+      "url": "https://news.hada.io/topic?id=29976",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-dev-02",
+      "category": "개발",
+      "tags": ["decepticon", "레드팀"],
+      "title": "Decepticon - 레드팀을 위한 자율 해킹 에이전트",
+      "summary": "Decepticon은 정찰부터 C2까지 실제 공격 체인을 실행하는 자율형 레드팀 에이전트로, 교전 전 RoE와 MITRE ATT&CK 매핑을 포함한 작전 패키지를 생성한다. Kali Linux 샌드박스 격리 환경에서 16개 전문 에이전트가 킬체인 단계별로 협력한다. 다양한 AI 모델과 OS를 지원해 단순 시연을 넘어선 보안 테스트에 활용할 수 있다.",
+      "url": "https://news.hada.io/topic?id=29939",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-30-dev-03",
+      "category": "개발",
+      "tags": ["ghostcms", "취약점"],
+      "title": "공격자들이 ClickFix 공격을 위해 700개의 Ghost CMS 사이트를 탈취함",
+      "summary": "Ghost CMS의 심각한 SQL 인젝션 취약점(CVE-2026-26980)을 악용한 공격으로 700개 이상의 웹사이트가 감염됐다. 공격자들은 관리자 API 키를 무단으로 획득해 기사를 대량 변조하고 악성 자바스크립트 로더를 주입했다. 가짜 캡차 인증을 이용한 ClickFix 수법으로 최종적으로 사용자 PC에 원격 제어 악성 앱을 설치하는 것이 목표다.",
+      "url": "https://news.hada.io/topic?id=29916",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "2026-05-30-dev-04",
+      "category": "개발",
+      "tags": ["braillify", "점자변환"],
+      "title": "한글 점자 변환 도구 braillify, 2024 개정 한국 점자 규정 100% 준수",
+      "summary": "한글을 점자로 변환하는 웹 기반 도구 braillify가 2024년 개정 한국 점자 규정의 테스트 케이스 2,419개를 모두 통과했다. 한글점자와 수학점자 테스트 모두 성공했으며, 다음 단계로 통일영어점자(UEB) 확장을 계획 중이다. 언어 변화에 대응하는 점역 도구 개발을 이어가겠다는 목표를 밝혔다.",
+      "url": "https://news.hada.io/topic?id=29875",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-05-30-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["삼성전자", "hbm4e"],
+      "title": "삼성전자, 세계 최초 'HBM4E' 샘플 출하...\"전작 대비 성능 20% 향상\"",
+      "summary": "삼성전자가 차세대 AI 가속기 핵심 부품인 HBM4E 12단 샘플을 글로벌 고객사에 공급했다. 핀당 동작 속도가 최대 16Gbps로 전작 HBM4 대비 20% 이상 향상됐고, 단일 스택 기준 초당 3.6TB의 대역폭과 48GB 용량을 구현했다. 에너지 효율과 열 저항 특성도 각각 16%, 14% 이상 개선돼 AI 메모리 주도권 경쟁에서 기술 우위를 내세웠다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211073",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211073_213925_3032.jpg",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["바이트댄스", "cpu"],
+      "title": "바이트댄스, 추론 인프라용 CPU 독자 개발…빅테크 '자체 칩' 대열 합류",
+      "summary": "바이트댄스가 AI 서비스 운영을 위한 자체 CPU 개발을 추진하며 Arm과 RISC-V 기반 아키텍처를 동시에 검토하고 있다. AI 모델이 실제 업무를 수행하는 추론 단계의 중요성이 커지면서 CPU 역할도 급부상하고 있다. 인텔·AMD 서버용 CPU 가격이 최근 분기 기준 10~35% 인상되는 등 공급 부족이 심화된 것도 자체 칩 개발을 부추겼다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211113",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211113_213964_1510.jpg",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["anthropic", "기업가치"],
+      "title": "앤트로픽, 오픈AI 몸값 추월...IPO 앞두고 기업 가치 1조달러 근접",
+      "summary": "앤트로픽이 시리즈 H 펀딩으로 650억 달러를 유치하며 기업 가치 9,650억 달러로 평가받아 오픈AI의 8,520억 달러를 추월했다. 마이크론·삼성·SK하이닉스 등이 전략적 인프라 파트너로 참여했다. 앤트로픽은 이달 초 연간 매출 470억 달러를 달성하며 IPO를 앞두고 기업 가치 1조 달러에 근접했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211065",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211065_213918_4936.png",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["anthropic", "tpu"],
+      "title": "앤트로픽, 구글 TPU 확보 위해 54조 초대형 대출 추진...\"사상 최대 규모\"",
+      "summary": "앤트로픽이 AI 인프라 확장을 위해 약 360억 달러(54조 원) 규모의 부채 조달에 나섰다. 구글 TPU 구매에 사용될 이 자금은 AI 칩 구매를 위한 금융 거래 가운데 사상 최대 규모 중 하나로 꼽힌다. 브로드컴의 잔존가치 보증을 통해 투자등급 신용도로 평가되는 구조로 설계됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211081",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211081_213933_3026.jpg",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-30-etc-05",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["레티널", "투자유치"],
+      "title": "\"길 위에 뜬 화살표\"… 외신도 주목한 韓 스타트업",
+      "summary": "AI 스마트글라스 광학 모듈을 개발하는 스타트업 레티널이 278억 원 규모의 프리IPO 투자를 유치하며 누적 투자액 625억 원을 돌파했고, 테크크런치 등 외신도 주목했다. 이 외에도 인플루언서 마케팅 AI 솔루션 피처링이 153억 원 시리즈B를 마치는 등 5월 셋째주 국내 딥테크·AI 스타트업의 자금 조달이 활발했다. 한국산업은행·롯데벤처스·신한캐피탈 등 다수 기관이 참여했다.",
+      "url": "https://www.mt.co.kr/future/2026/05/25/2026052515262794978",
+      "source": "머니투데이",
+      "thumbnail": "",
+      "published": "2026-05-25"
+    }
+  ]
+}
