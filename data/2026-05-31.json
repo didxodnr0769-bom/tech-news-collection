@@ -1,0 +1,186 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-05-31-ai-01",
+      "category": "AI",
+      "tags": ["google", "나노바나나"],
+      "title": "구글, '나노 바나나 2·프로' 정식 출시…\"동영상 보고 이미지 만든다\"",
+      "summary": "구글이 기업용 이미지 생성 모델 '나노 바나나 2'와 '나노 바나나 프로'를 정식 출시했다. 나노 바나나 2는 텍스트·이미지뿐 아니라 동영상 파일 자체를 프롬프트로 활용할 수 있는 신기능을 추가했다. 1K·2K 해상도를 정식 지원하고 4K는 프리뷰 단계로 제공한다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211134",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211134_213994_820.jpg",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-ai-02",
+      "category": "AI",
+      "tags": ["openai", "codex"],
+      "title": "오픈AI, 윈도우용 코덱스에 '컴퓨터 유즈' 도입…모바일 원격 제어 지원",
+      "summary": "오픈AI가 코딩 에이전트 '코덱스'의 윈도우 11 지원을 확대했다. AI가 직접 컴퓨터를 조작하는 '컴퓨터 유즈' 기능이 추가됐고, 스마트폰 챗GPT 앱으로 윈도우 PC의 코덱스 작업을 원격 제어할 수 있게 됐다. 개발자가 장소에 구애받지 않고 AI 개발 작업을 관리할 수 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211135",
+      "source": "AI타임스",
+      "thumbnail": "",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-ai-03",
+      "category": "AI",
+      "tags": ["liquidai", "온디바이스"],
+      "title": "리퀴드 AI, 온디바이스용 모델 'LFM2.5' 공개…환각 줄고 추론 강화",
+      "summary": "리퀴드 AI가 일반 노트북·스마트폰에서 실행 가능한 차세대 온디바이스 모델 'LFM2.5-8B-A1B'를 공개했다. 총 83억개 매개변수를 보유하지만 추론 시에는 15억개만 활성화하는 전문가 혼합(MoE) 구조로 설계됐다. 환각 현상을 크게 줄이고 추론 능력을 강화한 것이 특징이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211132",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211132_213989_461.png",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-ai-04",
+      "category": "AI",
+      "tags": ["stepfun", "멀티모달"],
+      "title": "스텝펀, '스텝 3.7 플래시' 공개…\"클로드 97% 성능인데 비용은 1/9\"",
+      "summary": "스텝펀이 198억개 매개변수를 가진 멀티모달 AI 모델 '스텝 3.7 플래시'를 공개했다. 클로드 오퍼스 4.6의 97% 수준 성능을 제공하면서 비용은 1/9 수준이라고 밝혔다. 이미지 이해 기능과 에이전트 실행 능력을 대폭 강화했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211130",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211130_213986_324.png",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-ai-05",
+      "category": "AI",
+      "tags": ["google", "ai검색"],
+      "title": "구글, AI 검색에 '사용자 선호 소스' 기능 도입…\"맞춤형 콘텐츠 강화\"",
+      "summary": "구글이 AI 검색에서 사용자가 신뢰하는 출처를 우선 노출하는 '선호 소스' 기능을 추가했다. 사용자가 등록한 웹사이트로 이동할 확률이 일반 링크 대비 2배 이상 높았다. '인용 횟수 높음' 배지와 캐러셀 링크 기능도 함께 도입됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211139",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211139_214005_4546.png",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-ai-06",
+      "category": "AI",
+      "tags": ["meta", "ai펜던트"],
+      "title": "메타, 'AI 펜던트' 개발 착수…AI 안경 라인업도 대폭 추가",
+      "summary": "메타가 내년 새로운 AI 펜던트를 개발하고 AI 안경 제품군을 크게 확대할 계획이다. 알렉스 히멜 웨어러블 부사장의 내부 메모에 따르면 자체 AI 모델과 구독 서비스로 수익을 극대화하려는 전략이다. 올해 하반기 웨어러블 기기 1,000만대 판매를 목표로 하고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211141",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211141_214011_384.jpg",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-ai-07",
+      "category": "AI",
+      "tags": ["노타", "엣지ai"],
+      "title": "노타, 퀄컴 엣지 AI 디바이스서 피지컬 AI 모델 최적화 구현",
+      "summary": "노타가 퀄컴의 드래곤윙(Dragonwing) IQ-9075 디바이스에서 VLA 모델을 성공적으로 구동했다. 로봇 동작 생성 단계의 처리 시간을 218ms에서 31ms로 85.8% 단축하면서 작업 성공률은 86%에서 85%로 유지했다. 엣지 환경에서의 온디바이스 피지컬 AI 구현 가능성을 입증했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211080",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211080_213934_4048.png",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-05-31-dev-01",
+      "category": "개발",
+      "tags": ["shopify", "mysql"],
+      "title": "Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체",
+      "summary": "Shopify가 Redis 기반 재고 예약 시스템을 MySQL 8의 SKIP LOCKED 기능을 활용해 재설계했다. 복합 기본 키, READ COMMITTED 격리 수준, 일관된 잠금 순서 등 MySQL 최적화 기법을 조합해 오버셀 방지와 고성능 처리를 달성했다. 실제 병목이 쿼리가 아닌 커넥션 점유였다는 점을 발견한 것이 핵심이다.",
+      "url": "https://news.hada.io/topic?id=30006",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-dev-02",
+      "category": "개발",
+      "tags": ["microsoft", "제로데이"],
+      "title": "마이크로소프트, 깃허브 계정 차단 후 윈도우 제로데이 공개 비판",
+      "summary": "보안 연구원이 마이크로소프트의 취약점 처리 부실을 이유로 6개의 미패치 제로데이 취약점을 공개했고, 이에 마이크로소프트가 강력히 반발하며 해당 연구원의 깃허브 계정을 차단했다. 연구원은 추가 폭로를 예고하며 양측 갈등이 심화되고 있다.",
+      "url": "https://news.hada.io/topic?id=30020",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-31"
+    },
+    {
+      "id": "2026-05-31-dev-03",
+      "category": "개발",
+      "tags": ["sqlite", "ai코드"],
+      "title": "\"SQLite는 에이전트가 작성한 코드를 받지 않음\"",
+      "summary": "SQLite가 새로운 AGENTS.md 파일을 통해 AI 에이전트가 생성한 코드는 수락하지 않겠다는 정책을 명확히 했다. 다만 재현 가능한 테스트가 포함된 버그 리포트는 받으며, 품질 문제 해결을 위해 별도의 버그 포럼을 개설했다. AI 생성 기여물에 대한 오픈소스 프로젝트의 대응 방향을 보여주는 사례다.",
+      "url": "https://news.hada.io/topic?id=30002",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-dev-04",
+      "category": "개발",
+      "tags": ["postgres", "워크플로"],
+      "title": "Postgres에서 내구성 워크플로 구축하기",
+      "summary": "별도 오케스트레이터 없이 Postgres 데이터베이스 자체를 중앙 조율자로 사용해 내구성 워크플로를 구축하는 방법을 소개한다. 애플리케이션 서버가 직접 Postgres와 통신해 단계를 실행하고 상태를 체크포인트한다. Temporal·Airflow 같은 외부 시스템의 복잡성을 줄이면서 확장성·관측성·신뢰성을 확보할 수 있다.",
+      "url": "https://news.hada.io/topic?id=29999",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-dev-05",
+      "category": "개발",
+      "tags": ["audiomass", "오디오편집"],
+      "title": "AudioMass - 백엔드 없는 브라우저 기반 오픈소스 오디오 편집기",
+      "summary": "순수 JavaScript로 구현된 웹 기반 오디오 에디터로, 백엔드 없이 브라우저만으로 동작한다. 트리밍·컴프레서·리버브 등 DAW급 효과와 멀티트랙 모드, 오프라인 렌더링 기능을 제공한다. MIT 라이선스 오픈소스로 공개됐다.",
+      "url": "https://news.hada.io/topic?id=30005",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["amazon", "데이터센터"],
+      "title": "아마존, 새 네트워크 아키텍처 'RNG' 공개…\"장비 69% 줄이고 속도 33% 향상\"",
+      "summary": "아마존이 데이터센터용 새 네트워크 아키텍처 'RNG(Resilient Network Graphs)'를 공개했다. 기존 계층형 구조를 대체하는 평면형 네트워크로, 장비 수를 69% 줄이면서 처리량을 33% 높이고 전력 소비를 40% 감소시킨다. 2024년부터 실제 데이터센터에 적용 중이며 향후 AWS 인프라의 표준 네트워크로 자리 잡을 전망이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211136",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211136_213999_5023.jpg",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["gpu", "정부사업"],
+      "title": "[단독] 2조원 규모 정부 GPU 사업 우선협상대상자에 삼성SDS·네이버클라우드·엘리스그룹",
+      "summary": "총사업비 2조805억원이 투입되는 국가 최대 AI 인프라 프로젝트인 정부 GPU 데이터센터 구축 사업의 우선협상대상자로 삼성SDS·네이버클라우드·엘리스그룹이 선정됐다. 과기정통부와 NIPA는 서류·현장 실사 평가를 마치고 이들 3개사를 골랐으며, 사업자는 GPU 확보·구축·서비스를 모두 전담한다. 예산 범위 안에서 최종 공급 물량을 논의 중으로 조만간 최종 협약을 체결할 예정이다.",
+      "url": "https://www.etnews.com/20260528000267",
+      "source": "전자신문",
+      "thumbnail": "",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-05-31-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["퓨리오사ai", "투자유치"],
+      "title": "[이번주투자] 퓨리오사AI·두나무…1.6조 자금 몰렸다",
+      "summary": "5월 넷째주 국내 스타트업 생태계에 약 1조6,339억원의 투자금이 집중됐다. 국산 AI 반도체 기업 퓨리오사AI가 국민성장펀드로부터 8,000억원 규모 직접투자를 받았고, 두나무는 삼성증권·삼성카드·삼성SDS의 전략적 투자로 6,128억원을 유치했다. 음악 레이블 더블랙레이블은 시리즈B로 1,000억원을 유치하며 기업가치 1조원을 돌파해 유니콘에 진입했다.",
+      "url": "https://startuprecipe.co.kr/archives/5819096",
+      "source": "스타트업레시피",
+      "thumbnail": "",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-05-31-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["ipo", "openai"],
+      "title": "[미국 특징주] 오픈AI·앤스로픽 IPO, 주목할 8가지",
+      "summary": "오픈AI와 앤트로픽이 올가을 상장을 추진 중이며, 두 회사는 각각 8,520억 달러와 9,650억 달러로 평가받고 있다. 막대한 기업가치에도 두 회사 모두 아직 적자 상태로, 투자자들은 빠른 성장성에 기대를 걸고 있다. 다만 수익성 불확실성과 규제 리스크가 주요 투자 위험 요소로 지적된다.",
+      "url": "https://www.newspim.com/news/view/20260529000110",
+      "source": "뉴스핌",
+      "thumbnail": "",
+      "published": "2026-05-29"
+    }
+  ]
+}
