@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-03-ai-01",
+      "category": "AI",
+      "tags": ["minimax", "오픈웨이트"],
+      "title": "GPT-5.5·제미나이 능가한 '미니맥스 M3' 출시...\"가격은 5~10%에 불과\"",
+      "summary": "미니맥스가 차세대 플래그십 모델 '미니맥스 M3'를 공개했다. 일부 핵심 벤치마크에서 GPT-5.5와 제미나이 3.1 프로를 앞서면서도 비용은 미국 주요 폐쇄형 모델의 5~10% 수준에 불과한 오픈 웨이트 모델이다. 최대 100만 토큰 컨텍스트와 네이티브 멀티모달을 지원하며, 새로운 희소 주의 메커니즘(MSA)으로 처리 속도를 크게 끌어올렸다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211258",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211258_214156_5716.png",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-03-ai-02",
+      "category": "AI",
+      "tags": ["nanobanana", "google"],
+      "title": "구글, '나노 바나나 2·프로' 정식 출시…\"동영상 보고 이미지 만든다\"",
+      "summary": "구글이 차세대 이미지 생성 모델 '나노 바나나 2'와 '나노 바나나 프로'를 제미나이 엔터프라이즈 플랫폼을 통해 정식 출시했다. 텍스트·이미지에 더해 동영상 입력을 지원해 영상 콘텐츠를 기반으로 썸네일·인포그래픽·마케팅 소재를 생성할 수 있다. 1K·2K 해상도 출력을 기본 지원하고 4K는 프리뷰 단계이며, 어도비·WPP·쇼피파이 등 주요 파트너가 도입했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211134",
+      "source": "AI타임스",
+      "thumbnail": "",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-03-ai-03",
+      "category": "AI",
+      "tags": ["ai수학", "수학증명"],
+      "title": "AI의 수학 난제 돌파에 충격받은 수학계…왜 인간은 실패하고 AI는 성공했나",
+      "summary": "오픈AI와 구글의 AI 모델이 인간 수학자들이 풀지 못한 수십 년 묵은 난제들을 해결했다. 1946년 폴 에르되시가 제기한 기하학 추측을 반증하는 등, 단순히 답을 찾는 데 그치지 않고 검증을 통과하는 새로운 증명을 생성했다. 저명 수학자 티모시 가워스는 \"AI 수학의 분수령\"이라 평했으며, AI가 계산 도구를 넘어 연구 협력자로 전환했다는 분석이 나온다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211171",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211171_214050_496.jpeg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-03-ai-04",
+      "category": "AI",
+      "tags": ["headroom", "llm비용"],
+      "title": "\"LLM 비용 90% 줄인다\"…넷플릭스 엔지니어가 개발한 '토큰 다이어트' 도구 화제",
+      "summary": "넷플릭스 시니어 엔지니어 테자스 초프라가 AI 운영 비용을 크게 줄이는 오픈소스 프로젝트 '헤드룸(Headroom)'을 공개했다. LLM에 전송되는 토큰의 최대 90%가 메타데이터·JSON 스키마 같은 불필요한 데이터임에 착안해, 이미 70만 달러의 비용 절감과 2000억 토큰 제거를 달성했다. 프록시 형태로 동작해 AI 모델 도달 전 데이터를 자동 압축하고 필요 시 원본을 복원한다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211214",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211214_214099_482.jpg",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-03-ai-05",
+      "category": "AI",
+      "tags": ["stepfun", "멀티모달"],
+      "title": "스텝펀, '스텝 3.7 플래시' 공개...\"클로드 97% 성능인데 비용은 1/9\"",
+      "summary": "스텝펀이 1980억 매개변수의 희소 MoE 구조를 적용한 멀티모달 비전-언어 모델 '스텝 3.7 플래시'를 공개했다. 코딩 작업에서 클로드 오퍼스 4.6에 준하는 성능을 내면서도 경량·전문가 모델을 전략적으로 활용하는 '어드바이저 모드'로 비용을 9분의 1 수준으로 낮췄다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211130",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211130_213986_324.png",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-06-03-ai-06",
+      "category": "AI",
+      "tags": ["anthropic", "tpu"],
+      "title": "앤트로픽, 구글 TPU 확보 위해 54조 초대형 대출 추진...\"사상 최대 규모\"",
+      "summary": "앤트로픽이 아폴로 글로벌 매니지먼트와 블랙스톤을 통해 AI 칩 구매를 위한 사상 최대 규모의 채무 조달에 나섰다. 자금은 구글 TPU를 직접 소유가 아닌 리스 방식으로 확보하는 데 쓰이며, 브로드컴의 잔존가치 보증을 활용해 투자등급 신용을 빌리는 구조다. 총 360억 달러 규모의 다층 채권으로 구성되며, 칩 인도 일정과 데이터센터 구축에 맞춰 단계적으로 집행된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211081",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/211081_213933_3026.jpg",
+      "published": "2026-05-29"
+    },
+    {
+      "id": "2026-06-03-dev-01",
+      "category": "개발",
+      "tags": ["sre", "google"],
+      "title": "SRE에서의 AI: Google은 어떻게 신뢰성 있는 운영의 미래를 설계하는가",
+      "summary": "구글이 AI 코딩 어시스턴트의 등장에 맞춰 기존 SRE 관행을 재설계한 사례를 소개한 글이다. '투명성·실시간 리스크 평가·점진적 권한부여'라는 안전 삼각축으로 자율 AI 에이전트를 통제한다. SRE의 역할도 라인 단위 코드 리뷰에서 설계·정책·안전 경계 정의로 재편되고 있다.",
+      "url": "https://news.hada.io/topic?id=30103",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-03-dev-02",
+      "category": "개발",
+      "tags": ["ai코딩", "소프트웨어장인정신"],
+      "title": "AI 시대의 소프트웨어 장인정신",
+      "summary": "AI 에이전트가 코드 작성을 주도하는 시대에 소프트웨어 장인정신의 의미를 재정의한 글이다. 개발자의 역할이 코드 작성에서 시스템 설계와 에이전트 오케스트레이션으로 이전된다고 본다. 결국 취향과 개념적 판단 능력이 개발자를 차별화하는 핵심 요소가 된다는 것이 요지다.",
+      "url": "https://news.hada.io/topic?id=30075",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-03-dev-03",
+      "category": "개발",
+      "tags": ["clawpatrol", "ai에이전트"],
+      "title": "Claw Patrol - 에이전트를 위한 보안 방화벽",
+      "summary": "AI 에이전트에 프로덕션 접근 권한을 부여하면서도 보안을 유지하도록 돕는 오픈소스 방화벽이다. 에이전트 자격 증명을 대신 보관하고 트래픽을 와이어 레벨에서 파싱하며, 사용자가 작성한 규칙으로 모든 액션을 게이팅한다. HTTP·SQL·쿠버네티스 등 다양한 프로토콜을 지원한다.",
+      "url": "https://news.hada.io/topic?id=30032",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-31"
+    },
+    {
+      "id": "2026-06-03-dev-04",
+      "category": "개발",
+      "tags": ["제로데이", "microsoft"],
+      "title": "마이크로소프트, 깃허브 계정 차단 후 윈도우 제로데이 공개 비판",
+      "summary": "보안 연구원이 마이크로소프트의 느린 취약점 대응에 불만을 품고 패치되지 않은 6개의 윈도우 제로데이 취약점을 공개했다. 마이크로소프트는 이를 '무단 공개'라 비판하며 해당 연구원의 깃허브 계정을 차단했다. 연구원은 추가 폭로를 예고하며 양측 갈등이 고조되고 있다.",
+      "url": "https://news.hada.io/topic?id=30020",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-31"
+    },
+    {
+      "id": "2026-06-03-dev-05",
+      "category": "개발",
+      "tags": ["naver", "창작자보상"],
+      "title": "네이버, AI 브리핑 인용수를 창작자 보상 기준으로 공식화 — 네이버 메이트 발표",
+      "summary": "네이버가 창작자 펠로우십 프로그램 '네이버 메이트'를 공개하며 'AI 브리핑 인용수'를 보상 기준에 포함시켰다. 월 3,000명을 선정해 연간 약 200억원 규모의 보상금을 제공할 예정이다. 생성형 AI가 검색을 대체하는 환경에서 창작자 보상 체계를 재설계한 시도로 주목된다.",
+      "url": "https://news.hada.io/topic?id=29983",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-06-03-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["hbm5", "삼성전자"],
+      "title": "삼성전자, 대만서 업계 첫 HBM5 실물모형 공개…\"절실하게 기술 개발 중\"",
+      "summary": "삼성전자가 컴퓨텍스 2026에서 업계 최초로 8세대 고대역폭메모리 'HBM5' 실물모형을 공개했다. 지난 3월 HBM4E 샘플을 선보인 지 3개월 만으로, 코어 다이에 인접한 PHY 영역의 열을 효율적으로 방출하는 신기술 'HPB'를 함께 소개했다. 삼성 DS부문 CTO는 \"HBM은 메모리·파운드리·패키징 역량이 통합돼야 하는 종합 예술\"이라고 강조했다.",
+      "url": "https://biz.heraldcorp.com/article/10762430",
+      "source": "헤럴드경제",
+      "thumbnail": "https://wimg.heraldcorp.com/news/cms/2026/06/02/news-p.v1.20260602.96232c51803e4fb283ed413751832488_P1.png",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-03-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["intel", "제온"],
+      "title": "인텔 \"에이전틱 AI 시대, CPU 중요성 다시 커진다\"",
+      "summary": "인텔이 컴퓨텍스 2026에 맞춰 공개한 서버용 프로세서 '제온6+'는 생성 AI에서 에이전틱 AI로 변화하는 워크로드 환경에 맞춰 설계됐다. AI 처리 과정에서 CPU가 다양한 에이전트의 데이터 처리와 GPU 자원의 효율적 활용에 필수적이라는 설명이다. 높은 코어 밀도와 전력 효율성이 데이터센터의 주요 평가 기준으로 부상하고 있다.",
+      "url": "https://zdnet.co.kr/view/?no=20260602012102",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/02/7229b8b1eb6a8118146fd854d74306fa-watermark.jpg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-03-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["퓨리오사ai", "ai반도체"],
+      "title": "국민성장펀드, 퓨리오사AI에 8000억 투자...AI반도체 육성 속도",
+      "summary": "국민성장펀드가 국내 AI 반도체 팹리스 기업 퓨리오사AI에 약 8000억원을 직접투자하기로 승인했다. 첨단전략산업기금 3700억원을 포함한 다층 구조 자금으로, 2세대 NPU 양산 확대와 3세대 NPU 개발을 지원한다. 리벨리온·업스테이지에 이어 퓨리오사AI까지 지원하며 국산 AI 반도체 생태계 육성에 속도를 내고 있다.",
+      "url": "https://news.bizwatch.co.kr/article/market/2026/05/28/0042",
+      "source": "비즈워치",
+      "thumbnail": "https://cdn.bizwatch.co.kr/news/photo/2026/05/28/24440351ca948a68da13e3adb63db0ca.png",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2026-06-03-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["ai상장사", "반도체"],
+      "title": "AI 상장사 순이익 2년 새 25조→81조…94%는 '반도체'",
+      "summary": "국내 AI 관련 상장기업의 당기순이익이 2년 만에 세 배 넘게 늘었지만 이익의 대부분이 반도체·소부장 공급망에 쏠린 것으로 나타났다. KRG가 80개 기업을 분석한 결과, 의료 AI·자율주행 등은 매출은 늘었으나 적자를 기록했다. \"AI 산업에서 가장 수익성 높은 영역은 생성 AI 서비스가 아니라 AI 반도체 공급망\"이라는 분석이다.",
+      "url": "https://zdnet.co.kr/view/?no=20260529181209",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/05/29/e051abb9521041c432ebe313aa780008.png",
+      "published": "2026-05-29"
+    }
+  ]
+}
