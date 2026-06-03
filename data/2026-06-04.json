@@ -1,0 +1,140 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-04-ai-01",
+      "category": "AI",
+      "tags": ["mai", "microsoft"],
+      "title": "MS, 기업 전용 자체 모델 7종 공개...\"앤트로픽과 격차 좁혔다\"",
+      "summary": "마이크로소프트가 추론·코딩·이미지 생성 등 다양한 분야를 아우르는 7종의 신규 AI 모델 'MAI'를 공개했다. 무스타파 술레이만 MS AI CEO는 \"불과 6개월 만에 앤트로픽과의 격차를 좁혔다\"고 밝혔다. 기업이 자체 AI를 구축하도록 지원하는 '프론티어 튜링' 기술도 함께 소개했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211273",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211273_214171_2912.jpg",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "2026-06-04-ai-02",
+      "category": "AI",
+      "tags": ["codex", "openai"],
+      "title": "오픈AI, 사무직 겨냥 '코덱스' 업데이트…'클로드 코워크' 맞불",
+      "summary": "오픈AI가 코덱스를 개발자 전용 도구에서 일반 사무직 종사자용 AI 에이전트로 재정의했다. 데이터 분석·영업·제품 디자인 등 특정 직무에 최적화된 6가지 플러그인과 웹 호스팅 기능을 추가했다. 이는 앤트로픽의 '클로드 코워크'에 대응하는 움직임으로 평가된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211275",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211275_214172_576.jpeg",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "2026-06-04-ai-03",
+      "category": "AI",
+      "tags": ["qwen", "alibaba"],
+      "title": "알리바바, 하이브리드 에이전트 '큐원3.7-플러스' 공개…\"스스로 오류 수정하며 11시간 앱 개발\"",
+      "summary": "알리바바가 텍스트·이미지·동영상을 모두 이해하는 멀티모달 모델 '큐원3.7-플러스'를 공개했다. 시각 정보를 인식·추론하고 코드를 작성하며 외부 도구를 호출하는 하이브리드 에이전트로 작동한다. 11시간 이상 연속으로 영어 학습 앱을 자동으로 개발할 수 있다고 밝혔다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211279",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211279_214181_455.png",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "2026-06-04-ai-04",
+      "category": "AI",
+      "tags": ["scout", "microsoft"],
+      "title": "MS, 상시 실행형 AI 비서 '스카우트' 발표…'오픈클로' 보안 한계 넘었다",
+      "summary": "마이크로소프트가 오픈클로에서 영감받은 상시 실행형 AI 비서 '스카우트'를 공개했다. 이메일·일정·문서 관리 등을 자동으로 수행하는 자율 에이전트로 MS 365와 긴밀하게 통합된다. '정책 준수 시스템'으로 오픈클로의 보안 문제를 해결했다고 강조했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211274",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211274_214184_193.gif",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "2026-06-04-ai-05",
+      "category": "AI",
+      "tags": ["cosmos", "nvidia"],
+      "title": "엔비디아, 월드 모델 '코스모스 3' 오픈 출시…\"피지컬 AI 개발 주기 단축\"",
+      "summary": "엔비디아가 로봇·자율주행차 개발을 위한 오픈소스 월드 모델 '코스모스 3'을 발표했다. 텍스트·이미지·비디오·오디오·행동 데이터를 동시에 이해하고 생성할 수 있으며, 기존 수개월 걸리던 시뮬레이션 데이터 생성을 수일로 단축한다. 160억~640억 매개변수 두 버전으로 제공되며 학습 코드와 합성 데이터셋도 공개됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211240",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211240_214128_5559.png",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-04-dev-01",
+      "category": "개발",
+      "tags": ["codex", "sites"],
+      "title": "OpenAI, Codex에서 웹사이트를 만들어 배포하는 Sites 플러그인 공개",
+      "summary": "오픈AI가 프롬프트만으로 웹사이트·웹앱을 생성·저장·배포·점검할 수 있는 Sites 플러그인을 공개했다. 클라우드플레어 워커스 기반으로 동작하며 관계형 DB와 객체 스토리지를 지원한다. 현재 ChatGPT 비즈니스·엔터프라이즈 워크스페이스에서 프리뷰로 이용 가능하다.",
+      "url": "https://news.hada.io/topic?id=30128",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "2026-06-04-dev-02",
+      "category": "개발",
+      "tags": ["zstandard", "rust"],
+      "title": "Rust로 구현한 Zstandard 발표",
+      "summary": "Trifecta Tech Foundation이 순수 Rust로 구현한 zstd 압축 라이브러리 libzstd-rs-sys의 첫 릴리스를 발표했다. 기존 Rust zstd 크레이트가 C 코드를 소스에서 컴파일해야 하던 문제를 해결해 윈도우·웹어셈블리 환경의 빌드 편의성을 개선했다. 압축 해제 성능은 C 구현 대비 약 3% 느리지만 메모리 안전성을 확보했다.",
+      "url": "https://news.hada.io/topic?id=30089",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-04-dev-03",
+      "category": "개발",
+      "tags": ["files-sdk", "스토리지"],
+      "title": "Files SDK - 모든 blob 스토리지를 위한 단일 API",
+      "summary": "S3·R2·GCS·Azure 등 29종의 객체·blob 스토리지를 하나의 통합 SDK로 처리할 수 있는 도구다. 40개 이상의 어댑터를 단일 인터페이스로 관리하며 업로드·다운로드·복사·이동 작업을 모든 스토리지에서 동일하게 처리한다. AI 에이전트용 파일 도구도 함께 제공한다.",
+      "url": "https://news.hada.io/topic?id=30064",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-04-dev-04",
+      "category": "개발",
+      "tags": ["shopify", "mysql"],
+      "title": "Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체",
+      "summary": "Shopify가 오버셀 방지를 위해 5년간 운영한 Redis 기반 재고 예약 시스템을 MySQL로 전환했다. MySQL 8의 SKIP LOCKED, 복합 기본 키, READ COMMITTED 격리 수준을 조합해 '판매 단위당 1개 행' 구조로 재설계했고, 실제 병목은 쿼리가 아닌 커넥션 점유였다. 블랙프라이데이 피크 기준 분당 510만 달러 매출 처리 시 writer CPU 50% 미만을 유지하며 목표를 초과 달성했다.",
+      "url": "https://news.hada.io/topic?id=30006",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-06-04-dev-05",
+      "category": "개발",
+      "tags": ["boringtech", "ai코딩"],
+      "title": "지루한 기술을 선택하라, Revisited (2025)",
+      "summary": "AI 코딩 도구 시대에 검증된 기술 스택에 집중하는 'Choose Boring Technology' 원칙이 더욱 중요해졌다는 글이다. AI가 모든 기술에 그럴듯한 코드를 생성하지만, 개발자가 모르는 기술이 여러 개 결합되면 오류를 검증할 수 없다는 문제가 생긴다. AI 도구는 이미 이해한 기술에서는 역량 증폭기가 되지만 모르는 기술에서는 단순 의존 수단으로 전락한다고 지적한다.",
+      "url": "https://news.hada.io/topic?id=30036",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-31"
+    },
+    {
+      "id": "2026-06-04-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "hbm"],
+      "title": "\"엔비디아 칩 공급 여전히 부족... HBM 전세계 파트너사 총동원\" [컴퓨텍스 2026]",
+      "summary": "젠슨 황 엔비디아 CEO가 컴퓨텍스 2026에서 AI PC 시장 확대를 공식화하며 N1X 이후 N2X·N3X 등 후속 제품을 지속 출시하겠다고 밝혔다. 동시에 베라루빈 등 제품에 대해 HBM3E·HBM4·패키징 등 여러 분야에서 전 세계 공급망이 총동원됐지만 여전히 수요를 따라가지 못하고 있다고 말했다.",
+      "url": "https://www.fnnews.com/news/202606021821054537",
+      "source": "파이낸셜뉴스",
+      "thumbnail": "",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-04-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["skhynix", "hbm4e"],
+      "title": "젠슨 황, SK하이닉스 부스서 \"HBM 더 많이 만들어줘\" [컴퓨텍스 2026]",
+      "summary": "엔비디아 CEO 젠슨 황이 컴퓨텍스 2026에서 SK하이닉스 부스를 방문해 최태원 SK그룹 회장과 만났다. 황 CEO는 HBM4E 웨이퍼에 \"Please, Make More\"라고 서명하며 메모리 생산 확대에 대한 기대를 표현했다. 192GB 소캠2 전시물을 보며 긍정적으로 평가했다.",
+      "url": "https://www.etoday.co.kr/news/view/2590052",
+      "source": "이투데이",
+      "thumbnail": "https://img.etoday.co.kr/pto_db/2026/06/20260602165507_2341340_1200_675.jpg",
+      "published": "2026-06-02"
+    }
+  ]
+}
