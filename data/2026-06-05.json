@@ -1,0 +1,141 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-05-ai-01",
+      "category": "AI",
+      "tags": ["gemma", "google"],
+      "title": "구글, 노트북용 멀티모달 '젬마 4 12B' 출시...\"인코더 빼고 경량화 성공\"",
+      "summary": "구글이 120억 매개변수 규모의 새 멀티모달 모델 '젬마 4 12B'를 공개했다. 이미지·오디오 인코더를 완전히 제거한 독특한 설계로 텍스트·이미지·오디오·비디오를 단일 아키텍처에서 처리한다. 16GB VRAM만으로 일반 노트북에서 구동 가능한 점이 특징이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211306",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211306_214212_1713.png",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-05-ai-02",
+      "category": "AI",
+      "tags": ["chatgpt", "openai"],
+      "title": "챗GPT, 사용자 10억 돌파…틱톡·유튜브 제치고 '역대 최단기' 기록",
+      "summary": "오픈AI의 챗GPT가 2026년 5월 월간 활성 사용자 10억 명을 달성했다. 2022년 말 출시 이후 3년 반 만의 성과로, 틱톡·인스타그램·유튜브보다 빠른 성장 속도로 평가된다. 구글 제미나이(9억 명)와 앤트로픽 클로드(5,600만 명)가 빠르게 추격 중이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211296",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211296_214201_5429.jpg",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-05-ai-03",
+      "category": "AI",
+      "tags": ["ibm", "에이전트"],
+      "title": "한국IBM, 개발 전 과정 아우르는 에이전트 'IBM 밥' 국내 최초 공개",
+      "summary": "IBM이 기획부터 배포·운영·보안까지 소프트웨어 개발 전 과정을 자동화하는 AI 에이전트 '밥(Bob)'을 국내 최초로 공개했다. IBM 내부 적용 결과 개발 생산성이 45% 향상됐고 애플리케이션 현대화 속도는 최대 93%까지 빨라졌다. 현재 SaaS 형태로 제공되며 하반기 온프레미스 버전도 출시 예정이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211352",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211352_214274_2347.jpeg",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-05-ai-04",
+      "category": "AI",
+      "tags": ["solara", "microsoft"],
+      "title": "MS, 앱 없는 AI 에이전트용 플랫폼 '프로젝트 솔라라' 공개",
+      "summary": "마이크로소프트가 AI 에이전트 중심의 차세대 기업용 기기 플랫폼 '프로젝트 솔라라'를 발표했다. 스마트폰 앱 대신 웨어러블 배지와 데스크 허브 같은 전용 디바이스에서 클라우드 기반 AI 에이전트가 구동되는 방식이다. 퀄컴·미디어텍과 협력해 개발됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211337",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211337_214272_5657.png",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-05-dev-01",
+      "category": "개발",
+      "tags": ["angular", "frontend"],
+      "title": "Angular v22 발표",
+      "summary": "Angular v22가 발표돼 Signal Forms와 Angular Aria를 프로덕션 단계로 승격하고 Router의 Navigation API 통합 등 새 템플릿 기능을 추가했다. 새 앱의 기본 변경 감지 전략을 OnPush로 바꾸고 Webpack 지원을 중단할 예정이다. AI 에이전트 워크플로 지원도 확장됐다.",
+      "url": "https://news.hada.io/topic?id=30162",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-05-dev-02",
+      "category": "개발",
+      "tags": ["elixir", "타입"],
+      "title": "Elixir v1.20: 이제 점진적 타입 언어",
+      "summary": "엘릭서 1.20에서 점진적 타입 검사가 도입됐다. 타입 어노테이션 없이도 런타임에 실패할 버그를 정적으로 탐지하며 dynamic() 타입으로 런타임 타입 범위를 추적한다. 컴파일 성능 개선과 새로운 모듈 정의 방식도 함께 포함됐다.",
+      "url": "https://news.hada.io/topic?id=30152",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "2026-06-05-dev-03",
+      "category": "개발",
+      "tags": ["agentexecutor", "google"],
+      "title": "Agent Executor - Google의 분산 에이전트 런타임 오픈소스",
+      "summary": "구글이 신뢰성·안전성·커스터마이징·효율성을 목표로 설계한 분산 에이전트 런타임 'Agent Executor'를 오픈소스로 공개했다. 격리된 액터 기반 아키텍처와 자동 복구 기능을 제공하며 쿠버네티스 네이티브로 구동된다.",
+      "url": "https://news.hada.io/topic?id=30158",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-05-dev-04",
+      "category": "개발",
+      "tags": ["kolongdoc", "vlm"],
+      "title": "Show GN: VLM은 한국 공공기관 문서를 얼마나 잘 읽을까? KOLongDoc 벤치마크",
+      "summary": "한국 공공기관 문서 기반의 장문서 VLM 벤치마크 'KOLongDoc'이 공개됐다. 단순 OCR이나 이미지 이해에 집중하던 기존 한국어 벤치마크와 달리 수십 페이지 고해상도 문서 이해와 다중 페이지 간 정보 연결을 종합 평가한다. 200개 평가 문항을 제공하며 HuggingFace·GitHub에 오픈소스로 공개됐다.",
+      "url": "https://news.hada.io/topic?id=30171",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-05-dev-05",
+      "category": "개발",
+      "tags": ["googleio", "gemini"],
+      "title": "Google I/O 2026 주요 발표 12가지 키노트 모아보기",
+      "summary": "Google I/O 2026에서 영상을 시작점으로 모든 입력에서 무엇이든 생성할 수 있는 신규 모델 'Gemini Omni'가 공개됐다. 검색 내 24시간 작동하는 정보 에이전트와 생성형 UI, Gemini 앱의 Daily Brief·Spark 같은 새 에이전트가 소개됐다. 쇼핑·하드웨어·과학 분야로도 제품을 확대했다.",
+      "url": "https://news.hada.io/topic?id=30165",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-05-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["samsung", "hbm5"],
+      "title": "삼성, HBM5 선점 선언... AI 메모리 초격차 시동 [컴퓨텍스 2026]",
+      "summary": "삼성전자가 컴퓨텍스 2026에서 세계 최초로 8세대 고대역폭메모리 HBM5의 실물모형을 공개했다. HBM5에는 차세대 열관리 기술인 방열블록(HPB)이 처음 적용되며 2나노급 선단 공정의 베이스 다이도 준비 중이다. 고객의 열 저감·전력 소모 감소 요구에 대응해 차세대 AI 메모리 시장을 선제 공략한다는 전략이다.",
+      "url": "https://www.fnnews.com/news/202606021826210274",
+      "source": "파이낸셜뉴스",
+      "thumbnail": "https://image.fnnews.com/resource/media/image/2026/06/02/202606021826228077_l.jpg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-05-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["skhynix", "hbf"],
+      "title": "최초 공개 'HBF'부터 'HBM4E'까지… SK하이닉스 차세대 메모리 '정조준' [컴퓨텍스 2026]",
+      "summary": "SK하이닉스가 컴퓨텍스 2026에서 차세대 HBM4E의 상세 스펙을 공개하고 신개념 낸드 솔루션 'HBF(High Bandwidth Flash)'를 세계 최초로 선보였다. 최대 16.0Gbps 속도와 4.0TB/s 대역폭을 지원하는 'HBM4E 48GB(12단)' 스펙 가이드가 함께 전시됐다. CXL 2.0+ 기반 'CMM-DDR5'와 AI PC용 SSD 'PQC21'도 진열됐다.",
+      "url": "https://www.ddaily.co.kr/page/view/2026060218484642980",
+      "source": "디지털데일리",
+      "thumbnail": "",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-05-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["google", "ipo"],
+      "title": "구글, AI 자금 조달 129조로 확대… 35%는 '인재 유지' 세금으로",
+      "summary": "구글이 주식 공모 규모를 847억5000만달러(약 129조원)로 확대했다. 투자자 수요가 강해 당초 계획보다 약 50억달러를 증액했다. 조달 자금의 35%인 약 300억달러는 직원 주식 보상에 따른 세금 납부에 사용될 예정이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211307",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211307_214220_4651.jpg",
+      "published": "2026-06-04"
+    }
+  ]
+}
