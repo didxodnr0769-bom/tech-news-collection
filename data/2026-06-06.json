@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-06-ai-01",
+      "category": "AI",
+      "tags": ["anthropic", "ai안전"],
+      "title": "앤트로픽 \"AI '재귀적 자기개선' 임박…국제적 개발 중단 필요\"",
+      "summary": "앤트로픽이 AI가 인간 개입 없이 스스로 성능을 향상하는 '재귀적 자기개선' 단계에 예상보다 빠르게 접근하고 있다고 경고했다. 이에 대비해 국가 간 글로벌 합의와 검증 메커니즘 구축이 필요하다고 주장했다. 다만 이러한 주장이 경쟁사의 개발 속도를 늦추려는 규제 전략이라는 의혹도 제기된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211364",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211364_214293_1022.png",
+      "published": "2026-06-05"
+    },
+    {
+      "id": "2026-06-06-ai-02",
+      "category": "AI",
+      "tags": ["openai", "chatgpt"],
+      "title": "오픈AI, 챗GPT 메모리 강화…'드리밍' 시스템 무료 사용자도 지원",
+      "summary": "오픈AI가 챗GPT의 메모리 시스템을 대폭 강화하는 드리밍(Dreaming) V3를 공개했다. 사용자가 명시적으로 요청하지 않아도 과거 대화를 자동으로 분석해 기억을 정리하고 갱신한다. 최근 시스템 최적화로 연산량을 5분의 1 수준으로 줄여 무료 사용자도 이용할 수 있게 됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211363",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211363_214287_4033.png",
+      "published": "2026-06-05"
+    },
+    {
+      "id": "2026-06-06-ai-03",
+      "category": "AI",
+      "tags": ["nvidia", "nemotron"],
+      "title": "엔비디아, 자체 최고 성능 '네모트론 3 울트라' 출시…\"비용 30% 절감\"",
+      "summary": "엔비디아가 장시간 실행되는 AI 에이전트를 위해 설계된 대형언어모델 '네모트론 3 울트라'를 공개했다. 기존 LLM 대비 최대 5~6배 높은 추론 처리량과 최대 30% 낮은 작업 비용을 제공하는 것으로 알려졌다. 에이전트 워크로드에 특화된 구조가 특징이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211367",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211367_214301_645.png",
+      "published": "2026-06-05"
+    },
+    {
+      "id": "2026-06-06-ai-04",
+      "category": "AI",
+      "tags": ["deepseek"],
+      "title": "'가성비' 앞세운 딥시크, 미국 기업 인기 AI 도구 1위 기록",
+      "summary": "기업 지출 관리 플랫폼 램프의 최신 순위에서 딥시크가 6월 기준 가장 빠르게 성장한 소프트웨어 공급업체로 선정됐다. 미국 기업들이 오픈AI·앤트로픽 같은 고가 AI 서비스 대신 저렴한 대안을 찾으면서 딥시크가 새 선택지로 떠오르고 있다. 일부 기업은 비용 절감을 위해 미국 데이터를 중국 서버와 주고받는 위험도 감수하고 있다는 평가다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211372",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211372_214305_3059.jpg",
+      "published": "2026-06-05"
+    },
+    {
+      "id": "2026-06-06-dev-01",
+      "category": "개발",
+      "tags": ["trees", "오픈소스"],
+      "title": "Trees - 파일 트리 렌더링 라이브러리 오픈소스",
+      "summary": "VSCode 파일 탐색기와 유사한 파일·디렉터리 구조를 렌더링하는 오픈소스 라이브러리 'Trees'가 공개됐다. 수만 개 항목도 빠르게 처리하는 자동 가상화를 내장했으며 Git 상태 배지, 드래그 앤 드롭, 검색 필터링 등 개발 도구에 필요한 기능을 폭넓게 지원한다. WCAG 2.1 기준을 충족하는 접근성도 기본 제공한다.",
+      "url": "https://news.hada.io/topic?id=30191",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-05"
+    },
+    {
+      "id": "2026-06-06-dev-02",
+      "category": "개발",
+      "tags": ["aicoding", "개발문화"],
+      "title": "대성당, 바자르, 그리고 윈체스터 미스터리 하우스 — AI 시대 소프트웨어 개발의 세 번째 모델",
+      "summary": "1998년 에릭 레이먼드의 '대성당과 바자르'가 폐쇄적 개발과 개방적 협업을 대비했다면, AI 코딩 에이전트의 등장으로 새로운 단계에 진입했다고 저자는 진단한다. 코드 생산 비용이 급락하면서 개발자들이 개인 맞춤형 도구를 무한정 확장하는 '윈체스터 미스터리 하우스' 모델이 등장했다는 것이다. 이제 병목은 구현이 아닌 검토와 선별로 이동했으며 '주의력을 싸게 만드는 도구'가 필요하다고 본다.",
+      "url": "https://news.hada.io/topic?id=30166",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-06-dev-03",
+      "category": "개발",
+      "tags": ["github", "보안취약점"],
+      "title": "github.dev / VSCode Web에서 링크 클릭만으로 GitHub 토큰이 탈취될 수 있는 취약점",
+      "summary": "링크 클릭만으로 GitHub 인증 토큰을 탈취할 수 있는 심각한 취약점이 공개됐다. 악성 저장소에 올린 주피터 노트북과 VSCode Web의 키보드 이벤트 처리 결함을 연계해 악성 확장을 설치하고 사용자의 GitHub API 토큰과 비공개 저장소 자격증명에 접근한다. 신뢰할 수 없는 github.dev 링크 클릭을 피하고 사이트 데이터·쿠키를 삭제할 것이 권고된다.",
+      "url": "https://news.hada.io/topic?id=30139",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-06-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["hanmi", "computex"],
+      "title": "한미반도체, AI 공급망 한복판 선다…컴퓨텍스 첫 등판",
+      "summary": "한미반도체가 대만 컴퓨텍스에 처음 참가해 HBM4 생산용 'TC 본더 4'와 차세대 2.5D 패키징 장비를 공개했다. AI 반도체 후공정 시장에서의 입지를 강화하려는 전략이다. 연말 미국 산호세 현지 법인 설립도 추진 중이다.",
+      "url": "https://biz.heraldcorp.com/article/10763403",
+      "source": "헤럴드경제",
+      "thumbnail": "https://wimg.heraldcorp.com/news/cms/2026/06/04/news-p.v1.20260604.42214c9240b0490197f89ea9b9026f4e_P1.jpg",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-06-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["samsung", "hbm4"],
+      "title": "삼성전자, 세계 최초 업계 최고 성능의 HBM4 양산 출하",
+      "summary": "삼성전자가 세계 최초로 업계 최고 수준의 성능을 갖춘 HBM4를 양산 출하했다. 이 제품은 JEDEC 표준 8Gbps를 46% 상회하는 11.7Gbps의 안정적 동작 속도를 확보했으며 최대 13Gbps까지 구현 가능하다. 삼성은 2026년 HBM 매출이 2025년 대비 3배 이상 증가할 것으로 예상하며 생산 역량을 확대하고 있다.",
+      "url": "https://semiconductor.samsung.com/kr/news-events/news/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing/",
+      "source": "삼성반도체",
+      "thumbnail": "https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/newsroom/pc-1604x900-article-01.png",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-06-etc-03",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "젠슨황"],
+      "title": "\"깜짝 선물 준비했다\"...젠슨 황 방한 첫날 주요 행선지는",
+      "summary": "엔비디아 CEO 젠슨 황이 5일 '공급망 조율'을 목적으로 한국에 입국했다. 그는 HBM4 품질 테스트에서 삼성전자·SK하이닉스·마이크론이 모두 공급사 자격을 확보했다고 발표했다. 한국을 AI·로봇공학의 핵심 거점으로 평가하며 국내 R&D센터 설립을 공식화했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211404",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211404_214345_1430.jpeg",
+      "published": "2026-06-05"
+    },
+    {
+      "id": "2026-06-06-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["promedius", "투자"],
+      "title": "프로메디우스, 215억 시리즈 B 투자 유치…\"AI 골다공증 선별 시장 확대\"",
+      "summary": "의료 AI 전문 프로메디우스가 AI 골다공증 위험 선별 솔루션으로 215억원 규모의 시리즈 B 투자 유치를 완료했다. 누적 투자액은 350억원을 초과했으며 대웅제약과 네이버가 전략적 투자자로 참여했다. 주력 제품 '오스테오 시그널'은 흉부 X-레이로 3초 내 골다공증 위험을 선별하며 연내 미국 FDA와 유럽 CE MDR 승인을 목표로 한다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211393",
+      "source": "AI타임스",
+      "thumbnail": "",
+      "published": "2026-06-05"
+    },
+    {
+      "id": "2026-06-06-etc-05",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["벤처투자", "스타트업"],
+      "title": "100억 투자도 시드에서 나온다…더브이씨가 본 2026 투자 시장의 진짜 변화",
+      "summary": "2026년 5월 국내 스타트업 투자가 3조3,549억원을 기록하며 회복세를 보이고 있으나, 자금이 AI·로보틱스 분야와 검증된 창업팀에 집중되는 '선택과 집중' 현상이 심화되고 있다. 초기 투자금의 75%가 100억원 이상의 빅딜에 몰려 있으며, 투자자들은 기술력보다 실행 가능성 있는 팀을 더 중시하는 추세다.",
+      "url": "https://www.venturesquare.net/1088075",
+      "source": "벤처스퀘어",
+      "thumbnail": "https://www.venturesquare.net/wp-content/uploads/2026/06/1234TDFKDJLKJL-789x403.jpg",
+      "published": "2026-06-01"
+    }
+  ]
+}
