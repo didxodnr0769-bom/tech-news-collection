@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-08",
+  "generated_at": "2026-06-08T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-08-ai-01",
+      "category": "AI",
+      "tags": ["chatgpt", "openai"],
+      "title": "\"채팅은 죽었다\"...챗GPT, '에이전트 슈퍼 앱' 개편 초읽기",
+      "summary": "오픈AI가 챗GPT를 단순 대화형 챗봇에서 작업을 자동 수행하는 에이전트 기반 슈퍼 앱으로 개편할 예정이다. 사용자가 자연어로 지시하면 챗GPT가 의도를 파악해 캔바·부킹닷컴 같은 파트너 앱을 자동 구동한다. IPO를 앞두고 수익성을 극대화하려는 전략으로, 코덱스 등 코딩 기반 서비스에 집중하면서 단순 채팅 모델에서 벗어나려는 움직임으로 해석된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211437",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211437_214389_4330.jpg",
+      "published": "2026-06-07"
+    },
+    {
+      "id": "2026-06-08-ai-02",
+      "category": "AI",
+      "tags": ["손정의", "초지능"],
+      "title": "손정의 \"차세대 AI, 인간 아닌 AI가 설계…2년 내 초지능 올 것\"",
+      "summary": "손정의 소프트뱅크 회장이 오픈AI의 차세대 모델이 인간이 아닌 AI에 의해 설계되고 있다고 밝혔다. 그는 이러한 재귀적 자기개선(RSI)을 통해 초지능이 예상보다 빠르게 약 2년 내 도달할 것으로 전망했다. 현재 모델들이 자가 수정 단계에 있으며 이 과정이 반복되면서 능력이 급격히 개선될 것이라고 강조했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211431",
+      "source": "AI타임스",
+      "thumbnail": "",
+      "published": "2026-06-07"
+    },
+    {
+      "id": "2026-06-08-ai-03",
+      "category": "AI",
+      "tags": ["openai", "프롬프트인젝션"],
+      "title": "오픈AI, 프롬프트 인젝션 막는 '잠금 모드' 공개…\"외부 연결 제한\"",
+      "summary": "오픈AI가 프롬프트 인젝션 공격으로 인한 민감 정보 유출 위험을 줄이기 위해 '잠금 모드'를 공개했다. 이 기능은 웹 브라우징, 딥 리서치, 에이전트 모드 등 외부 네트워크와 연결되는 기능을 제한해 보안성을 강화한다. AI 에이전트 확산에 따른 보안 위협에 대응하는 방어책으로 주목된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211425",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211425_214374_462.jpg",
+      "published": "2026-06-07"
+    },
+    {
+      "id": "2026-06-08-ai-04",
+      "category": "AI",
+      "tags": ["kimi", "aicoding"],
+      "title": "문샷 AI, 코딩 에이전트 '키미 코드 CLI' 공개…\"터미널서 병렬 작업 지원\"",
+      "summary": "문샷 AI가 터미널 환경에서 동작하는 오픈소스 코딩 에이전트 '키미 코드 CLI'를 공개했다. 코드 작성부터 디버깅, 테스트까지 자동화하며 서브에이전트 기능으로 여러 작업을 병렬 처리할 수 있다. 비디오 입력 지원과 사용자 승인 체계를 통해 안전성을 강화했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211424",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211424_214379_358.png",
+      "published": "2026-06-07"
+    },
+    {
+      "id": "2026-06-08-ai-05",
+      "category": "AI",
+      "tags": ["deepseek", "화웨이"],
+      "title": "화웨이·선전 연구진 \"중국산 AI 칩으로 '딥시크 V4-프로' 사후학습 성공\"",
+      "summary": "화웨이와 중국 연구기관들이 1000개 이상의 어센드 910C 칩을 활용해 딥시크 V4-프로 모델의 사후학습을 완료했다고 발표했다. 이는 중국산 AI 칩이 약점으로 지적된 학습 단계에서도 성과를 낼 수 있음을 보여주는 사례로 평가된다. 다만 구체적 성능 지표가 공개되지 않아 실제 경쟁력을 평가하기엔 이르다는 지적도 나온다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211428",
+      "source": "AI타임스",
+      "thumbnail": "",
+      "published": "2026-06-07"
+    },
+    {
+      "id": "2026-06-08-dev-01",
+      "category": "개발",
+      "tags": ["rust", "오픈소스"],
+      "title": "OpenLogi - Rust로 작성된 Logitech Options+ 대체 오픈소스",
+      "summary": "OpenLogi는 클라우드나 텔레메트리 없이 Logitech 마우스의 버튼·DPI·SmartShift를 제어하는 오픈소스 대안이다. HID++ 프로토콜로 직접 통신하며 GUI와 CLI를 모두 지원하고 설정을 로컬 TOML 파일에 저장한다. 비대한 Electron 기반 공식 앱과 달리 로컬 시스템 소프트웨어처럼 가볍게 동작하는 것이 특징이다.",
+      "url": "https://news.hada.io/topic?id=30242",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-07"
+    },
+    {
+      "id": "2026-06-08-dev-02",
+      "category": "개발",
+      "tags": ["터미널", "zsh"],
+      "title": "느린 터미널에 쓰기엔 인생은 너무 짧다",
+      "summary": "하루 종일 사용하는 터미널의 속도가 작업 효율을 크게 좌우한다며 셸 성능 최적화 방법을 정리한 글이다. oh-my-zsh 같은 프레임워크를 걷어내고 꼭 필요한 플러그인만 직접 관리하기, compinit 캐싱, 지연 로딩, 비동기 프롬프트 구현 등을 제시한다. 이를 통해 셸 시작 시간을 약 30밀리초로 단축해 터미널을 머리의 확장처럼 느끼게 만들 수 있다고 설명한다.",
+      "url": "https://news.hada.io/topic?id=30236",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-08-dev-03",
+      "category": "개발",
+      "tags": ["neograph", "cpp"],
+      "title": "Show GN: NeoGraph - LangGraph를 C++로 옮긴 에이전트 엔진",
+      "summary": "NeoGraph는 파이썬 기반 LangGraph를 C++17로 재구현한 고성능 에이전트 오케스트레이션 엔진이다. 그래프를 코드가 아닌 JSON 데이터로 다뤄 배포 없이 에이전트 구조를 핫스왑할 수 있다. 멀티테넌트 지원(1000명 동시 처리 시 메모리 29MB)과 엔진 오버헤드 5.0µs로 LangGraph 대비 128배 빠른 성능을 내세운다.",
+      "url": "https://news.hada.io/topic?id=30251",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-08-dev-04",
+      "category": "개발",
+      "tags": ["리눅스", "커널"],
+      "title": "fork() + exec()를 넘어",
+      "summary": "리눅스 커널의 프로세스 생성 방식인 fork() + exec() 패턴의 비효율을 개선하려는 새 제안들을 다룬 글이다. Li Chen이 제안한 'spawn templates'는 동일 실행 파일 반복 실행 시 정보를 캐시해 약 2% 성능을 개선한다. 다만 메인테이너들은 pidfd 기반의 더 포괄적인 해법과 posix_spawn() 구현을 선호하고 있다.",
+      "url": "https://news.hada.io/topic?id=30243",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-08-dev-05",
+      "category": "개발",
+      "tags": ["cpp"],
+      "title": "C++: 다큐멘터리: 세계에서 가장 중대한 프로그래밍 언어",
+      "summary": "벨연구소에서 비야네 스트롭스트룹이 C의 하드웨어 제어력과 Simula의 객체지향 기능을 결합해 만든 C++의 40년 역사를 다룬 다큐멘터리다. CFront 컴파일러로 시작해 ANSI/ISO 표준화를 거쳐 C++11의 르네상스까지 이어진 성장 과정을 기록한다. 오늘날 게임·금융·CUDA 기반 AI/HPC·임베디드에 널리 쓰이지만 메모리 안전성과 복잡성 증가가 과제로 남아 있다.",
+      "url": "https://news.hada.io/topic?id=30220",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-08-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["intel", "gpu"],
+      "title": "[컴퓨텍스 2026] 인텔, 에이전틱 AI 인프라 전략 제시…CPU·네트워크·GPU 묶는다",
+      "summary": "인텔이 컴퓨텍스 2026에서 에이전틱 AI 시대를 겨냥한 데이터센터 인프라 전략을 공개하며 제온6+ 프로세서, 이더넷 E835 어댑터, 크레센트 아일랜드 GPU를 선보였다. AI는 개별 부품의 집합이 아니라 조율된 시스템으로 확장된다며 CPU를 핵심 제어 평면으로 자리매김했다. 강화된 네트워킹과 함께 오케스트레이션·동시성·데이터 이동을 관리하는 데 초점을 맞췄다.",
+      "url": "https://www.ddaily.co.kr/page/view/2026060100201440333",
+      "source": "디지털데일리",
+      "thumbnail": "https://www.ddaily.co.kr/photos/2025/08/22/2025082214163905709_l.jpg",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-08-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "젠슨황"],
+      "title": "\"깐부 어게인\"...젠슨 황, 유퀴즈·야구장 시구 넘나든 종횡무진 행보",
+      "summary": "엔비디아 CEO 젠슨 황이 한국 방문 중 주말 일정을 활용해 예능 출연부터 삼성·SK·현대차 등 주요 기업 경영진 회동, 야구장 시구까지 다양한 활동을 펼쳤다. 그는 한국에 가져온 '4개 선물'로 베라 루빈, 베라 CPU, RTX 스파크, 젯슨 토르를 언급하며 협력 확대 가능성을 시사했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211434",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211434_214387_3616.jpg",
+      "published": "2026-06-07"
+    },
+    {
+      "id": "2026-06-08-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["lgu+", "aidc"],
+      "title": "LGU+ \"2030년 AIDC 5조원 계약…AI 인프라 표준 제시\"",
+      "summary": "LG유플러스가 파주 AI데이터센터 건설 현장에서 차세대 AI 인프라 전략을 공개하며 2030년까지 누적 계약 5조원 달성을 목표로 제시했다. 'One LG' 협력을 통해 냉각·배터리·전력 설비 등을 통합 운영하는 'AI Factory Operator' 모델로 국산 AI 인프라의 경쟁력을 확보하겠다고 밝혔다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211423",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211423_214371_4457.jpg",
+      "published": "2026-06-07"
+    }
+  ]
+}
