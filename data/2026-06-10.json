@@ -1,0 +1,186 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-10-ai-01",
+      "category": "AI",
+      "tags": ["openai", "ipo"],
+      "title": "오픈AI, IPO 신청서 제출...\"상장 시점은 미정\"",
+      "summary": "오픈AI가 8일 미국 증권거래위원회(SEC)에 기업공개(IPO) 서류를 비공개로 제출했다. 이르면 올가을 상장이 가능하지만 구체적 시기는 아직 결정되지 않았다. 앤트로픽과 스페이스X 등 다른 대형 기술 기업들도 함께 상장을 준비 중인 것으로 알려졌다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211500",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211500_214474_954.png",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-ai-02",
+      "category": "AI",
+      "tags": ["apple", "siri"],
+      "title": "애플, 2년 만에 실체 드러낸 '시리 AI' 공개…새로운 것은 없어",
+      "summary": "애플이 WWDC에서 새로운 '시리 AI'를 공개했으나 업계의 예상을 크게 벗어나지 않는 수준이라는 평가를 받았다. 구글 제미나이 기술 기반의 파운데이션 모델을 활용해 온디바이스 처리와 프라이빗 클라우드 컴퓨팅을 결합했다. iOS 27 출시 시점에 베타 테스트 버전이 제공될 예정이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211499",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211499_214472_1511.jpg",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-ai-03",
+      "category": "AI",
+      "tags": ["google", "notebooklm"],
+      "title": "구글, 노트북LM 대규모 업데이트…\"스스로 웹 검색해 지식 구축\"",
+      "summary": "구글이 AI 도구 노트북LM(NotebookLM)을 대규모로 업데이트하며 기본 모델을 제미나이 3.5로 교체했다. 사용자가 직접 자료를 업로드하지 않아도 AI가 스스로 웹을 검색해 관련 자료를 찾아 지식 베이스 구축을 지원하는 기능이 추가됐다. 이로써 자료 수집부터 정리까지의 과정이 한층 자동화됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211511",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211511_214491_428.png",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-ai-04",
+      "category": "AI",
+      "tags": ["openai", "agi"],
+      "title": "알트먼, 오픈AI '3단계 비전' 선언...\"인간 대체 아닌 돕는 AGI로\"",
+      "summary": "오픈AI가 챗GPT 출시 3년 반 만에 새로운 성장 전략을 공개했다. 연구 중심에서 제품 기업으로, 이제는 AI 인프라 확산 단계로 진화했다고 선언하며 강력한 AI 시스템은 반드시 안전하고 인간의 의도에 부합해야 한다고 강조했다. 자동화된 AI 연구자 개발, 경제 생산성 가속, 개인용 AGI 제공을 핵심 목표로 제시했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211506",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211506_214483_2554.png",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-ai-05",
+      "category": "AI",
+      "tags": ["업스테이지", "에이전트"],
+      "title": "업스테이지, '타임리' 인수로 멀티 LLM 에이전트 플랫폼 확보",
+      "summary": "업스테이지가 AI 플랫폼 '타임리'를 인수해 멀티 LLM 에이전트 플랫폼을 확보했다. 타임리는 코딩 없이도 AI 에이전트를 구축할 수 있는 서비스로 600곳 이상의 기관에서 활용되고 있다. 업스테이지는 자체 언어모델 '솔라'를 타임리 플랫폼에 탑재해 공공기관과 일반 사용자까지 아우르는 AI 생태계를 구축할 계획이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211524",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211524_214500_2624.png",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-ai-06",
+      "category": "AI",
+      "tags": ["claude", "lgcns"],
+      "title": "LG CNS, LG 전 계열사에 '기업용 클로드' 도입",
+      "summary": "LG CNS가 앤트로픽의 기업용 생성 AI 서비스 '클로드 엔터프라이즈' 도입 계약을 체결했다. LG그룹 전 계열사가 활용할 수 있는 통합 계약 형태로, LG CNS는 이를 통해 그룹 차원의 AI 혁신을 추진한다. 아울러 외부 기업 고객을 대상으로 한 도입 사업도 확대할 계획이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211508",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211508_214485_3818.jpg",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-ai-07",
+      "category": "AI",
+      "tags": ["claude", "anthropic"],
+      "title": "Claude Fable 5/Mythos 5 공개, Anthropic의 5세대 프런티어 모델",
+      "summary": "앤트로픽이 장기 자율 작업용 5세대 프런티어 모델인 페이블(Fable) 5와 미토스(Mythos) 5를 출시했다. 페이블 5는 안전장치가 포함된 일반 사용자용, 미토스 5는 일부 안전장치를 해제한 고급 버전이며 입력 100만 토큰당 10달러·출력 50달러로 이전 세대 대비 절반 이하 가격이다. 코딩·에이전트·과학 연구 등 복잡한 작업에서 큰 성능 향상을 보였고 단백질 설계를 약 10배 가속하는 등 생명공학 분야에서도 성과를 입증했다.",
+      "url": "https://news.hada.io/topic?id=30328",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-10-dev-01",
+      "category": "개발",
+      "tags": ["firefox", "gpki"],
+      "title": "Firefox 루트 인증서 저장소에 다시 한 번 등록 시도중인 대한민국 정부 (GPKI)",
+      "summary": "대한민국 정부의 GPKI 루트 인증서가 Firefox 신뢰 저장소 등록을 재시도하고 있다. 과거 무제한급 인증서 발급 전적과 함께 모질라가 요구하는 외부 감사·CRL·OCSP 등 신뢰 인증 절차를 정부가 미흡하게 이행해 등록이 지연돼 왔다. 수년간의 시도 과정에서 담당자 교체와 정부 조직 개편이 겹쳐 진행 상황이 복잡해지고 있다.",
+      "url": "https://news.hada.io/topic?id=30329",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-10-dev-02",
+      "category": "개발",
+      "tags": ["mq", "markdown"],
+      "title": "mq - jq 스타일 Markdown 쿼리 언어",
+      "summary": "mq는 jq와 유사한 문법으로 마크다운 문서를 질의·필터링·변환하는 Rust 기반 CLI 도구다. JSON에서 jq가 하는 역할을 마크다운으로 확장해 문서를 구조화된 데이터처럼 다루고 배치 처리를 가능하게 한다. 다양한 입출력 포맷을 지원해 LLM 워크플로우에서 특히 유용하다.",
+      "url": "https://news.hada.io/topic?id=30302",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-10-dev-03",
+      "category": "개발",
+      "tags": ["linear", "localfirst"],
+      "title": "Linear는 어떻게 이렇게 빠른가? 기술적 분석",
+      "summary": "Linear는 브라우저 내 IndexedDB 데이터베이스와 로컬 우선(local-first) 동기화 방식으로 이슈 업데이트를 밀리초 단위로 처리한다. 변경 사항을 로컬에 먼저 적용한 뒤 서버로 비동기 전송하며, 번들 최적화와 서비스 워커 프리캐싱, 키보드 중심 UI, GPU 친화적 애니메이션을 결합해 빠른 체감 속도를 구현한다. 첫 로드 자바스크립트를 절반으로 줄이고 페이지 로드를 10~30% 개선했다.",
+      "url": "https://news.hada.io/topic?id=30276",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-10-dev-04",
+      "category": "개발",
+      "tags": ["loopengineering", "aicoding"],
+      "title": "Loop Engineering - Addy Osmani",
+      "summary": "'루프 엔지니어링'은 매번 AI 코딩 에이전트에 직접 지시하는 방식에서 벗어나, 무엇을 찾고 어떻게 처리하고 언제 멈출지를 자동화된 시스템으로 설계하는 접근법이다. 반복 작업 절감과 병렬 처리라는 장점이 있다. 다만 결과 검증 부담, 토큰 비용 증가, 개발자의 코드 이해도 저하 같은 현실적 비용이 뒤따른다.",
+      "url": "https://news.hada.io/topic?id=30301",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-10-dev-05",
+      "category": "개발",
+      "tags": ["aicoding", "개발문화"],
+      "title": "AI 시대, 가장 가치 있는 개발자는 장인이면서 빌더인 사람이 될 것",
+      "summary": "AI 코딩 도구가 확산되며 누구나 빌더(builder)가 될 수 있게 되면서, 손으로 코드를 다듬는 장인(artisan)의 가치가 오히려 재조명되고 있다. 글쓴이는 빠른 실행력을 갖춘 빌더 역량과 깊은 기술적 안목을 갖춘 장인 역량을 겸비한 개발자가 가장 큰 가치를 갖게 될 것이라고 본다.",
+      "url": "https://news.hada.io/topic?id=30264",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-10-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["intel", "tpu"],
+      "title": "인텔, 구글 AI 칩 'TPU' 300만개 생산 계약…주가 장중 13% 폭등",
+      "summary": "구글이 인텔과 2028년까지 300만개 이상의 TPU를 생산하는 계약을 체결했다. AI 칩 수요 급증으로 TSMC의 생산 능력이 포화되면서 인텔의 첨단 패키징 기술 EMIB가 주목받고 있다. 이 소식에 인텔 주가는 장중 약 13% 급등했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211505",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211505_214479_4819.jpg",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["amazon", "광섬유"],
+      "title": "아마존·코닝, AI 데이터센터 확장 위해 수십억달러 광섬유 계약",
+      "summary": "아마존이 광섬유 제조업체 코닝과 다년간의 전략적 파트너십을 체결했다. 계약 규모는 수십억 달러로 예상되며, 코닝은 노스캐롤라이나주에서 1000여 개의 신규 일자리를 창출할 계획이다. 광섬유는 AI 데이터센터에서 프로세서와 서버를 초고속으로 연결하는 핵심 부품으로 꼽힌다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211530",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211530_214509_2433.jpg",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["moonshot", "투자유치"],
+      "title": "문샷 AI, '키미' 상승세 앞세워 한달 만에 몸값 1.5배 노려",
+      "summary": "중국의 문샷 AI가 10~20억 달러 규모의 신규 투자를 추진 중이며 기업 가치는 최대 300억 달러에 달할 전망이다. 이는 5월의 200억 달러에서 한 달 만에 50% 상승한 수치다. '키미' 시리즈의 성공이 주요 성장 동력으로, 지난해 12월 40억 달러 대비 반년 만에 7배 이상 뛰는 셈이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211526",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211526_214506_338.jpg",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-10-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["meta", "데이터센터"],
+      "title": "메타, 1700억 들여 '인력 아카데미' 설립…데이터센터 숙련공 직접 키운다",
+      "summary": "메타가 1억 1500만 달러(약 1700억원)를 투자해 'America's Workforce Academy'를 출범했다. 데이터센터 건설에 필요한 기술 인력을 양성하는 프로그램으로, 참가자는 4주간 무료 교육 후 정규직 일자리를 보장받는다. 루이지애나·오하이오·인디애나·텍사스에서 시범 운영되며 초대형 데이터센터 '하이페리온' 프로젝트가 핵심 거점이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211521",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211521_214499_1326.png",
+      "published": "2026-06-09"
+    }
+  ]
+}
