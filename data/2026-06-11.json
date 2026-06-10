@@ -1,0 +1,176 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-11-ai-01",
+      "category": "AI",
+      "tags": ["anthropic", "fable5"],
+      "title": "앤트로픽, 미소스급 '페이블 5' 출시…\"위험시 하위 모델 자동 전환\"",
+      "summary": "앤트로픽이 최강 성능의 '클로드 페이블 5'를 정식 출시했다. 사용자의 요청이 사이버보안·생물학 등 위험 분야로 판단되면 오퍼스 4.8로 자동 전환해 답변을 생성하는 안전장치를 갖췄다. 코딩 벤치마크 SWE-벤치 프로에서 80.3%를 기록해 미소스(77.8%)를 앞섰고, 비용은 미소스 대비 절반 수준으로 낮췄다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211536",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211536_214515_303.jpg",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-11-ai-02",
+      "category": "AI",
+      "tags": ["samsung", "ax"],
+      "title": "삼성, 'AI 대전환' 선언...챗GPT·클로드 등 업무에 본격 도입",
+      "summary": "삼성이 전 관계사에 제미나이·챗GPT·클로드 등 외부 생성 AI 서비스를 6월 중 공식 도입하며 조직 DNA를 AI 중심으로 탈바꿈하는 대규모 혁신을 추진한다. 사장단 50여명과 임원 2,300여명을 대상으로 AI 집중교육을 진행한다. 각 관계사에는 AI 전담조직을 신설하는 등 체계적인 구조 개편을 계획하고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211537",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211537_214522_5736.jpg",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-11-ai-03",
+      "category": "AI",
+      "tags": ["kaist", "피지컬ai"],
+      "title": "KAIST, 인간 의도 이해하는 피지컬 AI 핵심 기술 'VOTP' 개발",
+      "summary": "KAIST 유창동 교수 연구팀이 소수의 영상 사례만으로 AI가 인간의 의도를 학습할 수 있는 'VOTP(Video-based Optimal TransPort Preference)' 기술을 개발했다. 기존에는 수천~수만 건의 인간 평가 데이터가 필요했으나, 이 기술은 막대한 데이터 구축 비용을 크게 줄일 수 있다. 관련 논문은 ICML 2026에서 전체 제출 논문 중 상위 0.7%에 선정돼 구두 발표로 진행된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211570",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211570_214558_3418.jpeg",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-11-ai-04",
+      "category": "AI",
+      "tags": ["cohere", "코딩에이전트"],
+      "title": "코히어, 단일 GPU에서 작동하는 코딩 에이전트 '노스 미니 코드' 오픈소스 공개",
+      "summary": "코히어가 단일 H100 GPU에서 실행 가능한 오픈소스 코딩 모델 '노스 미니 코드'를 공개했다. 300억 개 매개변수의 MoE 구조를 활용해 대형 모델 성능과 낮은 추론 비용을 동시에 구현했다. 아파치 2.0 라이선스로 제공돼 기업이 온프레미스 환경에서 자유롭게 운영할 수 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211572",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211572_214566_2826.png",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-11-ai-05",
+      "category": "AI",
+      "tags": ["ai빅데이터쇼", "전시회"],
+      "title": "\"일상이 된 AI, 말하고 움직인다\"…국내 최대 'AI&빅데이터쇼' 개막",
+      "summary": "국내 최대 AI 전시회 '2026 AI&빅데이터쇼'가 서울 코엑스에서 개막했다. 제15회 스마트테크코리아(STK 2026)와 함께 진행되며 500개 기업이 2000개 부스를 통해 음성 에이전트, 비전 AI, 로보틱스 등 다양한 AI 활용 사례를 선보인다. 휴머노이드 로봇을 음성으로 제어하는 피지컬 AI 기술이 특히 주목받았다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211547",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211547_214530_2116.jpeg",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-11-dev-01",
+      "category": "개발",
+      "tags": ["토스증권", "openapi"],
+      "title": "토스증권이 OpenAPI를 오픈했습니다",
+      "summary": "토스증권이 개발자용 OpenAPI를 정식 오픈했다. llms.txt 제공, 간단한 인증, 국내·해외주식 통합 엔드포인트 등 개발자 경험을 개선한 점이 특징이다. 현재 사전 신청 후 순차적으로 접근 권한을 부여하고 있다.",
+      "url": "https://news.hada.io/topic?id=30359",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-11-dev-02",
+      "category": "개발",
+      "tags": ["apple", "컨테이너"],
+      "title": "apple/container - Container Machine 기능",
+      "summary": "애플이 WWDC26에서 공개한 Container Machine은 Mac에서 Linux 환경을 경량 가상 머신 형태로 생성·실행하는 도구다. 기존 컨테이너와 달리 init 시스템을 지원하고 홈 디렉터리를 자동 공유해 macOS에서 편집한 코드를 Linux 환경에서 바로 빌드·실행할 수 있다. 애플 실리콘 Mac과 macOS 26에서만 지원되며 Apache-2.0 라이선스로 공개됐다.",
+      "url": "https://news.hada.io/topic?id=30346",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-11-dev-03",
+      "category": "개발",
+      "tags": ["slumber", "http클라이언트"],
+      "title": "Slumber - 터미널 기반 HTTP 클라이언트",
+      "summary": "Slumber는 터미널에서 동작하는 TUI 기반 HTTP/REST 클라이언트로, 요청을 YAML 파일에 Request Collection 형태로 정의해 관리한다. TUI·CLI·Python 패키지 형태로 제공되며 영구 무료다. Insomnia 등 외부 도구에서의 가져오기도 지원한다.",
+      "url": "https://news.hada.io/topic?id=30337",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-11-dev-04",
+      "category": "개발",
+      "tags": ["perry", "typescript"],
+      "title": "Perry - TypeScript 네이티브 컴파일러",
+      "summary": "Perry는 TypeScript 코드를 standalone 네이티브 바이너리로 직접 컴파일하는 Rust 기반 컴파일러다. 기존의 무거운 런타임 엔진을 제거하고 LLVM을 통해 머신 코드로 변환해 초경량 바이너리와 빠른 시작 속도를 실현한다. 다만 동적 JavaScript 특성과 Node.js 라이브러리 완전 호환성은 아직 제한적이다.",
+      "url": "https://news.hada.io/topic?id=30287",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-11-dev-05",
+      "category": "개발",
+      "tags": ["google", "에이전트런타임"],
+      "title": "Agent Executor - Google의 분산 에이전트 런타임",
+      "summary": "구글이 공개한 Agent Executor는 신뢰성·안전성·커스터마이징·효율성을 목표로 설계된 분산 에이전트 런타임이다. 격리된 액터 기반 아키텍처와 이벤트 로깅으로 에이전트 실행을 관리한다. 쿠버네티스 네이티브 환경에서 확장 가능하도록 설계됐으며 현재 얼리 프리뷰 단계다.",
+      "url": "https://news.hada.io/topic?id=30158",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": ""
+    },
+    {
+      "id": "2026-06-11-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["openai", "데이터센터"],
+      "title": "오픈AI, 엔비디아 지원으로 10GW급 역대 최대 데이터센터 구축 추진",
+      "summary": "오픈AI가 미국 오하이오주에 10기가와트(GW) 규모의 대규모 AI 데이터센터 캠퍼스 건설을 추진 중이며, 완공 시 최소 5,000억 달러(약 762조원)가 소요될 것으로 예상된다. 엔비디아가 임대료와 인프라 개발 비용에 대한 재정 보증을 제공하기로 논의 중이다. 2028년 가동을 목표로 20년 장기 임대 계약을 진행하고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211582",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211582_214578_3018.jpg",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-11-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "rtx스파크"],
+      "title": "엔비디아, PC 프로세서 시장 진출…인텔·AMD와 정면 승부",
+      "summary": "엔비디아가 윈도 PC용 첫 프로세서 'RTX 스파크'를 공개하며 인텔·AMD가 장악한 PC 프로세서 시장에 진출했다. 마이크로소프트와 협력해 Arm 아키텍처 20코어 기반 그레이스 CPU와 블랙웰 RTX GPU, 128GB 메모리를 탑재했다. ASUS·델·HP·레노버 등 주요 제조사가 올가을 이 칩을 탑재한 노트북을 출시할 예정이다.",
+      "url": "https://zdnet.co.kr/view/?no=20260601145537",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/01/2e1aa12d7cc4501d37a78976bda47db4.jpg",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-11-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["openai", "ipo"],
+      "title": "'1조달러 클럽' 노리는 오픈AI, 앤트로픽 제치고 9월 조기 상장 나서나",
+      "summary": "오픈AI가 최대 1조달러의 기업 가치를 목표로 9월 기업공개(IPO)를 진행할 것으로 예측된다. 앤트로픽이 한 주 전 IPO 신청을 발표한 데 이어 오픈AI도 뒤따르는 모양새다. 두 회사 모두 막대한 자금 조달을 위해 최대한 빨리 시장에 진출하려 경쟁하고 있다는 분석이 나온다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211574",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211574_214562_611.jpg",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-11-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["perplexity", "ipo"],
+      "title": "퍼플렉시티 \"오픈AI·앤트로픽과 무관하게 2028년 IPO 추진\"",
+      "summary": "퍼플렉시티의 CEO 아라빈드 스리니바스가 오픈AI·앤트로픽의 상황과 무관하게 2028년 상장을 계획하고 있다고 밝혔다. 앤트로픽과 오픈AI가 연이어 IPO를 추진하는 가운데 자체 일정을 고수하겠다는 입장을 명확히 했다. 그는 두 회사의 높은 기업 가치가 정당하며 혁신 속도가 둔화될 때만 문제가 될 수 있다고 평가했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211569",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211569_214559_416.jpg",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-11-etc-05",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["과기부", "유니콘"],
+      "title": "과기부, 'AI·ICT 미래 유니콘' 15개사 선정…\"해외진출·자금 지원\"",
+      "summary": "과학기술정보통신부가 유망 AI·디지털 혁신 기업을 지원하는 '글로벌 ICT 미래 유니콘 육성사업'의 올해 참여 기업 15개사를 선정했다. 선정 기업은 최대 50억원의 운전자금 보증과 미국·싱가포르 등 해외 진출 거점 지원을 받는다. 코스닥 상장 컨설팅 등의 지원도 함께 제공된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211571",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211571_214560_4628.jpeg",
+      "published": "2026-06-10"
+    }
+  ]
+}
