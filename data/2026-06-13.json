@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-13-ai-01",
+      "category": "AI",
+      "tags": ["gpt-5.5", "벤치마크"],
+      "title": "역대급 벤치마크 'ALE'서 이변…GPT-5.5, '페이블 5' 꺾고 1위",
+      "summary": "UC 버클리 연구진이 공개한 'ALE(에이전트의 마지막 시험)' 벤치마크에서 오픈AI의 GPT-5.5가 24.0% 통과율로 1위를 차지했고, 전날 출시된 앤트로픽의 클로드 페이블 5는 22.0%로 3위에 머물렀다. ALE는 실제 경제적 가치를 창출하는 장기 전문 업무 수행 능력을 측정하기 위해 1490개의 실제 업무 과제로 설계됐다. 연구진은 최고 사양 모델들조차 최종 시험 단계에서 무너졌다며 현세대 LLM 아키텍처의 복합 추론 한계를 지적했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211667",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211667_214707_710.png",
+      "published": "2026-06-13"
+    },
+    {
+      "id": "2026-06-13-ai-02",
+      "category": "AI",
+      "tags": ["openai", "가격전쟁"],
+      "title": "오픈AI, 토큰 가격 대폭 인하 검토...앤트로픽과 가격 전쟁 예고",
+      "summary": "오픈AI가 기업 고객 확보를 위해 AI 서비스의 토큰 가격을 대폭 인하하는 방안을 검토 중이며, 이는 경쟁사 앤트로픽에 선제 대응하려는 전략으로 알려졌다. 기업들의 AI 활용이 급증하면서 비용 부담이 주요 과제로 떠올랐고, 샘 알트먼 CEO도 비용이 큰 문제가 됐다고 인정했다. 양사가 올가을 증시 상장을 추진하는 시점이어서 이번 가격 경쟁은 AI 업계의 첫 본격적인 가격 전쟁이 될 전망이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211640",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211640_214667_5424.png",
+      "published": "2026-06-12"
+    },
+    {
+      "id": "2026-06-13-ai-03",
+      "category": "AI",
+      "tags": ["google", "구독료"],
+      "title": "구글, 미국서 AI 구독료 38% 전격 인하…\"B2C 가격 전쟁 신호탄\"",
+      "summary": "구글이 개인용 AI 구독 서비스 '구글 AI 플러스'의 월 이용료를 7.99달러에서 4.99달러로 38% 인하하고 클라우드 저장 공간을 200GB에서 400GB로 확대했다. 이는 단순 프로모션을 넘어 AI 인프라 산업의 상품화가 본격화되는 신호로 평가되며, 모델 성능 경쟁에서 가격 경쟁으로 시장 전선이 옮겨가고 있음을 보여준다. 오픈AI와 앤트로픽 등 경쟁사들도 가격 인하 압박에 직면할 것으로 예상된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211645",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211645_214654_540.png",
+      "published": "2026-06-12"
+    },
+    {
+      "id": "2026-06-13-ai-04",
+      "category": "AI",
+      "tags": ["diffusiongemma", "google"],
+      "title": "구글, 확산 기술 기반 LLM '디퓨전젬마' 공개…\"텍스트 생성 4배 빨라\"",
+      "summary": "구글이 이미지 생성에 쓰이는 확산(diffusion) 기술을 텍스트 생성에 적용한 오픈소스 언어모델 '디퓨전젬마'를 공개하고, GPU 환경에서 최대 4배 빠른 텍스트 생성을 구현했다고 밝혔다. 기존 자기회귀 방식과 달리 한 번에 256개 토큰을 생성한 뒤 반복 수정하는 방식으로 메모리 접근 문제를 줄이고 GPU 연산을 효율적으로 활용한다. 26B 규모의 혼합 전문가(MoE) 모델로 로컬 실시간 AI 앱 개발을 겨냥했으나, 구글은 실험적 모델임을 인정하며 고품질 환경에는 기존 젬마 4를 권장했다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211608",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211608_214602_1641.png",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2026-06-13-ai-05",
+      "category": "AI",
+      "tags": ["worldmodel", "oasis"],
+      "title": "데카르트, 차세대 월드 모델 '오아시스 3' 출시…업계 최초 API 개방",
+      "summary": "데카르트가 자율주행차와 로봇용 차세대 월드 모델 '오아시스 3'를 공개하며 텍스트 프롬프트만으로 사실적인 주행 환경을 실시간 생성할 수 있다고 밝혔다. 이 모델은 업계 최초로 API를 통해 외부 개발자에게 개방됐으며, 초당 0.02달러의 요금으로 기존 학습·검증 파이프라인에 통합할 수 있다. 장시간 시뮬레이션 시 환경 일관성과 물리 효과 부족 등의 한계가 있지만, 자율주행 개발의 난제인 희귀 상황 시뮬레이션 해결에 기여할 것으로 기대된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211669",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211669_214688_3259.jpeg",
+      "published": "2026-06-12"
+    },
+    {
+      "id": "2026-06-13-dev-01",
+      "category": "개발",
+      "tags": ["skillopt", "agent"],
+      "title": "MS, AI 에이전트 '스킬' 자동 수정 기술 공개...\"성능 23.5% 향상\"",
+      "summary": "마이크로소프트가 AI 에이전트의 업무 수행 능력을 자동으로 개선하는 오픈소스 프레임워크 '스킬옵트'를 공개했다. 별도의 모델 재학습 없이 에이전트의 정확도와 업무 처리 능력을 끌어올릴 수 있는 것이 특징이다. GPT-5.5 기반 에이전트에서는 평균 23.5%의 성능 향상을, 소형 모델에서는 2배 이상의 개선 사례도 확인됐다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211674",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211674_214706_249.png",
+      "published": "2026-06-12"
+    },
+    {
+      "id": "2026-06-13-dev-02",
+      "category": "개발",
+      "tags": ["copilot", "github"],
+      "title": "깃허브 코파일럿, 6월부터 종량제 전환…\"월 3만원이 100만원으로\" 개발자 반발",
+      "summary": "마이크로소프트 깃허브가 6월부터 코파일럿 요금을 고정 정액제에서 사용량 기반 종량제로 전환했다. 'AI 크레딧' 시스템으로 바뀌면서 월 29달러가 750달러까지 오를 수 있다는 등 개발자들의 큰 반발이 일었다. 다만 코드 자동완성 등 기본 기능은 무제한이며, 효율적으로 쓰면 합리적이라는 상반된 의견도 나온다.",
+      "url": "https://www.tech42.co.kr/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%BD%94%ED%8C%8C%EC%9D%BC%EB%9F%BF-6%EC%9B%94%EB%B6%80%ED%84%B0-%EC%A2%85%EB%9F%89%EC%A0%9C-%EC%A0%84%ED%99%98%EC%9B%94-3%EB%A7%8C%EC%9B%90%EC%9D%B4-100/",
+      "source": "테크42",
+      "thumbnail": "https://tech42.shoplic.cloud/wp-content/uploads/2026/06/118017-1024x538.png",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-13-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "n1x"],
+      "title": "\"PC의 새로운 시대\"…엔비디아, 윈도우 AI 노트북 시장 뛰어드나",
+      "summary": "엔비디아가 마이크로소프트·ARM과 함께 'PC의 새로운 시대'라는 메시지를 공개하며, 컴퓨텍스 2026에서 ARM 기반 윈도우 노트북용 프로세서 N1/N1X를 발표할 것으로 예상된다. N1X는 ARM CPU와 엔비디아 GPU, AI 연산 기능을 하나의 플랫폼에 통합하는 구조로, 애플 M시리즈처럼 '엔비디아판 윈도우 맥북'에 가까운 형태로 추정된다. 인텔·AMD 중심의 PC CPU 시장에 새 경쟁축을 만들고 로컬 AI 연산 기반 고성능 노트북 시장을 형성할 가능성이 있다.",
+      "url": "https://www.economytribune.co.kr/news/articleView.html?idxno=3902891",
+      "source": "이코노미트리뷴",
+      "thumbnail": "https://cdn.economytribune.co.kr/news/photo/202605/3902891_4064_1654.png",
+      "published": "2026-05-30"
+    },
+    {
+      "id": "2026-06-13-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["메모리", "hbs"],
+      "title": "초고속 S램까지 쌓는 '메모리 타운', 피지컬 AI 핵심 될 것",
+      "summary": "김정호 KAIST 교수가 연산장치와 메모리 간 데이터 이동 효율이 AI 성능의 핵심이라며, 향후 AI 산업 경쟁력은 메모리 기술이 좌우할 것이라고 전망했다. 기존 D램·낸드플래시에 더해 고대역폭 S램(HBS)을 적층하는 차세대 메모리 구조를 제시하고, HBM·HBF·HBS를 결합한 '메모리 타운'이 자율형·피지컬 AI 시대의 핵심 인프라가 될 것이라고 강조했다. 다만 미국의 적극적 메모리 투자에 따른 경쟁 심화와 국내 인재 유출 위험을 과제로 꼽았다.",
+      "url": "https://www.hankyung.com/article/2026060965651",
+      "source": "한국경제",
+      "thumbnail": "",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-13-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["spacex", "ipo"],
+      "title": "스페이스X, 공모 청약 750억달러 조달…'역대 최대' IPO 흥행",
+      "summary": "일론 머스크의 스페이스X가 공모가를 주당 135달러로 확정하고 5억5560만주를 발행해 총 750억달러를 조달하며 사상 최대 규모 IPO를 기록했다. 시가총액은 1조7700억달러에 달하고, 머스크의 자산 가치는 9700억달러를 넘어 세계 최초의 1조 달러 자산가가 될 가능성이 제기됐다. IPO 청약 수요가 공급 물량의 4배를 넘는 등 개인투자자들의 관심이 높은 흥행을 이끌었다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211649",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211649_214666_4210.jpg",
+      "published": "2026-06-12"
+    }
+  ]
+}
