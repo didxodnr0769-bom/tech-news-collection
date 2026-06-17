@@ -1,0 +1,96 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-18-ai-01",
+      "category": "AI",
+      "tags": ["gpt56", "openai"],
+      "title": "오픈AI, 6월 말 GPT-5.6 출시 유력",
+      "summary": "오픈AI의 차세대 언어모델 GPT-5.6이 6월 23일 공개될 가능성이 높게 점쳐진다. 개발자 포럼 유출 문서와 예측시장 데이터가 이 시점을 가리키며, 최대 150만 토큰의 문맥 창과 강화된 에이전트형 코딩 기능을 갖춘 것으로 알려졌다. API 가격은 앤트로픽 클로드 페이블 5의 약 3분의 1 수준으로 예상돼 가격 경쟁력도 주목된다.",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=675674",
+      "source": "디지털투데이",
+      "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202606/675674_624355_2031.png",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "2026-06-18-ai-02",
+      "category": "AI",
+      "tags": ["gemini", "google"],
+      "title": "[월드IT뷰] 구글 I/O서 '제미나이 3.5 플래시' 공개…4배 빠른 속도·100만 입력토큰당 1.5달러",
+      "summary": "구글이 I/O 2026에서 경쟁 모델 대비 4배 빠른 속도를 내는 고속 AI '제미나이 3.5 플래시'를 공개했다. 자사 플래그십 모델을 여러 벤치마크에서 능가하면서도 100만 입력토큰당 1.5달러의 가격을 책정했다. 함께 공개된 '제미나이 스파크'는 기기가 꺼져 있어도 구글 클라우드에서 24시간 작동하는 개인 AI 에이전트이며, '제미나이 옴니'는 텍스트·이미지·오디오·영상 입력을 지원하는 멀티모달 영상 생성 도구다.",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=841616",
+      "source": "뉴스웍스",
+      "thumbnail": "https://cdn.newsworks.co.kr/news/photo/202605/841616_797119_325.jpg",
+      "published": "2026-05-23"
+    },
+    {
+      "id": "2026-06-18-ai-03",
+      "category": "AI",
+      "tags": ["클로드", "사용자수"],
+      "title": "3대 AI 챗봇, 국내 사상 최대 사용자 기록…\"클로드 증가 폭 가장 커\"",
+      "summary": "국내 생성 AI 앱 시장에서 챗GPT·제미나이·클로드가 나란히 월간 활성 사용자(MAU) 기록을 경신했다. 2026년 4월 기준 각각 2,345만 명, 845만 명, 241만 명을 기록했다. 특히 클로드는 전월 대비 86만 명이 늘며 세 서비스 중 가장 높은 증가 폭을 보였다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210710",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210710_213455_3655.png",
+      "published": "2026-05-19"
+    },
+    {
+      "id": "2026-06-18-dev-01",
+      "category": "개발",
+      "tags": ["ndc", "넥슨"],
+      "title": "[NDC26] 최호영 넥슨 파트장, 프로그래머가 갖춰야할 3가지 역량 공유",
+      "summary": "넥슨 개발자 콘퍼런스 2026에서 최호영 넥슨코리아 파트장이 지시받은 일을 처리하는 '코더'와 실무 역량으로 팀의 신뢰를 얻는 '프로그래머'를 구분했다. 그는 프로젝트 목표를 이해하고 대안을 제시하는 건설적 피드백, 의사결정과 의도를 문서화해 재작업을 줄이는 습관, 진행 상황을 리더십과 투명하게 공유하는 소통 세 가지를 핵심 역량으로 강조했다.",
+      "url": "https://www.gamevu.co.kr/news/articleView.html?idxno=58737",
+      "source": "게임뷰",
+      "thumbnail": "https://cdn.gamevu.co.kr/news/photo/202606/58737_81535_929.png",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "2026-06-18-dev-02",
+      "category": "개발",
+      "tags": ["ai코딩", "ndc"],
+      "title": "[NDC26] 넥슨 데이터 엔지니어, \"코딩 대신 문제를 정의하라\"",
+      "summary": "넥슨 개발자 콘퍼런스 2026에서 데이터 엔지니어 이승철 씨가 AI가 엔지니어의 역할을 '코드 작성자'에서 '문제 정의자'로 바꾸고 있다고 발표했다. 그는 \"AI는 엔지니어를 대체하는 것이 아니라 능력을 증폭하는 도구\"라며 넥슨의 스트리밍 DB 검증·데이터 파이프라인 설계에 AI를 활용한 사례를 공유했다. 핵심은 AI 활용 전에 적절한 가드레일과 맥락을 먼저 설정해 엔지니어가 구현 세부보다 문제 검증에 집중하도록 하는 것이다.",
+      "url": "https://www.gamevu.co.kr/news/articleView.html?idxno=58728",
+      "source": "게임뷰",
+      "thumbnail": "https://cdn.gamevu.co.kr/news/photo/202606/58728_81496_501.jpg",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "2026-06-18-dev-03",
+      "category": "개발",
+      "tags": ["공급망공격", "openai"],
+      "title": "오픈AI 직원 기기 2대, 공급망 공격에 노출…\"고객 데이터 피해는 없어\"",
+      "summary": "오픈AI는 2026년 5월 'TanStack' 공급망 공격으로 직원 기기 2대가 침해됐다고 공개했다. 회사는 \"고객 데이터·운영 시스템·지식재산·배포 소프트웨어는 침해되지 않았다\"면서도, 공격자가 내부 소스코드 저장소에서 제한적인 자격증명을 확보했다고 밝혔다. 예방 차원에서 macOS·윈도우·iOS 제품의 코드 서명 인증서를 교체 중이며, macOS 사용자는 6월 12일까지 최신 버전으로 업데이트할 것을 권고했다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=206760",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202605/206760_207682_2759.jpg",
+      "published": "2026-05-17"
+    },
+    {
+      "id": "2026-06-18-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["엔비디아", "n1x"],
+      "title": "엔비디아, 노트북 칩 시장 진출 임박…AMD·퀄컴에 도전장",
+      "summary": "엔비디아가 이달 컴퓨텍스에서 윈도우 노트북용 N1·N1X 칩을 공개할 예정이다. N1X는 AI 성능과 배터리 수명, 게이밍에 최적화된 설계를 갖췄으며 미디어텍과의 파트너십으로 개발됐다. 다만 Arm 기반 아키텍처의 x86 에뮬레이션 문제가 게이밍 성능에 제약을 줄 수 있다는 점이 주요 우려로 꼽힌다.",
+      "url": "https://www.itworld.co.kr/article/4179029/",
+      "source": "ITWorld",
+      "thumbnail": "https://www.itworld.co.kr/wp-content/uploads/2026/06/4179029-0-95488700-1780275658-Nvidia-50-laptop-foto-Nvidia.jpg",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-18-etc-02",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["브로드컴", "ai반도체"],
+      "title": "실적 예상 웃돌았지만…브로드컴, AI 매출 전망 기대 못미쳐 시간외 6%↓",
+      "summary": "브로드컴이 2026 회계연도 2분기 매출 222억 달러, 조정 주당순이익 2.44달러로 시장 예상을 웃돌았다. 2분기 AI 매출은 108억 달러로 두 배 늘었지만, 3분기 AI 반도체 매출 가이던스를 시장 기대치(172억 달러)에 못 미치는 160억 달러로 제시했다. 구글·메타 등과 장기 공급 계약을 확보했음에도 단기 매출 인식 속도에 대한 우려로 시간외 거래에서 주가가 6% 넘게 하락했다.",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02020486645478440&mediaCodeNo=257",
+      "source": "이데일리",
+      "thumbnail": "https://image.edaily.co.kr/images/photo/files/NP/S/2026/06/PS26060400089.jpg",
+      "published": "2026-06-04"
+    }
+  ]
+}
