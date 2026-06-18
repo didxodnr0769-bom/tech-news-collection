@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-19-ai-01",
+      "category": "AI",
+      "tags": ["chatgpt", "점유율"],
+      "title": "'챗GPT' 독주 흔들…글로벌 점유율 사상 첫 50% 아래로",
+      "summary": "센서타워 보고서에 따르면 챗GPT의 글로벌 AI 어시스턴트 시장 점유율이 사상 처음으로 50%를 밑도는 46.4%로 하락했다. 구글 제미나이(27.7%)와 앤트로픽 클로드(10.3%)가 빠르게 성장하며 경쟁이 심화됐고, 사용자들이 여러 서비스를 오가는 멀티홈 현상이 두드러지고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211810",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211810_214925_452.png",
+      "published": "2026-06-17"
+    },
+    {
+      "id": "2026-06-19-ai-02",
+      "category": "AI",
+      "tags": ["gemini", "텍스트투sql"],
+      "title": "구글, 자연어-SQL 변환 기술 '제미나이-SQL2' 공개...\"정확도 80% 돌파\"",
+      "summary": "구글이 제미나이 3.1 프로 기반의 텍스트-투-SQL 기술 '제미나이-SQL2'를 공개했다. 자연어 질문을 실행 가능한 SQL 쿼리로 변환하며, BIRD 벤치마크에서 80.04%의 실행 정확도를 기록해 기존 제미나이-SQL(76.13%)을 크게 앞섰다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211690",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211690_214731_2317.jpg",
+      "published": "2026-06-13"
+    },
+    {
+      "id": "2026-06-19-ai-03",
+      "category": "AI",
+      "tags": ["삼성", "ai대전환"],
+      "title": "삼성, 'AI 대전환' 선언...챗GPT·클로드 등 업무에 본격 도입",
+      "summary": "삼성이 6월 중 전 계열사에 제미나이·챗GPT·클로드 등 외부 생성 AI 서비스를 공식 도입하고, 사장단·임원 대상 'AX 부트캠프' 교육을 실시하는 'AI 대전환'에 나선다고 밝혔다. 각 계열사에 AI 전담조직을 신설하고 전 직원 교육을 2026년 내 완료할 계획이다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211537",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211537_214522_5736.jpg",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-19-ai-04",
+      "category": "AI",
+      "tags": ["가상사회", "모델비교"],
+      "title": "AI가 운영하는 '가상 사회' 실험 했더니...\"제미나이는 혼란·그록은 4일 만에 멸망\"",
+      "summary": "에머전스 AI가 서로 다른 AI 모델로 10명 에이전트의 가상 사회를 15일간 운영하는 시뮬레이션을 진행했다. 클로드는 안정적인 민주 사회를 유지한 반면, 그록은 4일 만에 사회가 붕괴됐고 제미나이는 683건의 범죄가 발생하는 혼란을 겪으며 모델별로 극단적으로 다른 결과를 보였다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211216",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211216_214106_3327.png",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-19-dev-01",
+      "category": "개발",
+      "tags": ["코딩에이전트", "생산성"],
+      "title": "코딩 180% 증가에도 배포는 30%뿐…AI 가로막는 '인간 병목' 현상",
+      "summary": "전미경제연구소(NBER) 연구에 따르면 자율형 코딩 에이전트는 코드 작성을 180% 늘렸으나, 코드 리뷰·테스트·승인·배포 등 인간이 담당하는 단계에서 병목이 생겨 최종 배포 증가는 30%에 그쳤다. 진정한 생산성 향상을 위해서는 AI를 기존 조직에 단순히 추가하는 대신 AI 중심으로 프로세스를 재설계해야 한다는 점을 시사한다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211456",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211456_214414_2855.jpg",
+      "published": "2026-06-08"
+    },
+    {
+      "id": "2026-06-19-dev-02",
+      "category": "개발",
+      "tags": ["마이크로소프트", "제로데이"],
+      "title": "마이크로소프트, 200개 취약점 긴급 수정… 공개된 제로데이 5건·실제 공격 악용 1건 포함",
+      "summary": "마이크로소프트가 6월 정기 보안 업데이트로 200개 취약점을 수정했으며, 공개된 제로데이 5건과 실제 공격에 악용된 제로데이 1건이 포함됐다. SYSTEM 권한 탈취 가능 취약점 2건, 비트로커 우회 2건이 주목되며, 익스체인지 서버 스푸핑 취약점은 이미 공격에 사용된 것으로 확인돼 즉시 패치가 권고된다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207134",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207134_208033_2212.jpeg",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2026-06-19-dev-03",
+      "category": "개발",
+      "tags": ["bun", "rust"],
+      "title": "Bun의 Rust 재작성 PR이 머지됨",
+      "summary": "자바스크립트 런타임 Bun이 Zig에서 Rust로의 대규모 언어 전환을 완료했다. 약 100만 줄 규모의 변경으로 메모리 안전성을 개선했고 바이너리 크기는 3~8MB 줄었으며, 사용자는 'bun upgrade --canary'로 테스트할 수 있다.",
+      "url": "https://news.hada.io/topic?id=29526",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-05-14"
+    },
+    {
+      "id": "2026-06-19-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["hbm4", "엔비디아"],
+      "title": "젠슨 황 \"메모리 3사 HBM4 퀄 통과…양산 진행 중\"",
+      "summary": "엔비디아 젠슨 황 CEO가 방한 중 삼성전자·SK하이닉스·마이크론 등 메모리 3사 모두 차세대 HBM4 공급 자격을 획득하고 양산을 진행 중이라고 밝혔다. HBM4는 올 하반기 출시될 AI 가속기 '베라루빈'에 탑재될 예정으로, 공급 경쟁이 본격화되고 있다.",
+      "url": "https://www.etnews.com/20260605000310",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2026/06/05/news-p.v1.20260605.65f7a2af87464ea08b9c319a2b597fea_P1.jpg",
+      "published": "2026-06-05"
+    },
+    {
+      "id": "2026-06-19-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["hbm4", "한화세미텍"],
+      "title": "한화세미텍도 SK하이닉스에 HBM4용 TC 본더 공급",
+      "summary": "한화세미텍이 SK하이닉스로부터 HBM4용 TC 본더(열압착 접합 장비)를 수주했으며, 한미반도체가 442억원 규모로 공급하는 것과 비슷한 수준으로 파악됐다. SK하이닉스는 공급망 안정화 차원에서 복수 업체에 비슷한 시기에 발주하고 있다는 게 업계 설명이다.",
+      "url": "https://zdnet.co.kr/view/?no=20260610151635",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/10/10394b924a9853cd24547dab9144b43b.png",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2026-06-19-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["업스테이지", "유니콘"],
+      "title": "다음 품은 업스테이지, 韓 소버린 AI로 승부수…\"모두의 AI 시대 열 것\"",
+      "summary": "업스테이지가 포털 다음을 인수하며 자체 AI 모델 '솔라'를 중심으로 기업·개인용 서비스를 통합하는 '업스테이지 컴퍼니'를 출범했다. 2026년 상반기 신규 계약액이 이미 전년 전체 실적을 넘어섰으며, 누적 약 7300억원을 유치해 국내 AI 소프트웨어 기업 최초로 유니콘에 등극했다.",
+      "url": "https://www.mt.co.kr/tech/2026/06/16/2026061610510071567",
+      "source": "머니투데이",
+      "thumbnail": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/06/2026061610510071567_1.jpg",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "2026-06-19-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["벤처투자", "스타트업"],
+      "title": "이러다 창업생태계 씨 마를라…'나홀로 역성장' 초기 벤처투자",
+      "summary": "2026년 1분기 전체 벤처투자는 늘었지만 3년 이하 초기 스타트업 투자액은 6675억원으로 전년 동기 대비 9.5% 감소했다. 업계는 엑셀러레이터의 영세화를 원인으로 지적하며, 초기 투자 위축이 향후 벤처기업 파이프라인 축소로 이어져 생태계에 연쇄 영향을 미칠 수 있다고 경고한다.",
+      "url": "https://www.mt.co.kr/amp/future/2026/05/22/2026052116142693288",
+      "source": "머니투데이",
+      "thumbnail": "",
+      "published": "2026-05-22"
+    }
+  ]
+}
