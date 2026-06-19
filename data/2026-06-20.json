@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-20-ai-01",
+      "category": "AI",
+      "tags": ["업스테이지", "솔라"],
+      "title": "업스테이지 \"모델 넘어 서비스로\"...'다음' 안고 에이전트 진화",
+      "summary": "업스테이지가 자체 AI 모델 '솔라'를 중심으로 기업·개인 사용자는 물론 에이전트까지 아우르는 사업 확장을 선언했다. 최근 인수한 포털 '다음'과 범용 AI 에이전트 플랫폼 '타임리'를 통해 '모두를 위한 AI'를 제공한다는 전략이며, 7월 출시될 '솔라 프로 4'는 데스크톱 에이전트 '룸'으로 실제 업무 수행이 가능하도록 진화한다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211795",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211795_214870_3051.jpeg",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "2026-06-20-ai-02",
+      "category": "AI",
+      "tags": ["claude", "점유율"],
+      "title": "제미나이 밀어낸 '클로드'…국내 AI 시장 2위 격변, 비결은?",
+      "summary": "앤트로픽의 AI 챗봇 클로드가 국내 생성형 AI 앱 시장에서 구글 제미나이를 제치고 매출 2위로 올라섰다. 기존 이용자의 유료 구독 전환과 고가 요금제 업그레이드가 성장을 주도했으며, 한국은 미국 다음으로 클로드 매출 비중(4.7%)이 큰 주요 시장이 됐다.",
+      "url": "https://zdnet.co.kr/view/?no=20260612173511",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/01/20/a1f38ac326506839bbf46d0c4c5bad5f.png",
+      "published": "2026-06-12"
+    },
+    {
+      "id": "2026-06-20-ai-03",
+      "category": "AI",
+      "tags": ["anthropic", "한국법인"],
+      "title": "[종합] 앤트로픽, 한국 법인 본격 가동…\"수출통제 곧 해결\"",
+      "summary": "앤트로픽이 서울 오피스를 공식 개소하며 한국 시장 진출을 본격화했다. 우수한 인프라와 높은 AI 활용률을 바탕으로 기업·연구·공익 분야 전반의 파트너십을 확대할 계획이며, 다만 미국 정부의 신규 AI 모델 수출 제한으로 미토스5·페이블5 서비스가 일시 중단된 상태라고 밝혔다.",
+      "url": "https://zdnet.co.kr/view/?no=20260617195811",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/17/841650d346ea4d9bdef5d39da8c383cb-watermark.jpg",
+      "published": "2026-06-17"
+    },
+    {
+      "id": "2026-06-20-ai-04",
+      "category": "AI",
+      "tags": ["kimi", "에이전트"],
+      "title": "문샷 AI, '키미 워크' 공개…\"300개 에이전트 스웜으로 내 PC 문서·웹 조작 자동화\"",
+      "summary": "문샷 AI가 데스크톱 AI 에이전트 '키미 워크'를 macOS·윈도우용으로 출시했다. 최대 300개의 하위 에이전트를 동시에 운용하는 '에이전트 스웜' 구조로 복잡한 작업을 병렬 처리하며, 사용자의 로컬 PC에서 파일 접근과 브라우저 제어를 통해 문서·웹 조작을 자동화한다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211693",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211693_214736_4112.jpg",
+      "published": "2026-06-13"
+    },
+    {
+      "id": "2026-06-20-dev-01",
+      "category": "개발",
+      "tags": ["copilot", "github"],
+      "title": "깃허브, '코파일럿 앱' 공개…\"AI 작업 통제권 강화\"",
+      "summary": "마이크로소프트가 Microsoft Build 2026에서 깃허브 코파일럿 앱의 기술 프리뷰를 공개했다. 여러 AI 에이전트 작업을 한 화면에서 관리하고 개발자가 자동화 범위를 직접 설정해 통제권을 강화할 수 있으며, 캔버스·샌드박스·코드 리뷰 기능 등이 추가돼 에이전트형 개발을 지원한다.",
+      "url": "https://zdnet.co.kr/view/?no=20260603091416",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/03/b4530ea069f123dbec3c3b346461a87f.jpg",
+      "published": "2026-06-03"
+    },
+    {
+      "id": "2026-06-20-dev-02",
+      "category": "개발",
+      "tags": ["claudecode", "anthropic"],
+      "title": "클로드 코드, 자동 모드의 안전장치 보강 업데이트",
+      "summary": "앤트로픽이 코딩 도구 클로드 코드의 권한 규칙을 세분화하고 자동 모드의 안전장치를 강화했다. 'Tool(param:value)' 형식으로 도구의 입력값까지 제어하고, 하위 에이전트 생성 시 위험한 작업이 사용자 승인 없이 실행되지 않도록 차단하는 등 자율성과 안전성의 균형에 중점을 뒀다.",
+      "url": "https://zdnet.co.kr/view/?no=20260617210858",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/17/ai532a170873758d5d50de6355957e988d.jpg",
+      "published": "2026-06-17"
+    },
+    {
+      "id": "2026-06-20-dev-03",
+      "category": "개발",
+      "tags": ["mimo", "추론속도"],
+      "title": "MiMo-V2.5-Pro-UltraSpeed: 초당 1000토큰을 생성하는 1T 모델",
+      "summary": "샤오미의 MiMo-V2.5-Pro-UltraSpeed가 1조 파라미터 규모 대형 언어 모델에서 초당 1000토큰 생성 속도를 처음 달성했다. 특수 하드웨어 없이 표준 GPU 8개 노드만으로 구현했으며, FP4 양자화와 DFlash 추측적 디코딩의 결합이 핵심으로 실시간 코딩 에이전트 등 응용 패러다임 전환점으로 평가된다.",
+      "url": "https://news.hada.io/topic?id=30307",
+      "source": "GeekNews",
+      "thumbnail": "",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2026-06-20-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["dell", "xps"],
+      "title": "델테크놀로지스, XPS 13·XPS 16 크리에이터 에디션 공개",
+      "summary": "델테크놀로지스가 XPS 13·XPS 16 크리에이터 에디션 등 노트북 신제품을 공개했다. XPS 13은 12.75mm 두께에 1kg대 초경량 학습·업무용 노트북이며, XPS 16은 엔비디아 RTX 스파크 플랫폼 기반으로 AI 개발과 고해상도 콘텐츠 제작에 최적화됐다. 탠덤 OLED를 적용한 에일리언웨어 39 5K 게이밍 모니터도 함께 공개됐다.",
+      "url": "https://zdnet.co.kr/view/?no=20260618101051",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/18/551d297b0645de68912c4bc290fded2e-watermark.jpg",
+      "published": "2026-06-18"
+    },
+    {
+      "id": "2026-06-20-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "rtx스파크"],
+      "title": "엔비디아, 윈도 AI PC 'RTX 스파크' 3분기 출시...승부수 통할까",
+      "summary": "엔비디아가 Arm 기반 RTX 스파크 플랫폼을 올해 3분기부터 윈도 기반 AI PC로 출시할 예정이다. 다만 업계에서는 높은 제조 원가와 128GB 통합 메모리로 인한 가격 부담, 윈도 생태계 미성숙 등을 이유로 시장 확대에 회의적인 시각이 나온다. PC 제조사들도 판매 부진 시 재고 리스크를 우려하고 있다.",
+      "url": "https://zdnet.co.kr/view/?no=20260615155159",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/15/ec72f6ce1dc21648c41ae87430811760-watermark.jpg",
+      "published": "2026-06-15"
+    },
+    {
+      "id": "2026-06-20-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["벤처투자", "스타트업"],
+      "title": "6월 첫째주 투자 유치 스타트업은…우주 발사체에 335억 '뭉칫돈'",
+      "summary": "우주 발사체 스타트업 우나스텔라가 335억원 규모 시리즈B 투자를 유치하며 6월 첫째주 최대 투자 건을 기록했다. AI 핀테크 하이퍼칼이 실리콘밸리 VC 알토스벤처스의 시드투자를 받고, 무인 자원회수 업체 이노버스가 25억원을 확보하는 등 총 9개 스타트업이 투자 유치를 발표했다.",
+      "url": "https://www.mt.co.kr/future/2026/06/07/2026060713290441791",
+      "source": "머니투데이",
+      "thumbnail": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/06/2026060713290441791_10.jpg",
+      "published": "2026-06-07"
+    }
+  ]
+}
