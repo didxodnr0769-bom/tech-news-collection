@@ -1,0 +1,132 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-23-ai-01",
+      "category": "AI",
+      "tags": ["모델출시", "멀티벤더"],
+      "title": "\"6월은 역사상 최다 AI 모델 출시 달\"…단일 공급사 의존 위험",
+      "summary": "2026년 6월 약 30일 사이 앤트로픽 클로드 페이블 5, 구글 제미나이 3.5 플래시, xAI 그록 4.3 등 프런티어급 모델이 잇따라 출시되며 역대 최다 출시 기록을 세웠다. 모델 경쟁 우위가 분기가 아닌 주 단위로 측정되는 가운데, 페이블 5가 정부 조치로 차단된 사례를 들어 단일 공급사 의존의 위험성과 다중 공급사 아키텍처 전환의 필요성이 강조됐다.",
+      "url": "https://zdnet.co.kr/view/?no=20260622165220",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/22/ai164e90effc4497c2f6c695472d91fe0d.jpg",
+      "published": "2026-06-22"
+    },
+    {
+      "id": "2026-06-23-ai-02",
+      "category": "AI",
+      "tags": ["gpt", "openai"],
+      "title": "오픈AI, 이번 주 'GPT-5.6' 출시 전망…앤트로픽 규제 틈타나",
+      "summary": "오픈AI가 차세대 모델 'GPT-5.6'을 이번 주 출시할 것으로 전망된다. 일부 챗GPT 프로 구독자가 이미 테스트 중이며 에이전트 코딩 능력 강화와 150만 토큰 컨텍스트 창 확장이 거론된다. 경쟁사 앤트로픽의 페이블 5가 정부 규제로 사용이 막힌 상황을 활용한 출시 타이밍이라는 분석이 나온다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=211949",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/211949_215077_459.jpg",
+      "published": "2026-06-21"
+    },
+    {
+      "id": "2026-06-23-ai-03",
+      "category": "AI",
+      "tags": ["claude", "점유율"],
+      "title": "클로드 \"제미나이 비켜\"…한국 AI 앱 시장 챗GPT 이어 2위 올라",
+      "summary": "앤트로픽 클로드가 올해 1~6월 한국 iOS 생성형 AI 앱 매출에서 제미나이를 제치고 2위에 올랐으며 3월 23일 이후 격차를 벌리고 있다. 이용자의 58.8%가 웹사이트 중심으로 쓰는 등 생산성 업무 영역에서 존재감을 키웠고, 글로벌 시장에서도 한국이 미국 다음가는 두 번째 수익 시장으로 나타났다.",
+      "url": "https://www.asiae.co.kr/article/2026061310054363984",
+      "source": "아시아경제",
+      "thumbnail": "https://cphoto.asiae.co.kr/listimglink/1/2026061309582798368_1781312308.jpg",
+      "published": "2026-06-13"
+    },
+    {
+      "id": "2026-06-23-dev-01",
+      "category": "개발",
+      "tags": ["npm", "공급망공격"],
+      "title": "북한 해킹조직 블루노로프의 새로운 침투 경로…AI 개발자 노린 공급망 공격 발생",
+      "summary": "북한 연계 해킹조직 사파이어 슬릿(블루노로프)이 npm 계정을 탈취해 '@mastra' 범위 등 140개 이상 패키지에 악성코드를 삽입한 대규모 공급망 공격이 확인됐다. 날짜 라이브러리 데이제이에스를 모방한 타이포스쿼팅 의존성을 통해 개발자 인증 정보와 166종 가상화폐 지갑 데이터를 노렸고, 윈도·맥OS·리눅스 전 운영체제를 겨냥했다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207245",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207245_208148_2741.jpeg",
+      "published": "2026-06-23"
+    },
+    {
+      "id": "2026-06-23-dev-02",
+      "category": "개발",
+      "tags": ["미아즈마", "공급망공격"],
+      "title": "레드햇 공급망 뚫렸다…'미아즈마' 웜, 개발자 PC·클라우드 계정까지 노려",
+      "summary": "레드햇 관련 npm 패키지가 악성코드 '미아즈마'에 감염돼 개발자 PC와 클라우드 환경을 위협했다. 깃허브 토큰·클라우드 계정·SSH 키·쿠버네티스 인증정보를 탈취한 뒤 확산을 시도했으며, 직원 깃허브 계정 탈취가 출발점으로 추정된다. 패키지 설치만으로 감염되고 클로드 코드·VS코드 설정까지 변조해 악성 행위가 자동 실행되도록 설계됐다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207020",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207020_207933_2354.jpeg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-23-dev-03",
+      "category": "개발",
+      "tags": ["npm", "codex"],
+      "title": "29,000 다운로드 npm 패키지가 Codex 인증 토큰을 한 달째 빼갔다",
+      "summary": "npm 패키지 codexui-android에 숨겨진 악성코드가 오픈AI 코덱스(Codex)의 인증 토큰을 외부 서버로 유출했다. 주간 다운로드 수가 29,000건을 넘는데도 공개 시점까지 배포 가능 상태였다. 탈취된 refresh_token이 만료되지 않아 공격자가 피해자 계정에 무기한 접근할 수 있는 점이 위험으로 지목됐다.",
+      "url": "https://www.digitalfocus.news/news/articleView.html?idxno=21223",
+      "source": "디지털포커스",
+      "thumbnail": "https://cdn.digitalfocus.news/news/photo/202606/21223_22474_329.jpg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-23-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "노트북칩"],
+      "title": "엔비디아, 노트북 칩 시장 진출 임박…AMD·퀄컴에 도전장",
+      "summary": "엔비디아가 N1·N1X 칩으로 윈도 노트북 프로세서 시장 진입을 앞두고 있다. AI 성능과 배터리 수명에 최적화된 제품으로 AMD·애플·퀄컴에 도전하며, 미디어텍과 공동 개발한 20코어 CPU와 블랙웰 GPU를 탑재할 것으로 전해진다. 다만 Arm 기반 아키텍처의 x86 게임 에뮬레이션 문제가 과제로 지적된다.",
+      "url": "https://www.itworld.co.kr/article/4179029/",
+      "source": "ITWorld",
+      "thumbnail": "https://www.itworld.co.kr/wp-content/uploads/2026/06/4179029-0-95488700-1780275658-Nvidia-50-laptop-foto-Nvidia.jpg",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-23-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["hbf", "추론반도체"],
+      "title": "삼성전자·SK하이닉스, HBF 샘플 공개 앞두고 '추론 반도체 패권' 레이스 돌입",
+      "summary": "AI 산업의 무게중심이 모델 학습에서 실제 서비스 운영 단계인 '추론'으로 이동하고 있다. 삼성전자와 SK하이닉스는 차세대 메모리 HBF(High Bandwidth Flash)와 추론 전용 NPU 개발에서 글로벌 경쟁 최전선에 섰다. 2026년 6월 전후 HBF 샘플 공개가 두 기업의 중장기 방향을 가를 핵심 이벤트로 꼽힌다.",
+      "url": "https://www.erounews.kr/news/articleView.html?idxno=4065",
+      "source": "이로운뉴스",
+      "thumbnail": "https://cdn.erounews.kr/news/photo/202604/4065_12246_1752.jpg",
+      "published": "2026-06-22"
+    },
+    {
+      "id": "2026-06-23-etc-03",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["hbm4", "삼성전자"],
+      "title": "삼성 HBM4 양산 첫발, '엔비디아·AMD 동시 수주'…SK 독주에 균열",
+      "summary": "삼성전자가 세계 최초로 HBM4 양산을 시작하며 고대역폭메모리 시장의 경쟁 구도를 흔들고 있다. 엔비디아의 차세대 가속기 '베라 루빈'과 AMD 'MI400' 시리즈에 동시 공급하는 성과를 거뒀고, 수율 60% 달성과 생산능력 3배 확대로 올해 점유율 30% 이상 회복을 목표로 한다.",
+      "url": "https://www.betanews.net/article/view/beta202605180091",
+      "source": "베타뉴스",
+      "thumbnail": "https://beta.kod.es/data/beta/image/2026/05/18/beta20260518000090.800x.9.png",
+      "published": "2026-05-18"
+    },
+    {
+      "id": "2026-06-23-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["스타트업투자", "양극화"],
+      "title": "스타트업 투자 3개월 연속 '월 1조' 돌파…'호황 속 딜 가뭄' 이유",
+      "summary": "국내 비상장 스타트업 투자금이 3개월 연속 월 1조 원을 넘기며 회복세를 보였다. 그러나 AI·바이오 등 소수 대형 딜에 자금이 집중되면서 초기 투자 생태계는 여전히 침체 상태다. 소액 시드와 중간 규모 브리지 라운드가 급감하는 양극화 현상이 심화되고 있다.",
+      "url": "https://www.news1.kr/industry/sb-founded/6197426",
+      "source": "뉴스1",
+      "thumbnail": "https://i3n.news1.kr/system/photos/2026/6/15/7959613/high.jpg",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "2026-06-23-etc-05",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["사이버보안", "투자"],
+      "title": "AI가 이끄는 사이버보안 투자 열풍, 2026년 1분기 글로벌 스타트업 49억 달러 유치",
+      "summary": "2026년 1분기 글로벌 사이버보안 스타트업이 49억 달러 규모 벤처 투자를 유치했다. 전체 투자액의 80%가 AI 관련 기술 보유 스타트업에 집중되며 사상 최고치를 경신했다. Cloaked, Tenex.AI, Upwind Security 등이 대규모 펀딩을 확보하고 M&A 시장도 활발히 움직였다.",
+      "url": "https://www.youthassembly.kr/news/948099",
+      "source": "유스연합",
+      "thumbnail": "https://www.ehom.kr/news/2026/05/06/972fffdb95c22eb13999b856a79e9d4b062707.png",
+      "published": "2026-05-06"
+    }
+  ]
+}
