@@ -1,0 +1,120 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-24-ai-01",
+      "category": "AI",
+      "tags": ["gpt", "openai"],
+      "title": "오픈AI, 6월 새 AI 모델 '코드명 '5.6' 공개...앤트로픽 페이블5에 맞불",
+      "summary": "오픈AI가 현재 플래그십 GPT-5.5를 능가하는 신형 모델을 6월 출시할 예정이다. 야쿠프 파호츠키 수석과학자는 코드명 '5.6'으로 불리는 모델이 GPT-5.5보다 '의미 있는 개선'을 이뤘다고 강조했다. 앤트로픽이 클로드 페이블 5를 출시한 가운데 두 회사 간 최첨단 모델 경쟁이 심화되고 있다.",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=673977",
+      "source": "디지털투데이",
+      "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202606/673977_622729_115.jpg",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2026-06-24-ai-02",
+      "category": "AI",
+      "tags": ["llm라우터", "카페24"],
+      "title": "카페24, GPT·클로드·제미나이 한데 묶는 'LLM 라우터' 출시",
+      "summary": "카페24가 120개 이상의 AI 모델을 하나의 API로 통합 관리할 수 있는 'LLM 라우터' 서비스를 출시했다. 이 플랫폼은 사용자의 요청에 맞는 모델을 선택·분배·전환해주는 오케스트레이터 역할을 한다. ChatGPT, Claude, Gemini 등 주요 모델을 묶어 AI 운용 인프라를 제공한다.",
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03138966645484672",
+      "source": "이데일리",
+      "thumbnail": "https://image.edaily.co.kr/images/photo/files/NP/S/2026/06/PS26062300480.jpg",
+      "published": "2026-06-23"
+    },
+    {
+      "id": "2026-06-24-ai-03",
+      "category": "AI",
+      "tags": ["microsoft", "자체모델"],
+      "title": "[AI브리핑] AI 코딩 전쟁 본격화…MS, 자체 AI 모델 7종 공개",
+      "summary": "마이크로소프트가 빌드 2026 개발자 콘퍼런스에서 자체 개발한 AI 모델 7종을 발표하며 오픈AI 의존도를 낮추는 전략을 추진한다. 구글 CEO는 에이전틱 코딩 분야에서 경쟁사에 뒤처진 상황을 공개적으로 인정했다. 앤트로픽은 사이버보안 이니셔티브 확대와 함께 기업공개를 추진 중인 것으로 전해졌다.",
+      "url": "https://www.ajunews.com/view/20260604082923466",
+      "source": "아주경제",
+      "thumbnail": "https://image.ajunews.com/content/image/2026/06/04/20260604083015429179.jpg",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-24-ai-04",
+      "category": "AI",
+      "tags": ["claude", "과금전환"],
+      "title": "앤트로픽, 클로드 에이전트 과금 전환…'무제한 AI' 시대 막 내리나",
+      "summary": "앤트로픽이 6월 15일부터 클로드의 프로그램 방식 사용을 채팅 구독 한도에서 분리해 별도의 월간 크레딧 시스템으로 전환했다. 해당 크레딧은 API 요율로 과금되며 에이전트 SDK, 깃허브 액션 등 서드파티 프레임워크 도구에 적용된다. '무제한 정액제는 지속 가능하지 않았다'는 평가와 함께 개발자의 예산 관리 부담이 커질 전망이다.",
+      "url": "https://www.cio.com/article/4171503/",
+      "source": "CIO Korea",
+      "thumbnail": "https://www.cio.com/wp-content/uploads/2026/05/4171503-0-14173200-1778815449-shutterstock_editorial_2338803257.jpg",
+      "published": "2026-05-15"
+    },
+    {
+      "id": "2026-06-24-dev-01",
+      "category": "개발",
+      "tags": ["copilot", "종량제"],
+      "title": "깃허브 코파일럿, 6월부터 종량제 전환…\"월 3만원이 100만원으로\" 개발자 반발",
+      "summary": "마이크로소프트 깃허브가 6월부터 코파일럿의 고정 월정액 요금제를 사용량 기반 종량제로 전환했다. 실제 소비한 AI 크레딧만큼 요금이 부과되는 방식으로 바뀌면서 일부 사용자는 '월정액이 수백만원대로 오를 수 있다'며 반발하고 있다. 한편 최근 편집 내용을 분석해 다음 수정 지점을 제안하는 신기능도 추가됐다.",
+      "url": "https://www.tech42.co.kr/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%BD%94%ED%8C%8C%EC%9D%BC%EB%9F%BF-6%EC%9B%94%EB%B6%80%ED%84%B0-%EC%A2%85%EB%9F%89%EC%A0%9C-%EC%A0%84%ED%99%98%EC%9B%94-3%EB%A7%8C%EC%9B%90%EC%9D%B4-100/",
+      "source": "테크42",
+      "thumbnail": "https://tech42.shoplic.cloud/wp-content/uploads/2026/06/118017-1024x538.png",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-24-dev-02",
+      "category": "개발",
+      "tags": ["typescript", "stateofai"],
+      "title": "[FE News] State of AI 2026…타입스크립트, 처음으로 자바스크립트 추월",
+      "summary": "Devographics의 State of AI 2026 설문(7,258명 응답)에서 타입스크립트(5,360명)가 처음으로 자바스크립트(4,831명)를 제치고 가장 많이 쓰는 언어로 올라섰다. 응답자가 작성하는 전체 코드 중 AI 생성 비중은 2025년 28%에서 2026년 평균 54%로 거의 두 배 늘었다. '부실한 코드 스타일'과 '할루시네이션'이 AI 생성 코드를 리팩토링하는 주된 이유로 지적됐다.",
+      "url": "https://fenews.substack.com/p/fe-news-2026-06",
+      "source": "FE News",
+      "thumbnail": "",
+      "published": "2026-06-04"
+    },
+    {
+      "id": "2026-06-24-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["hbm5", "삼성전자"],
+      "title": "삼성전자, HBM5서 기술 초격차 시동…발열 낮춘 'HPB' 적용 추진",
+      "summary": "삼성전자가 8세대 고대역폭메모리 'HBM5'에 최선단 2나노 파운드리 공정과 차세대 방열 기술 '히든패스블록(HPB)'을 도입한다. HPB는 칩 내부에 물리적 열 전달 경로를 추가해 열 저항을 낮추는 기술로, AI 메모리 고성능화에 따른 발열 문제를 해결한다. 평택 P5 팹2 착공을 7월로 앞당기며 차세대 메모리 주도권 확보에 속도를 낸다.",
+      "url": "https://zdnet.co.kr/view/?no=20260602135622",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/02/bc46ef8d6a554b70c6b6dc22ad0b1a34.jpg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-24-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "aipc"],
+      "title": "젠슨 황 \"40년이나 된 PC, 에이전틱 AI 맞춰 완전히 재발명\" [GTC 타이베이]",
+      "summary": "엔비디아 CEO 젠슨 황이 GTC 타이베이 2026에서 올가을 AI PC 시장 진출을 공식화하며 '40년 역사의 PC를 완전히 재발명'한다고 발표했다. 마이크로소프트·미디어텍 등과 협력해 에이전트 AI가 완벽히 구동되는 새 컴퓨터 생태계를 만들겠다고 밝혔다. 삼성전자·SK하이닉스 등 한국 기업과의 협력 확대와 로보틱스 투자 검토 계획도 언급했다.",
+      "url": "https://biz.heraldcorp.com/article/10762135",
+      "source": "헤럴드경제",
+      "thumbnail": "https://wimg.heraldcorp.com/news/cms/2026/06/02/news-p.v1.20260602.c9651f0de09845b88e7ede76fb5dca1e_P1.jpg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-24-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["groq", "투자유치"],
+      "title": "엔비디아가 찍은 AI 칩 스타트업…그로크, 1조원 투자 유치",
+      "summary": "AI 칩 기업 그로크(Groq)가 6억5000만달러(약 1조원) 규모의 신규 투자 유치를 발표했다. 엔비디아가 지난해 12월 기술 라이선스 계약을 체결한 지 약 6개월 만의 조달이다. 핵심 하드웨어 지식재산을 엔비디아와 공유하게 된 만큼 클라우드 사업 경쟁력이 향후 성패를 좌우할 핵심 변수로 꼽힌다.",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=677396",
+      "source": "디지털투데이",
+      "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202606/677396_625984_2627.jpg",
+      "published": "2026-06-23"
+    },
+    {
+      "id": "2026-06-24-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["ai투자", "시드라운드"],
+      "title": "\"시드부터 1조원 태운다\"…'라운드' 공식 무너진 글로벌 AI 투자",
+      "summary": "글로벌 벤처캐피탈이 창업 초기 AI 스타트업에 10억달러 이상을 투자하면서 기존의 단계적 투자 구조가 붕괴하고 있다. 스타 개발자가 설립한 초기 기업들이 수익모델 없이도 유니콘 지위를 얻고 있다. 차세대 AI 기업을 놓칠 수 있다는 우려와 거품 논란이 동시에 제기된다.",
+      "url": "https://www.mt.co.kr/amp/future/2026/05/12/2026051114122199916",
+      "source": "머니투데이",
+      "thumbnail": "",
+      "published": "2026-05-12"
+    }
+  ]
+}
