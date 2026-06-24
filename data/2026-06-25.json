@@ -1,0 +1,108 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-25-ai-01",
+      "category": "AI",
+      "tags": ["ai모델", "출시경쟁"],
+      "title": "\"6월은 역사상 최다 AI 모델 출시 달\"…단일 공급사 의존 위험",
+      "summary": "2026년 6월 앤트로픽·구글·xAI·오픈AI 등 주요 기업이 약 30일 사이 프런티어급 AI 모델을 대거 쏟아내며 역대 최다 출시 기록을 세웠다. 경쟁 심화와 가격 인하가 맞물리면서 기업들은 특정 공급사에 종속되지 않는 다중 공급사 아키텍처 채택이 필수 전략으로 떠올랐다.",
+      "url": "https://zdnet.co.kr/view/?no=20260622165220",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/22/ai164e90effc4497c2f6c695472d91fe0d.jpg",
+      "published": "2026-06-22"
+    },
+    {
+      "id": "2026-06-25-ai-02",
+      "category": "AI",
+      "tags": ["gpt", "openai"],
+      "title": "오픈AI GPT-5.6 출시 임박…수석과학자 \"의미 있는 도약\"",
+      "summary": "오픈AI의 차세대 모델 GPT-5.6 출시가 임박했으며 수석과학자 야쿠프 파초키는 이를 GPT-5.5 대비 '의미 있는 도약'으로 평가했다. 예측 시장은 6월 22~28일 출시 확률을 83%로 점쳤고, 최대 150만 토큰 문맥창과 강화된 에이전트형 코딩 기능을 갖춘 것으로 전해졌다. 앤트로픽 클로드 페이블 5, 구글 제미나이 3.5 프로와 같은 달 출시 경쟁이 고조되고 있다.",
+      "url": "https://zdnet.co.kr/view/?no=20260617160817",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/17/aib48627369ceaf229ebd6fa225a27b867.jpg",
+      "published": "2026-06-17"
+    },
+    {
+      "id": "2026-06-25-ai-03",
+      "category": "AI",
+      "tags": ["gemini", "google"],
+      "title": "에이전트 강화한 '제미나이 3.5 플래시' 출시…\"지능·속도 잡았지만 가격 껑충\"",
+      "summary": "구글이 I/O 2026에서 프런티어급 성능의 '제미나이 3.5 플래시'를 공개했다. 에이전트 작업과 코딩에 최적화돼 기존 모델 대비 4배 빠른 출력 속도를 제공하지만, 입력 100만 토큰당 1.5달러·출력 9달러로 이전 버전보다 3배 이상 비싸진 가격이 부담으로 지적된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=210725",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202605/210725_213477_357.png",
+      "published": "2026-05-20"
+    },
+    {
+      "id": "2026-06-25-ai-04",
+      "category": "AI",
+      "tags": ["cursor", "바이브코딩"],
+      "title": "[ZD SW 투데이] 서울AI허브, 시민참여형 AI 해커톤 개최 外",
+      "summary": "서울AI허브가 글로벌 AI 코딩 도구 '커서'의 국내 공식 빌더 커뮤니티 팀휴먼과 함께 27일 '커서 해커톤 서울 v3'를 개최한다. 개발자뿐 아니라 기획자·디자이너·학생·예비 창업가 누구나 참여할 수 있으며, 자연어 명령만으로 앱을 구현하는 '바이브 코딩' 방식과 서울시 공공데이터를 활용해 도시문제 해결 서비스를 만든다.",
+      "url": "https://zdnet.co.kr/view/?no=20260619170952",
+      "source": "ZDNet Korea",
+      "thumbnail": "",
+      "published": "2026-06-19"
+    },
+    {
+      "id": "2026-06-25-dev-01",
+      "category": "개발",
+      "tags": ["npm", "공급망공격"],
+      "title": "북한 해킹조직 블루노로프의 새로운 침투 경로…AI 개발자 노린 공급망 공격 발생",
+      "summary": "북한 국가 지원 해킹 조직 사파이어 슬릿(블루노로프)이 npm 저장소의 140개 이상 패키지에 악성코드를 삽입하는 대규모 공급망 공격을 감행했다. 공격자는 타이포스쿼팅 패키지를 통해 개발자 인증 정보와 가상화폐 지갑을 노렸으며, 윈도·맥OS·리눅스 모두에서 작동하는 정보탈취 악성코드를 배포했다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207245",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207245_208148_2741.jpeg",
+      "published": "2026-06-21"
+    },
+    {
+      "id": "2026-06-25-dev-02",
+      "category": "개발",
+      "tags": ["공급망보안", "sbom"],
+      "title": "\"AI 무기로 무장한 공급망 공격 막는다\"…정부, 'SW 방어망' 구축",
+      "summary": "정부가 소프트웨어 공급망 위협에 대응해 개발·공급 단계부터 보안을 내재화하는 'SW 공급망 보안 로드맵'을 발표했다. AI 기반 공격이 늘어나는 상황에서 SBOM(소프트웨어 자재명세서) 모델 도입, 버그바운티 프로그램, AI 방어체계 구축 등을 통해 연쇄 피해를 차단할 계획이다.",
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04191846645485000",
+      "source": "이데일리",
+      "thumbnail": "https://image.edaily.co.kr/images/photo/files/NP/S/2026/06/PS26062400932.jpg",
+      "published": "2026-06-24"
+    },
+    {
+      "id": "2026-06-25-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["intel", "크레센트아일랜드"],
+      "title": "인텔, 추론용 GPU '크레센트 아일랜드' 내년 출시 재확인",
+      "summary": "인텔이 AI 추론에 특화된 데이터센터용 GPU '크레센트 아일랜드'를 내년 중 출시할 예정임을 재확인했다. 이 제품은 고가의 HBM 대신 LPDDR5X 메모리를 사용해 비용과 전력 소모를 낮췄으며, 160GB~480GB 대용량 메모리를 탑재해 대형 AI 모델과 에이전트 워크로드 처리를 겨냥한다.",
+      "url": "https://zdnet.co.kr/view/?no=20260531235938",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/01/3d4c0e509a8659c47198278d4b56b092.jpg",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-25-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["intel", "제온6plus"],
+      "title": "인텔 \"에이전틱 AI 시대, CPU 중요성 다시 커진다\"",
+      "summary": "인텔이 서버·데이터센터용 프로세서 '제온6+'를 출시하며 에이전틱 AI 시대에 강력한 CPU의 중요성이 다시 커지고 있다고 강조했다. AI 에이전트 운영과 샌드박스 환경 구축에서 CPU가 핵심 역할을 하며, 높은 코어 밀도와 전력 효율로 데이터센터 확장성을 제공한다는 설명이다.",
+      "url": "https://zdnet.co.kr/view/?no=20260602012102",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/02/7229b8b1eb6a8118146fd854d74306fa-watermark.jpg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-25-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["dram", "메모리품귀"],
+      "title": "모바일 D램 89% 급등 전망...소비자용 메모리도 품귀",
+      "summary": "AI 서버와 차세대 GPU 수요가 겹치며 저전력 D램(LPDDR) 가격이 급등하고 있다. 2분기 12GB LPDDR5X 평균 판매가는 전분기 77.1달러에서 145.9달러로 89% 치솟을 전망이다. 메모리 제조사가 고마진 기업용 제품을 우선하면서 모바일·PC 제조사는 부품 확보를 위해 가파른 가격 인상을 감수해야 하는 품귀 상황에 직면했다.",
+      "url": "https://www.sedaily.com/article/20058897",
+      "source": "서울경제",
+      "thumbnail": "https://wimg.sedaily.com/news/cms/2026/06/23/news-p.v1.20260623.62e376987cea4c769f6fc27b23a37c0b_P1.png",
+      "published": "2026-06-23"
+    }
+  ]
+}
