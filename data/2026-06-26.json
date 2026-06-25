@@ -1,0 +1,120 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-26-ai-01",
+      "category": "AI",
+      "tags": ["gemini", "google"],
+      "title": "구글, '제미나이 3.5 프로' 출시 연기...타사와 성능 격차 부담됐나",
+      "summary": "구글이 차세대 플래그십 모델 '제미나이 3.5 프로'의 출시를 당초 일정보다 미룬 것으로 전해졌다. 경쟁사인 오픈AI·앤트로픽 모델과의 성능 격차를 좁히기 위한 추가 검증과 튜닝이 연기 배경으로 지목된다. 같은 달 I/O 2026에서 먼저 공개된 '제미나이 3.5 플래시'와 달리 프로 모델은 더 신중한 행보를 보이고 있다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212099",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/212099_215272_2054.jpg",
+      "published": "2026-06-25"
+    },
+    {
+      "id": "2026-06-26-ai-02",
+      "category": "AI",
+      "tags": ["gpt", "openai"],
+      "title": "오픈AI, 6월 새 AI 모델 '코드명 5.6' 공개...앤트로픽 페이블5에 맞불",
+      "summary": "오픈AI가 코드명 '5.6'으로 불리는 신형 모델을 공개하며 앤트로픽의 '클로드 페이블 5'에 정면으로 맞불을 놓았다. 수석과학자 야쿠프 파호츠키는 GPT-5.5 대비 '의미 있는 개선'을 이뤘다고 강조했다. 6월 들어 주요 빅테크의 프런티어급 모델 출시 경쟁이 한층 가열되는 모습이다.",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=673977",
+      "source": "디지털투데이",
+      "thumbnail": "https://cdn.digitaltoday.co.kr/news/photo/202606/673977_622729_115.jpg",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2026-06-26-ai-03",
+      "category": "AI",
+      "tags": ["anthropic", "claude"],
+      "title": "앤트로픽, 클로드 에이전트 과금 전환…'무제한 AI' 시대 막 내리나",
+      "summary": "앤트로픽이 프로그램 방식의 클로드 사용을 기존 채팅 구독 한도에서 분리하고 별도의 월간 크레딧 시스템을 도입한다. 코딩 에이전트 등 자동화된 대량 호출이 늘면서 '무제한'에 가깝던 사용 정책이 종량제로 바뀌는 흐름이다. 비용 예측과 워크로드 설계 측면에서 개발 조직의 대응이 필요해졌다.",
+      "url": "https://www.cio.com/article/4171503/",
+      "source": "CIO Korea",
+      "thumbnail": "https://www.cio.com/wp-content/uploads/2026/05/4171503-0-14173200-1778815449-shutterstock_editorial_2338803257.jpg?quality=50&strip=all&w=1024",
+      "published": "2026-05-15"
+    },
+    {
+      "id": "2026-06-26-dev-01",
+      "category": "개발",
+      "tags": ["공급망공격", "북한해킹"],
+      "title": "북한 해킹조직 블루노로프의 새로운 침투 경로…AI 개발자 노린 공급망 공격 발생",
+      "summary": "북한 연계 해킹 조직 블루노로프(사파이어 슬릿)가 AI 개발 생태계를 겨냥한 대규모 소프트웨어 공급망 공격을 수행한 정황이 포착됐다. 공격자는 npm 계정을 탈취해 다수 패키지에 악성코드를 삽입하고 개발자 인증 정보와 가상화폐 지갑을 노렸다. AI 개발자가 주요 표적이 되면서 의존성 검증과 토큰 관리 등 개발 환경 보안 강화가 시급해졌다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207245",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207245_208148_2741.jpeg",
+      "published": "2026-06-21"
+    },
+    {
+      "id": "2026-06-26-dev-02",
+      "category": "개발",
+      "tags": ["바이브코딩", "수익화"],
+      "title": "\"바이브 코딩으로 앱 개발은 했는데, 왜 돈은 못 벌까요?\"",
+      "summary": "AI에게 말로 지시해 앱을 뚝딱 만드는 '바이브 코딩'이 대중화됐지만, 정작 수익화로 이어지지 못하는 현실을 짚었다. 빠른 프로토타이핑이 곧 사업 성공을 보장하지 않으며 시장성·운영·차별화가 관건이라는 지적이다. 손쉬운 개발 도구 확산 속에서 개발자에게 필요한 역량이 무엇인지 되짚게 한다.",
+      "url": "https://zdnet.co.kr/view/?no=20260617083532",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/17/bfe15231a26b6f61fff6c675a1e9ceda.png",
+      "published": "2026-06-17"
+    },
+    {
+      "id": "2026-06-26-dev-03",
+      "category": "개발",
+      "tags": ["바이브코딩", "더존메이커톤"],
+      "title": "코딩 한줄 없이 '뉴스 에이전트' 뚝딱…더존 메이커톤이 보여준 바이브 코딩의 미래",
+      "summary": "더존비즈온과 레플릿이 마련한 '더존 메이커톤 2026'에서 전자신문 기자 2명이 직접 참가해 AI 기반 '뉴스옵스 에이전트' 개발에 도전했다. 자연어 명령만으로 약 4시간 만에 프론트엔드·백엔드·DB 연결까지 갖춘 뉴스 큐레이션 플랫폼이 완성됐다. 리액트·API·벡터DB·오픈AI API 기반이지만 참가자는 복잡한 코드를 직접 작성하지 않았다.",
+      "url": "https://www.etnews.com/20260508000214",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2026/05/07/news-p.v1.20260507.2da7c98e2ee1453cbd6e16d5723a8b67_P1.jpg",
+      "published": "2026-05-09"
+    },
+    {
+      "id": "2026-06-26-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["dram", "메모리품귀"],
+      "title": "모바일 D램 89% 급등 전망...소비자용 메모리도 품귀",
+      "summary": "HBM과 AI 서버용 메모리에 웨이퍼 생산능력이 집중되면서 모바일·PC용 D램까지 공급 부족이 확산되고 있다. 2026년 2분기 기준 12GB LPDDR5X 가격은 전분기 대비 89% 상승할 것으로 전망된다. 메모리 슈퍼사이클이 본격화하며 소비자용 반도체 시장의 품귀와 가격 인상이 불가피해졌다.",
+      "url": "https://www.sedaily.com/article/20058897",
+      "source": "서울경제",
+      "thumbnail": "https://wimg.sedaily.com/news/cms/2026/06/23/news-p.v1.20260623.62e376987cea4c769f6fc27b23a37c0b_P1.png",
+      "published": "2026-06-23"
+    },
+    {
+      "id": "2026-06-26-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["sk하이닉스", "hbm"],
+      "title": "SK하이닉스 40조 ADR, 이르면 7월중 상장…실적발표 앞두고 관심 고조",
+      "summary": "SK하이닉스가 약 40조 원 규모의 미국 예탁증서(ADR) 나스닥 상장을 이르면 7월 중 추진한다. 확보 재원은 용인 반도체 클러스터 팹과 청주 어드밴스드 패키징 팹 등 차세대 AI 메모리 생산기지 투자에 투입될 전망이다. 실적 발표를 앞두고 HBM 슈퍼사이클 수혜와 글로벌 자본시장 진출이 맞물려 시장의 관심이 커지고 있다.",
+      "url": "https://www.investchosun.com/site/data/html_dir/2026/06/16/2026061680131.html",
+      "source": "인베스트조선",
+      "thumbnail": "https://img.investchosun.com/site/data/img_dir/2026/06/16/2026061680129_0.png",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "2026-06-26-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["ai빅테크", "시가총액"],
+      "title": "AI 빅테크, 6월 한 달 시총 4169조원 사라져…\"막대한 투자 감당할까\"",
+      "summary": "6월 한 달간 주요 AI 빅테크의 시가총액이 약 4169조 원 증발하며 거품 논란이 재점화됐다. 막대한 AI 인프라 투자 대비 수익성에 대한 시장의 의구심이 조정 압력으로 작용했다. 모델 출시 경쟁이 정점에 달한 가운데 투자 회수 가능성을 둘러싼 우려가 커지고 있다.",
+      "url": "https://www.fnnews.com/news/202606250329123367",
+      "source": "파이낸셜뉴스",
+      "thumbnail": "https://image.fnnews.com/resource/media/image/2026/06/25/202606250419148924_l.jpg",
+      "published": "2026-06-25"
+    },
+    {
+      "id": "2026-06-26-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["국민성장펀드", "ai투자"],
+      "title": "국민성장펀드, AI에이전트에도 투자한다…이억원 \"가치사슬 전반 투자\"",
+      "summary": "국민성장펀드가 AI·반도체에 이어 AI 에이전트 분야까지 투자 범위를 넓힌다. 이억원 위원장은 모델·인프라·응용 등 가치사슬 전반에 걸친 투자 방침을 밝혔다. 간접투자 운용사들의 출자자 모집이 조기 마감되며 흥행에 성공해 AI·반도체 중소·중견기업 대상 자금 공급이 대폭 확대될 전망이다.",
+      "url": "https://www.mt.co.kr/future/2026/05/12/2026051215563870537",
+      "source": "머니투데이",
+      "thumbnail": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/05/2026051215563870537_1.jpg",
+      "published": "2026-05-12"
+    }
+  ]
+}
