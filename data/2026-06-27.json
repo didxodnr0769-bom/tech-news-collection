@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-27-ai-01",
+      "category": "AI",
+      "tags": ["gpt", "openai"],
+      "title": "오픈AI GPT-5.6 출시 임박…수석과학자 \"의미 있는 도약\"",
+      "summary": "오픈AI가 차기 모델 GPT-5.6의 출시가 임박했음을 시사했다. 수석과학자는 이전 세대 대비 '의미 있는 도약'을 이뤘다고 강조하며 추론·코딩 성능 개선을 예고했다. 구글·앤트로픽과의 프런티어 모델 경쟁이 가열되는 가운데 나온 행보다.",
+      "url": "https://zdnet.co.kr/view/?no=20260617160817",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/17/aib48627369ceaf229ebd6fa225a27b867.jpg",
+      "published": "2026-06-17"
+    },
+    {
+      "id": "2026-06-27-ai-02",
+      "category": "AI",
+      "tags": ["cafe24", "llm라우터"],
+      "title": "\"GPT·클로드 통합 운용\"…카페24, 'LLM 라우터' 출시",
+      "summary": "카페24가 GPT·클로드·제미나이·딥시크 등 120여 개 AI 모델을 하나의 API로 호출할 수 있는 'LLM 라우터'를 출시했다. 요청 내용을 분석해 코딩·추론·번역 등 작업 유형에 맞는 모델을 자동 연결하는 오케스트레이터 역할을 한다. 실시간 대시보드로 비용·토큰 사용량을 추적할 수 있고 크레딧 종량제로 운영된다.",
+      "url": "https://www.etnews.com/20260623000015",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2026/06/23/news-p.v1.20260623.f8749cb742864257a38e2fe85702644b_P1.jpg",
+      "published": "2026-06-23"
+    },
+    {
+      "id": "2026-06-27-ai-03",
+      "category": "AI",
+      "tags": ["deepseek", "가격인하"],
+      "title": "딥시크, 사용료 75% 파격 인하…AI 모델 업계 가격 경쟁 신호탄",
+      "summary": "중국 AI 스타트업 딥시크가 주력 모델 V4 프로의 사용료를 75% 인하하고 이를 영구 정책으로 전환했다. 입력 캐시 히트 가격은 기존 대비 10분의 1 수준으로 즉시 낮췄다. 개발자 채택 확대를 노린 공격적 가격 정책으로 글로벌 AI 모델 업계의 가격 경쟁이 재점화되고 있다.",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=57160",
+      "source": "디일렉",
+      "thumbnail": "https://cdn.thelec.kr/news/photo/202605/57160_44867_414.jpg",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2026-06-27-ai-04",
+      "category": "AI",
+      "tags": ["openai", "네이버카카오"],
+      "title": "샘 알트먼, 네이버·카카오 연쇄 회동…AI 협력 모색",
+      "summary": "오픈AI 샘 알트먼 CEO가 방한해 네이버·카카오 경영진과 연쇄 회동하며 AI 협력 방안을 논의했다. 카카오는 이미 카카오톡 안에서 최신 챗GPT를 이용할 수 있도록 오픈AI와 협업을 진행 중이다. 국내 양대 포털과 글로벌 AI 선두주자 간 협력 구도가 한층 구체화되는 모습이다.",
+      "url": "https://zdnet.co.kr/view/?no=20260611145240",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2025/02/04/f286088901bdb1d2ac904b8e556f5b2b-watermark.jpg",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2026-06-27-dev-01",
+      "category": "개발",
+      "tags": ["공급망공격", "레드햇"],
+      "title": "레드햇 공급망 뚫렸다…'미아즈마' 웜, 개발자 PC·클라우드 계정까지 노려",
+      "summary": "레드햇 관련 npm 패키지가 '미아즈마(Miasma)'로 명명된 웜에 감염되는 공급망 공격이 발생했다. 공격자는 개발자 PC와 CI/CD 환경에 침투해 깃허브 토큰, 클라우드 계정, SSH 키, 쿠버네티스 인증정보 등을 탈취하고 추가 확산을 시도했다. 탈취한 토큰으로 패키지를 재패키징하고 시그스토어 서명까지 수행해 정상 소프트웨어로 위장한 정황이 확인됐다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207020",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207020_207933_2354.jpeg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-27-dev-02",
+      "category": "개발",
+      "tags": ["레드햇", "취약점대응"],
+      "title": "레드햇, IBM·팔로알토 네트웍스와 '프로젝트 라이트웰' 확대…AI 시대 취약점 대응 가속",
+      "summary": "레드햇이 IBM·팔로알토 네트웍스와 함께 '프로젝트 라이트웰'을 확대하며 AI 시대의 소프트웨어 취약점 대응을 강화한다. 잇따른 오픈소스 공급망 공격에 대응해 취약점 탐지·완화 협력을 넓히는 행보다. 개발 조직 입장에서 의존성 보안과 패치 관리의 중요성이 다시 부각되고 있다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207329",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207329_208232_1140.jpg",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "2026-06-27-dev-03",
+      "category": "개발",
+      "tags": ["npm", "토큰탈취"],
+      "title": "29,000 다운로드 npm 패키지가 Codex 인증 토큰을 한 달째 빼갔다",
+      "summary": "약 2만9000회 다운로드된 npm 패키지가 한 달 넘게 개발자의 Codex 인증 토큰을 탈취해 온 정황이 드러났다. 정상 패키지로 위장한 채 장기간 탐지를 피하며 인증 정보를 외부로 유출했다. 오픈소스 의존성 검증과 토큰 관리 등 개발 환경 보안 강화의 필요성이 거듭 확인됐다.",
+      "url": "https://www.digitalfocus.news/news/articleView.html?idxno=21223",
+      "source": "디지털포커스",
+      "thumbnail": "https://cdn.digitalfocus.news/news/photo/202606/21223_22474_329.jpg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-27-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["hbf", "추론반도체"],
+      "title": "삼성전자·SK하이닉스, HBF 샘플 공개 앞두고 '추론 반도체 패권' 레이스 돌입",
+      "summary": "삼성전자와 SK하이닉스가 고대역폭 플래시(HBF) 샘플 공개를 앞두고 추론용 AI 반도체 패권 경쟁에 본격 돌입했다. HBM 이후 차세대 메모리로 HBF의 역할이 확대될 전망이며, D램·낸드에 더해 S램을 적층하는 고대역폭 S램(HBS) 개념까지 제시됐다. AI 추론 수요 급증에 맞춰 메모리 기술 경쟁이 한층 치열해지고 있다.",
+      "url": "https://www.erounews.kr/news/articleView.html?idxno=4065",
+      "source": "이로운뉴스",
+      "thumbnail": "https://cdn.erounews.kr/news/photo/202604/4065_12246_1752.jpg",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "2026-06-27-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["nvidia", "젠슨황"],
+      "title": "엔비디아가 투자한 국내외 기업들… '젠슨 황 포트폴리오' 공개",
+      "summary": "엔비디아의 AI 투자 전략이 메모리·데이터센터를 넘어 로보틱스와 제조 AI를 아우르는 'AI 팩토리' 분야로 확장됐다. SK와는 HBM 공급을 기반으로 AI 클라우드·AI 팩토리까지, 현대차와는 피지컬 AI 분야로 협력을 넓히고 있다. 젠슨 황 CEO가 투자한 국내외 기업 포트폴리오가 공개되며 AI 인프라 동맹 구도가 드러났다.",
+      "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=86581",
+      "source": "이코리아",
+      "thumbnail": "https://cdn.ekoreanews.co.kr/news/photo/202606/86581_108062_5941.png",
+      "published": "2026-06-16"
+    },
+    {
+      "id": "2026-06-27-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["삼성전자", "시가총액"],
+      "title": "날아가는 반도체 업고 9천피도 가시권‥삼성전자 시총 '2천조' 돌파",
+      "summary": "삼성전자 시가총액이 2천조 원을 돌파하며 코스피 9000선 돌파 기대감까지 커지고 있다. 차세대 AI 메모리 HBM4E 신제품 샘플 제출 소식과 반도체 수출 3개월 연속 300억 달러 돌파가 상승을 견인했다. 삼성전자는 비트코인을 제치고 글로벌 자산 순위 13위로 올라섰다.",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6826849_37004.html",
+      "source": "MBC뉴스",
+      "thumbnail": "",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-27-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["deepseek", "ai가격파괴"],
+      "title": "AI '가격 파괴' 시작… 딥시크, 미국 빅테크 독점 흔든다",
+      "summary": "딥시크의 파격적 가격 인하로 '가성비 AI'가 부상하며 미국 빅테크의 시장 독점 구도가 흔들리고 있다. 2025년 1월 7% 수준이던 중국산 AI 모델의 주간 토큰 소비 점유율이 2026년 6월 50% 이상으로 급증했다. 미국 지출 관리 플랫폼 램프 집계에서도 딥시크가 신규 거래 증가율 1위를 기록했다.",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606221749435194fbbec65dfb_1",
+      "source": "글로벌이코노믹",
+      "thumbnail": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026062217523204183fbbec65dfb211211153121.jpg",
+      "published": "2026-06-23"
+    }
+  ]
+}
