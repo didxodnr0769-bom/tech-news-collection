@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-28-ai-01",
+      "category": "AI",
+      "tags": ["ai모델출시", "프런티어모델"],
+      "title": "\"6월은 역사상 최다 AI 모델 출시 달\"…단일 공급사 의존 위험",
+      "summary": "2026년 6월이 AI 업계 역사상 가장 많은 모델이 쏟아진 달로 기록될 전망이다. 구글·앤트로픽·xAI·오픈AI·딥시크 등이 한 달 새 프런티어급 모델과 기능을 잇따라 내놓으며 전례 없는 출시 경쟁을 벌였다. 기업들이 특정 공급사 한 곳에만 의존할 경우의 위험도 함께 부각됐다.",
+      "url": "https://zdnet.co.kr/view/?no=20260622165220",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/22/ai164e90effc4497c2f6c695472d91fe0d.jpg",
+      "published": "2026-06-22"
+    },
+    {
+      "id": "2026-06-28-ai-02",
+      "category": "AI",
+      "tags": ["claude", "anthropic"],
+      "title": "제미나이 밀어낸 '클로드'…국내 AI 시장 2위 격변, 비결은?",
+      "summary": "센서타워 집계에서 앤트로픽의 클로드가 한국 iOS 생성형 AI 앱 매출 2위에 올라 구글 제미나이를 추월했다. 그동안 '챗GPT 1위·제미나이 2위' 양강 구도가 깨지고 '챗GPT·클로드·제미나이' 순으로 재편됐다. 한국은 미국에 이어 클로드의 두 번째로 큰 수익 시장으로 나타났다.",
+      "url": "https://zdnet.co.kr/view/?no=20260612173511",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/01/20/a1f38ac326506839bbf46d0c4c5bad5f.png",
+      "published": "2026-06-12"
+    },
+    {
+      "id": "2026-06-28-ai-03",
+      "category": "AI",
+      "tags": ["ai편향성", "정치성향"],
+      "title": "\"챗GPT·클로드 진보 성향… 제미나이는 중립적\"",
+      "summary": "주요 생성형 AI의 정치적 답변 성향을 분석한 결과 오픈AI 챗GPT와 앤트로픽 클로드, 중국 딥시크는 상대적으로 진보적 답변 비중이 높았다는 분석이 나왔다. 반면 구글 제미나이는 양측 입장을 함께 제시하는 중립적 답변이 많았다. AI 모델의 학습 데이터와 정렬 방식에 따른 편향 문제가 다시 주목받고 있다.",
+      "url": "https://m.seoul.co.kr/news/economy/2026/06/26/20260626031002",
+      "source": "서울신문",
+      "thumbnail": "",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "2026-06-28-ai-04",
+      "category": "AI",
+      "tags": ["copilot", "github"],
+      "title": "깃허브 코파일럿, 종량제 전환 후 사용량 급증…6월 실적 역대 최고",
+      "summary": "깃허브 코파일럿이 6월 종량제(쓴 만큼 과금) 전환 이후 오히려 사용량이 급증하며 6월 실적이 역대 최고치를 기록했다. 요금 개편 초기 개발자 반발이 컸지만, 자율형 AI 코딩 수요가 늘면서 실제 소비량이 빠르게 증가한 것으로 분석된다. 클로드 코드·코덱스 등과의 AI 코딩 도구 경쟁도 가열되고 있다.",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=678206",
+      "source": "디지털투데이",
+      "thumbnail": "",
+      "published": "2026-06-25"
+    },
+    {
+      "id": "2026-06-28-dev-01",
+      "category": "개발",
+      "tags": ["공급망공격", "npm"],
+      "title": "레드햇 공급망 뚫렸다…'미아즈마' 웜, 개발자 PC·클라우드 계정까지 노려",
+      "summary": "레드햇의 @redhat-cloud-services npm 패키지가 '미아즈마(Miasma)' 웜에 감염되는 공급망 공격이 발생했다. 공격자는 깃허브 계정 탈취를 출발점으로 개발자 PC와 CI/CD 환경에 침투해 깃허브 토큰·클라우드 계정·SSH 키·쿠버네티스 인증정보를 탈취하고 추가 확산을 시도했다. 라이프사이클 훅 대신 binding.gyp를 악용해 설치 시점에 코드를 실행하는 새 수법이 확인됐다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207020",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207020_207933_2354.jpeg",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2026-06-28-dev-02",
+      "category": "개발",
+      "tags": ["공급망공격", "북한해킹"],
+      "title": "북한 해킹조직 블루노로프의 새로운 침투 경로…AI 개발자 노린 공급망 공격 발생",
+      "summary": "마이크로소프트가 마스트라(Mastra) AI 생태계를 겨냥한 npm 공급망 공격의 배후로 북한 국가지원 해킹 조직(사파이어 슬릿/블루노로프 계열)을 지목했다. 공격은 다수 패키지 배포 권한을 가진 npm 유지관리자 계정 'ehindero'가 침해되면서 시작됐다. AI 개발 환경과 오픈소스 생태계를 노린 공격이 새로운 침투 경로로 부상하고 있다.",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207245",
+      "source": "데일리시큐",
+      "thumbnail": "https://cdn.dailysecu.com/news/photo/202606/207245_208148_2741.jpeg",
+      "published": "2026-06-21"
+    },
+    {
+      "id": "2026-06-28-dev-03",
+      "category": "개발",
+      "tags": ["copilot", "요금제"],
+      "title": "깃허브 코파일럿, 6월부터 종량제 전환…\"월 3만원이 100만원으로\" 개발자 반발",
+      "summary": "마이크로소프트 깃허브가 6월 1일부터 코파일럿 요금 체계를 월정액에서 AI 크레딧 기반 종량제로 전면 개편했다. 개발자들은 사용량에 따라 비용이 크게 치솟을 수 있다며 강하게 반발했다. 전문가들은 효율적으로 쓰면 합리적 수준이라며 'AI 무제한 사용 시대의 종말' 신호로 해석했다.",
+      "url": "https://www.tech42.co.kr/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%BD%94%ED%8C%8C%EC%9D%BC%EB%9F%BF-6%EC%9B%94%EB%B6%80%ED%84%B0-%EC%A2%85%EB%9F%89%EC%A0%9C-%EC%A0%84%ED%99%98%EC%9B%94-3%EB%A7%8C%EC%9B%90%EC%9D%B4-100/",
+      "source": "테크42",
+      "thumbnail": "https://tech42.shoplic.cloud/wp-content/uploads/2026/06/118017-1024x538.png",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2026-06-28-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["d램", "메모리가격"],
+      "title": "2분기 소비자용 LPDDR5X 가격 89% 상승",
+      "summary": "2분기 소비자용 12GB LPDDR5X(7세대)의 전분기 대비 가격 상승률이 89%에 달할 것으로 전망됐다. 평균 판매가가 개당 77.1달러에서 145.9달러로 치솟았다. 엔비디아 차세대 서버용 GPU에 저전력 D램 탑재가 늘면서 한정된 웨이퍼 생산능력이 HBM·AI 서버 메모리에 집중돼 소비자용 공급난이 심화된 결과다.",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=58453",
+      "source": "디일렉",
+      "thumbnail": "https://cdn.thelec.kr/news/photo/202606/58453_46091_3234.png",
+      "published": "2026-06-23"
+    },
+    {
+      "id": "2026-06-28-etc-02",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["ai버블", "빅테크"],
+      "title": "AI 빅테크, 6월 한 달 시총 4169조원 사라져…\"막대한 투자 감당할까\"",
+      "summary": "AI 빅테크 기업들의 시가총액이 6월 한 달 동안 약 2조7000억 달러(약 4169조원) 증발한 것으로 분석됐다. 막대한 AI 투자(CAPEX)를 이들 기업이 실제로 감당할 수 있을지 투자자들의 불안감이 고조됐다. AI 거품 논란 속에 빅테크 주가의 변동성이 커지고 있다.",
+      "url": "https://www.fnnews.com/news/202606250329123367",
+      "source": "파이낸셜뉴스",
+      "thumbnail": "https://image.fnnews.com/resource/media/image/2026/06/25/202606250419148924_l.jpg",
+      "published": "2026-06-25"
+    },
+    {
+      "id": "2026-06-28-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["sk하이닉스", "나스닥"],
+      "title": "\"SK하이닉스, 나스닥 상장이 기업가치 20% 끌어올릴 것\"",
+      "summary": "SK하이닉스가 7월 중 미국 나스닥에 주식예탁증서(ADR) 상장을 추진하며 최대 45조원 규모의 신주 발행으로 AI 메모리 투자 재원을 확보할 계획이다. HSBC는 ADR 상장이 저평가 요인을 해소해 기업가치를 최대 20% 끌어올릴 수 있다고 분석했다. 조달 자금은 용인 클러스터 등 생산시설·설비투자에 쓰인다.",
+      "url": "https://www.etnews.com/20260626000290",
+      "source": "전자신문",
+      "thumbnail": "https://img.etnews.com/news/article/2026/06/26/news-p.v1.20260626.4a9ddfad3d5044fe8eebd63f2982ec14_P1.jpg",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "2026-06-28-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["ipo", "매드업"],
+      "title": "6.6조 몰렸다…AI 스타트업 IPO 신기록",
+      "summary": "AI 마케팅 기업 매드업이 일반 청약에서 경쟁률 3305대 1을 기록하며 올해 코스피·코스닥을 통틀어 IPO 최고 기록을 세웠다. 청약 증거금은 약 6조6000억원에 달했다. AI 관련 기업 공모에 투자 자금이 대거 몰리며 AI 스타트업 IPO 열기가 이어지고 있다.",
+      "url": "https://www.sedaily.com/article/20059916",
+      "source": "서울경제",
+      "thumbnail": "https://wimg.sedaily.com/news/cms/2026/06/25/news-p.v1.20260430.413667ed21914a9bb3958fc153089615_P1.jpeg",
+      "published": "2026-06-25"
+    },
+    {
+      "id": "2026-06-28-etc-05",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["스타트업투자", "벤처"],
+      "title": "스타트업 투자 3개월 연속 '월 1조' 돌파…'호황 속 딜 가뭄' 이유",
+      "summary": "국내 스타트업 투자액이 3개월 연속 월 1조원을 돌파하며 호황을 이어갔다. 다만 100억원 이상 대형 딜의 70~90%가 AI·반도체 등 전략산업군에 집중되면서 그 외 분야는 '딜 가뭄'을 겪는 양극화가 나타나고 있다. AI 투자 쏠림이 벤처 생태계 전반에 구조적 변화를 일으키고 있다.",
+      "url": "https://www.news1.kr/industry/sb-founded/6197426",
+      "source": "뉴스1",
+      "thumbnail": "https://i3n.news1.kr/system/photos/2026/6/15/7959613/high.jpg",
+      "published": "2026-06-16"
+    }
+  ]
+}
