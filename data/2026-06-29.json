@@ -1,0 +1,142 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T05:00:00+09:00",
+  "articles": [
+    {
+      "id": "2026-06-29-ai-01",
+      "category": "AI",
+      "tags": ["gpt-5.6", "openai"],
+      "title": "오픈AI, 최고 성능 'GPT-5.6' 3종 공개...\"정부 요청으로 제한적 출시\"",
+      "summary": "오픈AI가 지능과 비용 효율을 끌어올린 GPT-5.6 시리즈 3종(솔·테라·루나)을 공개했다. 미국 정부 요청에 따라 초기에는 선별된 파트너와 기관에만 제공되며, 테라는 기존 GPT-5.5 대비 절반 가격으로 동급 성능을, 루나는 최저가대를 제공한다. 악의적 사이버 공격은 제한하되 합법적 보안 업무 접근성은 유지하는 보안 체계를 갖췄다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212175",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/212175_215351_2153.png",
+      "published": "2026-06-27"
+    },
+    {
+      "id": "2026-06-29-ai-02",
+      "category": "AI",
+      "tags": ["codex", "ai에이전트"],
+      "title": "업무용 챗봇 시대 끝나…오픈AI \"사내 업무 99% 코덱스가 처리\"",
+      "summary": "오픈AI가 업무 AI 활용이 챗봇에서 자율 에이전트로 빠르게 전환되고 있다고 밝혔다. 코덱스가 사내 AI 출력 토큰의 99.8%를 담당하며 표준 도구로 자리 잡았고, 최근 6개월간 비개발자의 코덱스 사용량이 137배 늘었다. 에이전트형 AI가 수십 분에서 수 시간 동안 독립적으로 작업을 수행하며 기업 업무 방식을 재편할 것으로 전망된다.",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=212125",
+      "source": "AI타임스",
+      "thumbnail": "https://cdn.aitimes.com/news/photo/202606/212125_215301_019.png",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "2026-06-29-ai-03",
+      "category": "AI",
+      "tags": ["genspark", "ai에이전트"],
+      "title": "말만 해도 PPT 잘 뽑아주는 에이전트 '젠스파크'의 비결",
+      "summary": "젠스파크는 70개 이상의 AI 모델과 150개 이상의 도구를 통합해 자연어 명령만으로 프레젠테이션·스프레드시트 등 업무 결과물을 만들어 주는 에이전트형 AI 서비스다. CEO 에릭 징은 \"최첨단 기술을 모든 사람의 손에 쥐어준다\"며 일반 지식 근로자를 위한 실용적 플랫폼임을 강조했다. 2023년 12월 설립된 신생기업이지만 이미 ARR 2.5억 달러에 도달했다.",
+      "url": "https://byline.network/2026/06/25-573/",
+      "source": "바이라인네트워크",
+      "thumbnail": "https://cdn.byline.network/wp-content/uploads/2026/06/genspark-ceo.jpg",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "2026-06-29-ai-04",
+      "category": "AI",
+      "tags": ["fable5", "anthropic"],
+      "title": "앤트로픽 '클로드 페이블5', 왜 바이오 정보에 더 엄격할까",
+      "summary": "앤트로픽이 공개한 최신 모델 페이블5는 생물학 관련 정보에 강력한 검열 체계를 적용했고, 100만 토큰당 입력 10달러·출력 50달러라는 높은 가격으로 안전 시스템 유지 비용을 반영했다. 전문가들은 이를 인류 안전과 연구 자유 사이의 균형 문제이자, 미국 주도의 기술 표준 확립을 위한 지정학적 전략으로도 평가한다.",
+      "url": "https://zdnet.co.kr/view/?no=20260611094858",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/11/4d8e482afed46edaa873ca57c9be4a7f.png",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2026-06-29-ai-05",
+      "category": "AI",
+      "tags": ["ai감원", "고용"],
+      "title": "올해 AI발 감원 18만 명 넘어서…감원 사유 55%가 'AI'",
+      "summary": "2026년 상반기 미국에서 AI로 인한 감원이 18만 명을 넘어섰고, 전체 감원 사유의 55%가 인공지능·자동화·머신러닝과 직접 연결됐다. 콘텐츠 제작·고객 지원·데이터 입력 등 정형화된 업무가 먼저 축소되는 가운데, 신입과 사회초년생이 특히 큰 충격을 받고 있다.",
+      "url": "https://zdnet.co.kr/view/?no=20260612113616",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/11/ai963f8bb436ba22e80f781d12d64cfd2c.jpg",
+      "published": "2026-06-12"
+    },
+    {
+      "id": "2026-06-29-ai-06",
+      "category": "AI",
+      "tags": ["피지컬ai", "정부정책"],
+      "title": "정부, K-피지컬 AI 풀스택 전략 공개…\"독자 기술력 확산 목표\"",
+      "summary": "정부가 피지컬 AI 얼라이언스 2기를 출범하며 국산 AI반도체·AI 모델·데이터·월드모델·컴퓨팅 플랫폼·로봇 하드웨어를 아우르는 독자 기술력을 키우겠다고 밝혔다. 한국형 피지컬 AI 풀스택 플랫폼 구축, 행동 데이터 수집용 트레이닝센터 조성, 피지컬 AI 진흥법 제정을 핵심 과제로 추진한다.",
+      "url": "https://zdnet.co.kr/view/?no=20260619115919",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/19/903ae11a2cace853635958d4a91690ba-watermark.jpg",
+      "published": "2026-06-19"
+    },
+    {
+      "id": "2026-06-29-dev-01",
+      "category": "개발",
+      "tags": ["aws", "데브옵스"],
+      "title": "\"AI 코딩 병목 줄인다\"…AWS, 데브옵스 에이전트 기능 확장",
+      "summary": "AWS가 데브옵스 에이전트에 릴리스 적합성 검토와 자율 릴리스 테스트 기능을 추가했다. AI 코딩 도구 확산으로 개발 속도는 빨라졌지만 검토·테스트 과정이 병목으로 남는 문제를 겨냥한 조치다. 새 기능은 코드 변경 사항을 자동 검증하고 맞춤 테스트를 구성해 프로덕션 반영 전 품질을 보장한다.",
+      "url": "https://zdnet.co.kr/view/?no=20260625144422",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/25/f37c0c64dbdb1662d36bb038c02534a3.jpg",
+      "published": "2026-06-25"
+    },
+    {
+      "id": "2026-06-29-dev-02",
+      "category": "개발",
+      "tags": ["오픈소스", "개발자대회"],
+      "title": "\"코드 한 줄로 승패 결정\"…정부, '오픈소스 개발자 대회' 개최",
+      "summary": "정부가 AI 시대 창의적 개발 인재 발굴을 위해 올해 20주년을 맞는 오픈소스 개발자대회를 개최한다. 6월 15일부터 7월 17일까지 참가 신청을 받으며 학생과 일반인 누구나 참여할 수 있다. 우수작은 라이선스·보안 검증을 거쳐 공개 배포되며 대상 수상팀에는 각 1000만원의 상금이 지급된다.",
+      "url": "https://zdnet.co.kr/view/?no=20260615161052",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2025/07/04/706b175f5fb6f9481986947cf528c02f.jpg",
+      "published": "2026-06-15"
+    },
+    {
+      "id": "2026-06-29-etc-01",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["엔비디아", "rtx스파크"],
+      "title": "엔비디아, 윈도 AI PC 'RTX 스파크' 3분기 출시...승부수 통할까",
+      "summary": "엔비디아가 Arm 기반 'RTX 스파크' 플랫폼으로 윈도 AI PC 시장에 진출하며, 주요 제조사들이 3분기부터 관련 제품을 출시할 예정이다. 마이크로소프트와 협력한 이 칩은 1페타플롭스급 AI 처리 성능을 제공한다. 다만 업계는 높은 원가 구조, 미완성 생태계, 메모리 가격 상승 등을 이유로 시장 안착을 낙관하기 어렵다고 평가한다.",
+      "url": "https://zdnet.co.kr/view/?no=20260615155159",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2026/06/15/ec72f6ce1dc21648c41ae87430811760-watermark.jpg",
+      "published": "2026-06-15"
+    },
+    {
+      "id": "2026-06-29-etc-02",
+      "category": "기타",
+      "subcategory": "전자기기",
+      "tags": ["마이크론", "메모리"],
+      "title": "마이크론, 메모리 장기계약 비중 확대...삼성·SK도 성장 구도 바뀐다",
+      "summary": "마이크론이 2026 회계연도 3분기에 영업이익률 81%를 기록하며 시장 기대를 크게 웃돌았다. AI 데이터센터 수요 급증이 주요 원인으로, 데이터센터·컨슈머·자동차 등에서 전략적 고객계약(SCA) 16건을 체결했다. 이러한 장기공급계약 중심의 구조 변화로 삼성전자·SK하이닉스 등 국내 기업도 중장기 수혜가 예상된다.",
+      "url": "https://zdnet.co.kr/view/?no=20260625084421",
+      "source": "ZDNet Korea",
+      "thumbnail": "https://image.zdnet.co.kr/2025/06/26/09655b904d13359fe8b467d1c1b0317a.png",
+      "published": "2026-06-25"
+    },
+    {
+      "id": "2026-06-29-etc-03",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["벤처투자", "콜라보레이티브펀드"],
+      "title": "美 VC 콜라보레이티브펀드, 韓 스타트업 투자 확대 시동",
+      "summary": "미국 벤처캐피털 콜라보레이티브펀드의 아시아 플랫폼이 국내 AI 리걸테크 스타트업 멘타트에 11억원 규모 시드 투자를 주도했다. 레딧·킥스타터 등에 투자해 온 이 뉴욕 기반 VC는 19억 달러 규모 자산을 운용하며, 국내 금융·스타트업 전문가들과 협력해 한국 스타트업 투자를 확대할 계획이다.",
+      "url": "https://www.sedaily.com/article/20059640",
+      "source": "서울경제",
+      "thumbnail": "https://wimg.sedaily.com/news/cms/2026/06/24/news-p.v1.20260624.84d996016f1c4203bc6019df9d82d872_P1.jpg",
+      "published": "2026-06-25"
+    },
+    {
+      "id": "2026-06-29-etc-04",
+      "category": "기타",
+      "subcategory": "경제",
+      "tags": ["넥슨", "게임투자"],
+      "title": "'K-게임' 마중물 붓는 넥슨…스타트업 투자에 2500억 베팅",
+      "summary": "넥슨이 초기 게임 개발사 지원을 위해 향후 5년간 총 2500억원을 투입한다. 민관 협력을 통해 초기 자금 공백을 해소하고 차세대 글로벌 IP를 발굴하기 위해 전략펀드를 출범시켰다. AI 시대에 발맞춰 게임화된 콘텐츠 등으로 투자 범위를 대폭 확대했다.",
+      "url": "https://www.sedaily.com/article/20058951",
+      "source": "서울경제",
+      "thumbnail": "https://wimg.sedaily.com/news/cms/2026/06/23/news-p.v1.20260623.b12416c5efd1469085bb644bacd8f06a_P1.png",
+      "published": "2026-06-23"
+    }
+  ]
+}
