@@ -36,6 +36,7 @@ python3 -m http.server 8080
 ## 데이터 형식
 
 **`data/index.json`**
+
 ```json
 {
   "site_title": "테크 뉴스 콜렉션",
@@ -77,33 +78,18 @@ python3 -m http.server 8080
   자연스럽게 재배치된다. 터치 환경(`@media (hover: none)`)에서는 읽음 시각화가 hover 로
   풀리지 않도록 조정되어 있다.
 
-## 매일 수집 (launchd 자동화)
+## 매일 수집 (launchd 자동화) — 2026-06-29 종료
 
-macOS `launchd`가 **매일 05:00**에 헤드리스 Claude Code를 실행해 `collect.md` 워크플로우를
-수행한다. 한국 매체 뉴스를 수집해 `data/<날짜>.json` 생성 + `index.json` 갱신까지 하고
-끝낸다 — **git 커밋·푸시는 하지 않는다.** 결과를 직접 검토한 뒤 커밋·푸시한다.
+> **자동 수집은 중단되었다.** macOS `launchd` 등록을 해제했고 실제 등록 plist
+> (`~/Library/LaunchAgents/com.taewook.tech-news-collect.plist`)도 삭제했다.
+> 더 이상 매일 자동으로 뉴스를 수집하지 않는다.
+>
+> 운영했던 자동화 구조와 재가동 방법은 **[`AUTOMATION_ARCHIVE.md`](AUTOMATION_ARCHIVE.md)** 참고.
 
-- 실행 스크립트: `scripts/run-collect.sh`
-- launchd 설정: `~/Library/LaunchAgents/com.taewook.tech-news-collect.plist`
-- 실행 로그: `logs/collect-<날짜>.log`
-- Mac이 켜져 있거나 절전 상태면 실행된다(절전 시 깨어날 때). 완전히 꺼져 있으면 그날은 건너뛴다.
+수동으로 한 번만 수집하려면(스케줄러 없이 직접 실행):
 
-**수집 결과를 사이트에 반영 (수동):**
 ```bash
-git add data/
-git commit -m "뉴스 수집: <날짜>"
-git push        # → GitHub Pages 자동 갱신
-```
-
-**바로 한 번 실행해 보기:**
-```bash
-launchctl start com.taewook.tech-news-collect   # 또는: zsh scripts/run-collect.sh
-```
-
-**자동 수집 끄기 / 켜기:**
-```bash
-launchctl bootout   gui/$(id -u)/com.taewook.tech-news-collect                              # 끄기
-launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.taewook.tech-news-collect.plist # 켜기
+zsh scripts/run-collect.sh
 ```
 
 ## 배포 (GitHub Pages)
